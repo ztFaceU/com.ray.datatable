@@ -1,0 +1,18 @@
+<root platform="" >
+	<header table="MusicInstrumentAudioLib" desc="乐器曲库">
+		<field order="0" name="Id" type="int" desc="唯一Id" />
+		<field order="1" name="LevelId" type="int" desc="关卡ID" />
+		<field order="2" name="MusicId" type="int" desc="曲子ID" />
+		<field order="3" name="AudioTrackId" type="int" desc="音轨序号Id" />
+		<field order="4" name="NextMusicId" type="int" desc="下一首曲子Id" />
+		<field order="5" name="AudioName" type="string" desc="音乐资源名" />
+	</header>
+	<item Id="1" LevelId="1" MusicId="1" AudioTrackId="0" NextMusicId="2" AudioName="Mus_Interface_Loading" />
+	<item Id="2" LevelId="1" MusicId="1" AudioTrackId="1" NextMusicId="0" AudioName="BGM-UI-Login" />
+	<item Id="3" LevelId="1" MusicId="1" AudioTrackId="2" NextMusicId="0" AudioName="BGM_Normal" />
+	<item Id="4" LevelId="1" MusicId="1" AudioTrackId="3" NextMusicId="0" AudioName="Amb_Building_ElectricRoom_Discharge" />
+	<item Id="5" LevelId="1" MusicId="2" AudioTrackId="0" NextMusicId="0" AudioName="Mus_Interface_Login" />
+	<item Id="6" LevelId="1" MusicId="2" AudioTrackId="1" NextMusicId="0" AudioName="BGM_Normal" />
+	<item Id="7" LevelId="1" MusicId="2" AudioTrackId="2" NextMusicId="0" AudioName="FX_Break_1" />
+	<item Id="8" LevelId="1" MusicId="2" AudioTrackId="3" NextMusicId="0" AudioName="BGM_Boss" />
+</root>

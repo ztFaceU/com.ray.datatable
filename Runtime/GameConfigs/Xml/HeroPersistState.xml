@@ -1,0 +1,19 @@
+<root platform="" >
+	<header table="HeroPersistState" desc="角色持续表现表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="type" type="int" desc="类型" />
+		<field order="2" name="canMove" type="int" desc="可否移动" />
+		<field order="3" name="canMoveBreak" type="int" desc="可否移动打断" />
+		<field order="4" name="duration" type="float" desc="持续时长" />
+		<field order="5" name="persistAniIndex" type="int" desc="持续中动画ID" />
+	</header>
+	<item id="1" type="1" canMove="0" canMoveBreak="0" duration="1.5" persistAniIndex="1" />
+	<item id="2" type="2" canMove="1" canMoveBreak="0" duration="1.5" persistAniIndex="1" />
+	<item id="3" type="1" canMove="1" canMoveBreak="1" duration="1.5" persistAniIndex="1" />
+	<item id="4" type="2" canMove="1" canMoveBreak="1" duration="1.5" persistAniIndex="1" />
+	<item id="5" type="1" canMove="1" canMoveBreak="0" duration="1.5" persistAniIndex="1" />
+	<item id="6" type="1" canMove="0" canMoveBreak="0" duration="1.5" persistAniIndex="1" />
+	<item id="7" type="1" canMove="0" canMoveBreak="1" duration="1.5" persistAniIndex="1" />
+	<item id="8" type="1" canMove="1" canMoveBreak="1" duration="2.5" persistAniIndex="1" />
+	<item id="9" type="1" canMove="0" canMoveBreak="0" duration="0.5" persistAniIndex="1" />
+</root>

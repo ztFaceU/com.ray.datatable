@@ -1,0 +1,1112 @@
+<root platform="" >
+	<header table="GameErr" desc="错误表">
+		<field order="0" name="id" type="string" desc="错误描述(%s表示参数）" />
+		<field order="1" name="msg" type="string" desc="" />
+		<field order="2" name="msg_cnt" type="string" desc="" />
+		<field order="3" name="msg_en" type="string" desc="" />
+	</header>
+	<item id="ActErr.DataError" msg="数据错误" msg_cnt="數據錯誤" msg_en="Data error" />
+	<item id="ActErr.HadReward" msg="不能重复领取" msg_cnt="不能重複領取" msg_en="Cannot collect again" />
+	<item id="ActErr.LoginRewardExpire" msg="登录奖励过期" msg_cnt="登錄獎勵過期" msg_en="Login reward expired" />
+	<item id="ActErr.NotReach" msg="未达到领取条件" msg_cnt="未達到領取條件" msg_en="Requirement not met" />
+	<item id="ActErr.NotStart" msg="未能领取" msg_cnt="未能領取" msg_en="Could not collect" />
+	<item id="ActErr.NullActivity" msg="活动不存在" msg_cnt="活動不存在" msg_en="Event not found" />
+	<item id="ActErr.TaskPointNotEnough" msg="任务点不足" msg_cnt="任務點不足" msg_en="TaskPointNotEnough" />
+	<item id="ActErr.TaskPointRewardAlreadyRecived" msg="已经领取过该任务点奖励" msg_cnt="已經領取過該任務點獎勵" msg_en="TaskPointRewardAlreadyRecived" />
+	<item id="ActivityBuffErr.CanNotBuy" msg="此buff不可购买" msg_cnt="此buff不可購買" msg_en="此buff不可购买" />
+	<item id="ActivityBuffErr.TimeMax" msg="时长已达最大值，不能购买" msg_cnt="時長已達最大值，不能購買" msg_en="时长已达最大值，不能购买" />
+	<item id="AdminErr.InvalidParam" msg="无效的参数" msg_cnt="無效的參數" msg_en="Invalid parameter" />
+	<item id="AdminErr.InvalidUid" msg="没有此玩家,请确认uid正确" msg_cnt="沒有此玩家,請確認uid正確" msg_en="Player not found, please check uid" />
+	<item id="AdminErr.MaxOnline" msg="服务器人数已满" msg_cnt="伺服器人數已滿" msg_en="Server is full" />
+	<item id="AdminErr.MaxRegist" msg="该服务器注册已达上限，请尝试其他服务器或留意官方公告" msg_cnt="該伺服器註冊已達上限，請嘗試其他伺服器或留意官方公告" msg_en="該服務器註冊已達上限，請嘗試其他服務器或留意官方公告" />
+	<item id="AdminErr.MustPositive" msg="value必须为正数" msg_cnt="value必須為正數" msg_en="Value must be positive" />
+	<item id="AdminErr.NullParam" msg="参数不能为空" msg_cnt="參數不能為空" msg_en="Parameter cannot be empty" />
+	<item id="AdminErr.ServerBusy" msg="服务器繁忙" msg_cnt="伺服器繁忙" msg_en="Server is busy" />
+	<item id="ArenaErr.AlreadyRecived" msg="已经领取奖励" msg_cnt="已經領取獎勵" msg_en="Already claimed reward" />
+	<item id="ArenaErr.ArenaIsFull" msg="队伍已满" msg_cnt="隊伍已滿" msg_en="Team is full" />
+	<item id="ArenaErr.BattleEnd" msg="战斗已结束" msg_cnt="戰鬥已結束" msg_en="The battle has ended" />
+	<item id="ArenaErr.ConnectionTimeOut" msg="网络连接超时，建议在WiFi环境下进行多人模式" msg_cnt="網路連接超時，建議在WiFi環境下進行多人模式" msg_en="Network connection timeout, it is recommended to carry out multi person mode in WiFi environment" />
+	<item id="ArenaErr.FailMatch" msg="匹配失败" msg_cnt="匹配失敗" msg_en="Match failed" />
+	<item id="ArenaErr.Matching" msg="正在匹配中" msg_cnt="正在匹配中" msg_en="Matching" />
+	<item id="ArenaErr.NoRoom" msg="没有空余房间，请稍后再试" msg_cnt="沒有空餘房間，請稍後再試" msg_en="No empty rooms, please try again later" />
+	<item id="ArenaErr.NotInSeasonTime" msg="赛季已经结束，在下个赛季开始之前，暂停匹配、查看排行等功能" msg_cnt="賽季已經結束，在下個賽季開始之前，暫停匹配、查看排行等功能" msg_en="The current season has ended, and features such as matching and view rank will be enabled again when the next season starts." />
+	<item id="ArenaErr.NotInTime" msg="非竞技时间" msg_cnt="非競技時間" msg_en="Battle is not available" />
+	<item id="ArenaErr.TimesNotEnough" msg="没有达到每日任务规定的次数" msg_cnt="沒有達到每日任務規定的次數" msg_en="The number of attempts required in the Daily Quest has not been reached" />
+	<item id="AuxiliaryGuidanceErr.NotComplete" msg="引导任务还未完成" msg_cnt="引導任務還未完成" msg_en="引导任务还未完成" />
+	<item id="AuxiliaryGuidanceErr.NotSync" msg="数据不同步" msg_cnt="數據不同步" msg_en="数据不同步" />
+	<item id="AuxiliaryGuidanceErr.NotUnlock" msg="引导任务还未解锁" msg_cnt="引導任務還未解鎖" msg_en="引导任务还未解锁" />
+	<item id="BattleTeamErrCode.AreadyJoinATeam" msg="对方已经加入战队" msg_cnt="對方已經加入戰隊" msg_en="对方已经加入战队" />
+	<item id="BattleTeamErrCode.Duplicate" msg="重复请求" msg_cnt="重複請求" msg_en="重复请求" />
+	<item id="BattleTeamErrCode.DuplicateInvite" msg="重复邀请" msg_cnt="重複邀請" msg_en="重复邀请" />
+	<item id="BattleTeamErrCode.DuplicateName" msg="名字已经被使用" msg_cnt="名字已經被使用" msg_en="名字已经被使用" />
+	<item id="BattleTeamErrCode.Exist" msg="您已经加入战队" msg_cnt="您已經加入戰隊" msg_en="您已经加入战队" />
+	<item id="BattleTeamErrCode.InviteOverflow" msg="最多只能邀请100个" msg_cnt="最多只能邀請100個" msg_en="最多只能邀请100个" />
+	<item id="BattleTeamErrCode.Max" msg="战队人数已满" msg_cnt="戰隊人數已滿" msg_en="战队人数已满" />
+	<item id="BattleTeamErrCode.NameTooLong" msg="名字限在12个字以内" msg_cnt="名字限在12個字以內" msg_en="名字限在12个字以内" />
+	<item id="BattleTeamErrCode.None" msg="未知错误" msg_cnt="未知錯誤" msg_en="未知错误" />
+	<item id="BattleTeamErrCode.NoTarget" msg="目标不存在" msg_cnt="目標不存在" msg_en="目标不存在" />
+	<item id="BattleTeamErrCode.NoTeam" msg="没有战队" msg_cnt="沒有戰隊" msg_en="没有战队" />
+	<item id="BattleTeamErrCode.Null" msg="战队不存在" msg_cnt="戰隊不存在" msg_en="战队不存在" />
+	<item id="BattleTeamErrCode.OutOfService" msg="战队服务器故障" msg_cnt="戰隊服務器故障" msg_en="战队服务器故障" />
+	<item id="BattleTeamErrCode.PermissionDenied" msg="没有权限" msg_cnt="沒有許可權" msg_en="没有权限" />
+	<item id="BattleTeamErrCode.success" msg="操作成功" msg_cnt="操作成功" msg_en="操作成功" />
+	<item id="BattleTeamErrCode.TargetNotOpen" msg="好友未开启战队系统" msg_cnt="好友未開啟戰隊系統" msg_en="好友未开启战队系统" />
+	<item id="BoardErr.DumplicateTrack" msg="已经跟踪此任务" msg_cnt="已經跟蹤此任務" msg_en="Already tracking this quest" />
+	<item id="BoardErr.MaxTrack" msg="最多只能同时跟踪{0}个任务" msg_cnt="最多只能同時跟蹤%s個任務" msg_en="You can only track up to %s quests" />
+	<item id="BourseErr.BindedItem" msg="绑定物品不能出售" msg_cnt="綁定物品不能出售" msg_en="绑定物品不能出售" />
+	<item id="BourseErr.BuyMyItem" msg="不可购买自己的物品" msg_cnt="不可購買自己的物品" msg_en="不可购买自己的物品" />
+	<item id="BourseErr.CanNotSell" msg="此物品不可出售" msg_cnt="此物品不可出售" msg_en="此物品不可出售" />
+	<item id="BourseErr.EquipedOutfit" msg="正在使用中，不能交易" msg_cnt="正在使用中，不能交易" msg_en="正在使用中，不能交易" />
+	<item id="BourseErr.InvalidNum" msg="非法的出售数量" msg_cnt="非法的出售數量" msg_en="非法的出售数量" />
+	<item id="BourseErr.InvalidOrderStatus" msg="物品已售出或已过期" msg_cnt="物品已售出或已過期" msg_en="物品已售出或已过期" />
+	<item id="BourseErr.InvalidTimeLimit" msg="非法的交易时限" msg_cnt="非法的交易時限" msg_en="非法的交易时限" />
+	<item id="BourseErr.InvalidTradeType" msg="未知的交易类型" msg_cnt="未知的交易類型" msg_en="未知的交易类型" />
+	<item id="BourseErr.MaxAllPrice" msg="总价超过了上限" msg_cnt="總價超過了上限" msg_en="总价超过了上限" />
+	<item id="BourseErr.MaxBourseNum" msg="已达到最大上架数量" msg_cnt="已達到最大上架數量" msg_en="已达到最大上架数量" />
+	<item id="BourseErr.MaxSinglePrice" msg="单价超过了上限" msg_cnt="單價超過了上限" msg_en="单价超过了上限" />
+	<item id="BourseErr.MinPlayerLevel" msg="玩家等级不足" msg_cnt="玩家等級不足" msg_en="玩家等级不足" />
+	<item id="BourseErr.MinSinglePrice" msg="单价未达到下限" msg_cnt="單價未達到下限" msg_en="单价未达到下限" />
+	<item id="BourseErr.MinVipLevel" msg="VIP等级不足" msg_cnt="VIP等級不足" msg_en="VIP等级不足" />
+	<item id="BourseErr.NoSuchOrder" msg="订单不存在" msg_cnt="訂單不存在" msg_en="订单不存在" />
+	<item id="BourseErr.NoSuchPet" msg="未拥有此宠物" msg_cnt="未擁有此寵物" msg_en="未拥有此宠物" />
+	<item id="BourseErr.NotEnoughFee" msg="手续费不足" msg_cnt="手續費不足" msg_en="手续费不足" />
+	<item id="BourseErr.NotEnoughGoldCoin" msg="金币卷不足" msg_cnt="金幣卷不足" msg_en="金币卷不足" />
+	<item id="BourseErr.NotEnoughGoods" msg="出售数量超过了拥有数" msg_cnt="出售數量超過了擁有數" msg_en="出售数量超过了拥有数" />
+	<item id="BourseErr.NotEnoughIngot" msg="钻石不足" msg_cnt="鑽石不足" msg_en="钻石不足" />
+	<item id="BourseErr.NotEnoughStage" msg="低品质物品不能出售" msg_cnt="低品質物品不能出售" msg_en="低品质物品不能出售" />
+	<item id="BourseErr.SoldOut" msg="物品已售出" msg_cnt="物品已售出" msg_en="物品已售出" />
+	<item id="BourseErr.TeamPet" msg="出战宠物不可交易" msg_cnt="出戰寵物不可交易" msg_en="出战宠物不可交易" />
+	<item id="BourseErr.TimeLimitItem" msg="限时物品不可出售" msg_cnt="限時物品不可出售" msg_en="限时物品不可出售" />
+	<item id="BourseErr.TradeTypeError" msg="交易类型错误" msg_cnt="交易類型錯誤" msg_en="交易类型错误" />
+	<item id="BourseErr.UsedGemContainer" msg="已镶嵌，不能交易" msg_cnt="已鑲嵌，不能交易" msg_en="已镶嵌，不能交易" />
+	<item id="CastingErr.MaterialInvalid" msg="无效材料{0}" msg_cnt="無效材料%s" msg_en="Material is invalid%s" />
+	<item id="CastingErr.MaterialNoConsist" msg="材料不一致" msg_cnt="材料不一致" msg_en="Need consistent material" />
+	<item id="CastingErr.MaterialNoNeed" msg="不需要这个材料{0}" msg_cnt="不需要這個材料%s" msg_en="Material is not require%s" />
+	<item id="CdkeyErr.BatchMaxUsed" msg="该批次兑换已达上限，请输入另一个" msg_cnt="該批次兌換已達上限，請輸入另一個" msg_en="Use limit reached. Please enter another code" />
+	<item id="CdkeyErr.CodeMaxUsed" msg="已兑换完，请输入另一个" msg_cnt="已兌換完，請輸入另一個" msg_en="Gift Code already redeemed. Enter another Gift Code" />
+	<item id="CdkeyErr.ErrorCode" msg="请输入正确的兑换码" msg_cnt="請輸入正確的兌換碼" msg_en="Please enter a valid Gift Code" />
+	<item id="CdkeyErr.FuncClose" msg="兑换码功能未开启" msg_cnt="兌換碼功能未開啟" msg_en="Code Redemption not available!" />
+	<item id="CdkeyErr.MutexGroupUsed" msg="兑换码互斥，请输入另一个" msg_cnt="兌換碼互斥，請輸入另一個" msg_en="Invalid Gift Code. Please enter a new code" />
+	<item id="CdkeyErr.OutOfDate" msg="兑换码已过期" msg_cnt="兌換碼已過期" msg_en="The Gift Code has expired" />
+	<item id="CdkeyErr.SelfShareKey" msg="不能使用自己的分享码" msg_cnt="不能使用自己的分享碼" msg_en="Can not use the code whitch is yours" />
+	<item id="CdkeyErr.ShareKeyInvalid" msg="分享码无效" msg_cnt="分享碼無效" msg_en="Please enter a valid Share Code" />
+	<item id="CdkeyErr.ShareKeyUsed" msg="已使用过分享码" msg_cnt="已使用過分享碼" msg_en="You have already used share code before" />
+	<item id="CdkeyErr.ShareLinkAlready" msg="已通过分享链接获得奖励，不能再使用分享码" msg_cnt="已通過分享鏈接獲得獎勵，不能再使用分享碼" msg_en="You have got the reward by share link,can not use share code again" />
+	<item id="ChallengeErr.CoolDown" msg="正在整顿，不能出战" msg_cnt="正在整頓，不能出戰" msg_en="Preparing, cannot attack" />
+	<item id="ChallengeErr.DispatchedHero" msg="执行派遣任务的英雄不能出战" msg_cnt="執行派遣任務的英雄不能出戰" msg_en="Heroes on Away Quests cannot join battle" />
+	<item id="ChallengeErr.DuplicateHero" msg="英雄不能重复出战" msg_cnt="英雄不能重複出戰" msg_en="You can only select a hero once" />
+	<item id="ChallengeErr.ExpiredLayer" msg="目标所在层数已经变化，请刷新目标" msg_cnt="目標所在層數已經變化，請刷新目標" msg_en="Target is no longer on the same floor, please refresh" />
+	<item id="ChallengeErr.FailConnectRedis" msg="获取数据失败" msg_cnt="獲取數據失敗" msg_en="Failed to retrieve data" />
+	<item id="ChallengeErr.MaxCount" msg="已达到最大次数限制" msg_cnt="已達到最大次數限制" msg_en="Maximum attempts reached" />
+	<item id="ChallengeErr.NoBattle" msg="没有战斗数据" msg_cnt="沒有戰鬥數據" msg_en="No battle data" />
+	<item id="ChallengeErr.NoChallengeCount" msg="出战次数已经用完" msg_cnt="出戰次數已經用完" msg_en="You are out of battle attempts" />
+	<item id="ChallengeErr.NoMainHero" msg="每组出战的主英雄不能为空" msg_cnt="每組出戰的主英雄不能為空" msg_en="Main hero cannot be empty" />
+	<item id="ChallengeErr.NoNeedBuy" msg="出战次数还未用完" msg_cnt="出戰次數還未用完" msg_en="You still have battle attempts" />
+	<item id="ChallengeErr.NoReward" msg="没有可以领取的奖励" msg_cnt="沒有可以領取的獎勵" msg_en="No rewards to claim" />
+	<item id="ChallengeErr.NotEnoughHero" msg="需要激活至少4个英雄才能开启此功能" msg_cnt="需要啟動至少4個英雄才能開啟此功能" msg_en="Must activate 4 heroes or more to enable this function" />
+	<item id="ChallengeErr.NotInTime" msg="每天8~22点开启混沌之渊功能" msg_cnt="每天8~22點開啟混沌之淵功能" msg_en="Depths of Discord is available daily from 8:00 to 10:00PM" />
+	<item id="ChallengeErr.NotTargetInfo" msg="目标数据缺失" msg_cnt="目標數據缺失" msg_en="Missing target data" />
+	<item id="ChallengeErr.TargetInBattle" msg="目标正在战斗中，请稍后再试" msg_cnt="目標正在戰鬥中，請稍後再試" msg_en="Target is in combat, please try again later" />
+	<item id="ChargeErr.BidError" msg="充值订单号(流水号)不正确" msg_cnt="充值訂單號(流水號)不正確" msg_en="Incorrect top-up order number (serial number)" />
+	<item id="ChargeErr.GoogleConfig" msg="充值发货失败：找不到谷歌服务器" msg_cnt="充值發貨失敗：找不到穀歌伺服器" msg_en="Failed to dispatch top-up order. Failed to connect to Google server" />
+	<item id="ChargeErr.NotConsumption" msg="购买商品还没有消耗，请重新购买" msg_cnt="購買商品還沒有消耗，請重新購買" msg_en="You have not consumed the purchased item yet. Please purchase again" />
+	<item id="ChargeErr.NotPay" msg="充值发货失败，您还没有支付" msg_cnt="充值發貨失敗，您還沒有支付" msg_en="Failed to dispatch top-up order. You have not paid yet" />
+	<item id="ChargeErr.ReceiptError" msg="充值数据验证出错，请联系客服" msg_cnt="充值數據驗證出錯，請聯繫客服" msg_en="Top-up data authentication error. Please contact customer service" />
+	<item id="ChargeErr.ReceiptTimeout" msg="充值数据验证超时，系统60s内将自动重新验证" msg_cnt="充值數據驗證超時，系統60s內將自動重新驗證" msg_en="Top-up data authentication overtime. The system will restart authentication automatically in 60s" />
+	<item id="ChargeErr.SaveAward" msg="充值入库失败，请联系客服" msg_cnt="充值入庫失敗，請聯繫客服" msg_en="Failed to receive top-up amount. Please contact customer service" />
+	<item id="ChargeErr.StatusNotZero" msg="充值数据校验出错,Code:{0}" msg_cnt="充值數據校驗出錯,Code:%s" msg_en="Top-up data authentication error, Code: %s" />
+	<item id="ChargeErr.TokenError" msg="充值Token值出错，请联系客服" msg_cnt="充值Token值出錯，請聯繫客服" msg_en="Top-up token error. Please contact customer service" />
+	<item id="ChargeErr.TransactionRepeat" msg="充值订单号(流水号)重复" msg_cnt="充值訂單號(流水號)重複" msg_en="Top-up order number (serial number) already used" />
+	<item id="ChargeErr.UserInfoNotExsit" msg="充值发货失败：系统稍后将自动再次发货" msg_cnt="充值發貨失敗：系統稍後將自動再次發貨" msg_en="Failed to dispatch top-up order. The system will automatically try again later" />
+	<item id="ChargeErr.BuyFail" msg="购买失败" msg_cnt="購買失敗" msg_en="購買失敗" />
+	<item id="ChatErr.ChatMaxNum" msg="发言次数已达上限" msg_cnt="發言次數已達上限" msg_en="發言次數已達上限" />
+	<item id="ChatErr.ExpireSign" msg="登录令牌已过期" msg_cnt="登錄令牌已過期" msg_en="Login token has expired" />
+	<item id="ChatErr.FailLogin" msg="登录失败" msg_cnt="登錄失敗" msg_en="Failed to log in" />
+	<item id="ChatErr.IllegalRequest" msg="请求无效" msg_cnt="非法請求" msg_en="非法請求" />
+	<item id="ChatErr.IllegalWord" msg="内容含有敏感字符" msg_cnt="內容含有非法字元" msg_en="Contains invalid characters" />
+	<item id="ChatErr.InvalidSign" msg="令牌验证失败" msg_cnt="令牌驗證失敗" msg_en="Token authentication failed" />
+	<item id="ChatErr.Mute" msg="已经被禁言" msg_cnt="已經被禁言" msg_en="You have been banned from chatting" />
+	<item id="ChatErr.NoGuild" msg="还未加入公会，不能使用公会聊天" msg_cnt="還未加入公會，不能使用公會聊天" msg_en="You are not in a guild and cannot use the guild chat" />
+	<item id="ChatErr.NoSuchListener" msg="未定义此频道消息的接收器" msg_cnt="未定義此頻道消息的接收器" msg_en="This channel's receiver is undefined" />
+	<item id="ChatErr.NoTeam" msg="还未加入队伍，不能使用队伍聊天" msg_cnt="還未加入隊伍，不能使用隊伍聊天" msg_en="You are not on a team and cannot use the team chat" />
+	<item id="ChatErr.NotEnoughChatItem" msg="聊天道具数量不足" msg_cnt="聊天道具數量不足" msg_en="Insufficient chatting items" />
+	<item id="ChatErr.NotLogin" msg="你还未登录" msg_cnt="你還未登錄" msg_en="You are not logged in" />
+	<item id="ChatErr.NullMessage" msg="聊天消息不能为空" msg_cnt="聊天消息不能為空" msg_en="Message cannot be empty" />
+	<item id="ChatErr.RequestTooOften" msg="请求太过频繁" msg_cnt="請求太過頻繁" msg_en="" />
+	<item id="ChatErr.TargetNotLogin" msg="目标不在线" msg_cnt="目標不線上" msg_en="Target is not online" />
+	<item id="ChatErr.TooOften" msg="发送聊天信息太过频繁" msg_cnt="發送聊天資訊太過頻繁" msg_en="You've sent too many messages too soon" />
+	<item id="ChestErr.FreeChestCoolDown" msg="还没到领取时间" msg_cnt="還沒到領取時間" msg_en="Time's not yet" />
+	<item id="ChestErr.FreeCountLimit" msg="当日免费宝箱已领取完毕" msg_cnt="當日免費寶箱已領取完畢" msg_en="Free treasure box has been received on that day" />
+	<item id="ChestErr.NoChest" msg="宝箱数量不足" msg_cnt="寶箱數量不足" msg_en="Not enough Chests" />
+	<item id="ChestErr.NoFreeChest" msg="没有免费宝箱可领取" msg_cnt="沒有免費寶箱可領取" msg_en="No free treasure box to receive" />
+	<item id="ChestErr.NotShowable" msg="宝箱不可购买" msg_cnt="寶箱不可購買" msg_en="Cannot purchase Chest" />
+	<item id="CollectErr.HasReward" msg="已经领取过奖励" msg_cnt="已經領取過獎勵" msg_en="Reward has been claimed" />
+	<item id="CollectErr.NotComplete" msg="还未收集完成" msg_cnt="還未收集完成" msg_en="Collection incomplete" />
+	<item id="CommonErr.NotOpen" msg="功能还未开放" msg_cnt="功能還未開放" msg_en="Feature is not available yet" />
+	<item id="DiabloErr.AddKeyAlready" msg="今天已经领取过挑战钥匙" msg_cnt="今天已經領取過挑戰鑰匙" msg_en="Today's key has been claimed" />
+	<item id="DiabloErr.BossNotDead" msg="还未歼灭Boss" msg_cnt="還未殺死Boss" msg_en="Boss has not been defeated" />
+	<item id="DiabloErr.DeadHero" msg="选择的英雄已经阵亡" msg_cnt="選擇的英雄已經陣亡" msg_en="Selected hero is dead" />
+	<item id="DiabloErr.KeyExistAlready" msg="最多可以拥有一个挑战钥匙" msg_cnt="最多可以擁有一個挑戰鑰匙" msg_en="You may have up to 1 challenge key" />
+	<item id="DiabloErr.MaxLevel" msg="已达到最高层" msg_cnt="已達到最高層" msg_en="已达到最高层" />
+	<item id="DiabloErr.NotBattle" msg="没有战斗数据" msg_cnt="沒有戰鬥數據" msg_en="No battle data" />
+	<item id="DiabloErr.NotEnoughKey" msg="挑战钥匙不足" msg_cnt="挑戰鑰匙不足" msg_en="Insufficient challenge keys" />
+	<item id="DiabloErr.NotEnoughLevel" msg="等级不足" msg_cnt="等級不足" msg_en="Level requirement not met" />
+	<item id="DiabloErr.NotEnoughScore" msg="积分不够" msg_cnt="積分不夠" msg_en="Need more points" />
+	<item id="DiabloErr.NotStart" msg="还未开启，请先放入挑战钥匙" msg_cnt="還未開啟，請先放入挑戰鑰匙" msg_en="Insert the key to enable" />
+	<item id="DiabloErr.NoUpgradeItem" msg="没有强化宝石" msg_cnt="沒有強化寶石" msg_en="No enhance stones" />
+	<item id="DiabloErr.TimeLimit" msg="战斗超时" msg_cnt="戰鬥超時" msg_en="Battle time limit exceeded" />
+	<item id="DiabloErr.UpgradeAlready" msg="钥匙已经被强化过，无需再次强化" msg_cnt="鑰匙已經被強化過，無需再次強化" msg_en="The key has been enhanced already" />
+	<item id="DispatchErr.Accepted" msg="已经领取此任务" msg_cnt="已經領取此任務" msg_en="Quest accepted" />
+	<item id="DispatchErr.Completed" msg="任务已经完成" msg_cnt="任務已經完成" msg_en="Quest complete" />
+	<item id="DispatchErr.FirstHero" msg="主控英雄不能执行派遣任务" msg_cnt="主控英雄不能執行派遣任務" msg_en="Main hero cannot be sent on Away Quests" />
+	<item id="DispatchErr.HeroCountNotMatch" msg="未满足派遣英雄数量" msg_cnt="未滿足派遣英雄數量" msg_en="Away Quest: Need more heroes" />
+	<item id="DispatchErr.HeroLevelNotMatch" msg="派遣的英雄等级不符合要求" msg_cnt="派遣的英雄等級不符合要求" msg_en="Away Quest: Level does not meet the requirement" />
+	<item id="DispatchErr.HeroSkillTypeNotMatch" msg="派遣的英雄技能属性不符合要求" msg_cnt="派遣的英雄技能屬性不符合要求" msg_en="Away Quest: Skill does not meet the requirement" />
+	<item id="DispatchErr.HeroTypeNotMatch" msg="派遣的英雄主属性不符合要求" msg_cnt="派遣的英雄主屬性不符合要求" msg_en="Away Quest: Main stat does not meet the requirement" />
+	<item id="DispatchErr.NotAccepted" msg="还未领取此任务" msg_cnt="還未領取此任務" msg_en="Quest not accepted yet" />
+	<item id="DispatchErr.NotCompleted" msg="还未到完成任务的时间" msg_cnt="還未到完成任務的時間" msg_en="Quest cannot be completed right now" />
+	<item id="DispatchErr.NotInDispatchList" msg="只能领取派遣任务列表中的任务" msg_cnt="只能領取派遣任務列表中的任務" msg_en="You can only accept quests from the Away Quest list" />
+	<item id="DispatchErr.NotMatch" msg="未满足派遣条件" msg_cnt="未滿足派遣條件" msg_en="Away Quest: Requirement not met" />
+	<item id="DispatchErr.SecondHero" msg="副控英雄不能执行派遣任务" msg_cnt="副控英雄不能執行派遣任務" msg_en="Secondary hero cannot be sent on Away Quests" />
+	<item id="DispatchErr.SpecifyHeroNotMatch" msg="未派遣指定英雄" msg_cnt="未派遣指定英雄" msg_en="Away Quest: Must send the specified hero" />
+	<item id="DXCErr.BattleNotNull" msg="出战英雄不能为空" msg_cnt="出戰英雄不能為空" msg_en="Main hero cannot be empty" />
+	<item id="DXCErr.BeforeNodeNotComplete" msg="前置节点未完成" msg_cnt="前置節點未完成" msg_en="Previous checkpoint incomplete" />
+	<item id="DXCErr.CanNotLookThisMission" msg="不能获取该关卡情况，请通关相关关卡" msg_cnt="不能獲取該關卡情況，請通關相關關卡" msg_en="Stage status unknown, please clear relevant stages" />
+	<item id="DXCErr.CanNotRefreshForFree" msg="没有免费刷新的机会" msg_cnt="沒有免費刷新的機會" msg_en="No free refresh attempts left" />
+	<item id="DXCErr.CompleteBefore" msg="此关卡已经通关了" msg_cnt="此關卡已經通關了" msg_en="This stage has already been cleared" />
+	<item id="DXCErr.GoodsNotRight" msg="道具使用的不对" msg_cnt="道具使用的不對" msg_en="Incorrect item" />
+	<item id="DXCErr.GotRewardBefore" msg="已经领取过该奖励了" msg_cnt="已經領取過該獎勵了" msg_en="Reward has been claimed" />
+	<item id="DXCErr.HeroBusy" msg="英雄派遣中不能出战" msg_cnt="英雄派遣中不能出戰" msg_en="Hero is on Away Quest and cannot join battle" />
+	<item id="DXCErr.HeroDead" msg="英雄已阵亡" msg_cnt="英雄已陣亡" msg_en="Hero has died" />
+	<item id="DXCErr.HeroUsed" msg="英雄已经在其他线路使用过" msg_cnt="英雄已經在其他線路使用過" msg_en="Hero was used in another route" />
+	<item id="DXCErr.NotPassTOGetReward" msg="该关卡未通关，不能领取奖励" msg_cnt="該關卡未通關，不能領取獎勵" msg_en="Clear the stage first to claim reward" />
+	<item id="FashionErr.BuyWayError" msg="货币购买不能用此接口" msg_cnt="貨幣購買不能用此介面" msg_en="货币购买不能用此接口" />
+	<item id="FashionErr.FashionOutOfDate" msg="时装已过期" msg_cnt="時裝已過期" msg_en="时装已过期" />
+	<item id="FashionErr.NoHero" msg="没有此英雄，不能激活这件时装" msg_cnt="沒有此英雄，不能啟動這件時裝" msg_en="没有此英雄，不能激活这件时装" />
+	<item id="FashionErr.NotAtivate" msg="未激活此时装" msg_cnt="未啟動此時裝" msg_en="未激活此时装" />
+	<item id="FashionErr.NotFashion" msg="不是时装" msg_cnt="不是時裝" msg_en="不是时装" />
+	<item id="FashionErr.NoThisFashion" msg="背包里没有此时装" msg_cnt="背包裏沒有此時裝" msg_en="背包里没有此时装" />
+	<item id="FashionErr.OwnForLast" msg="已拥有永久时装，无需再次激活" msg_cnt="已擁有永久時裝，無需再次啟動" msg_en="已拥有永久时装，无需再次激活" />
+	<item id="FriendErr.AddSelfFriend" msg="不能加自己为好友" msg_cnt="不能加自己為好友" msg_en="Cannot add yourself as friend" />
+	<item id="FriendErr.ApplyListFull" msg="对方申请列表已满" msg_cnt="對方申請列表已滿" msg_en="Target's request list is full" />
+	<item id="FriendErr.DispatchCoolDown" msg="赠送太频繁了" msg_cnt="贈送太頻繁了" msg_en="You are sending gifts too frequently" />
+	<item id="FriendErr.FriendFull" msg="好友达到上限" msg_cnt="好友達到上限" msg_en="You cannot add more friends" />
+	<item id="FriendErr.Given" msg="每日只能赠送该好友一次礼物" msg_cnt="每日只能贈送該好友一次禮物" msg_en="You have already sent a gift" />
+	<item id="FriendErr.GiveSelf" msg="不能赠送给自己" msg_cnt="不能贈送給自己" msg_en="Cannot send gifts to yourself" />
+	<item id="FriendErr.HelperCoolDown" msg="助战者还未到冷却时间" msg_cnt="助戰者還未到冷卻時間" msg_en="Battle assistant still on cooldown" />
+	<item id="FriendErr.InYourFriendList" msg="该好友已经在你的列表中" msg_cnt="該好友已經在你的列表中" msg_en="Friend is already on your list" />
+	<item id="FriendErr.MaxGivenCount" msg="今天的赠送次数已用完" msg_cnt="今天的贈送次數已用完" msg_en="You cannot send any more gifts today" />
+	<item id="FriendErr.NoDispatch" msg="对方没有正常执行的派遣任务" msg_cnt="對方沒有正常執行的派遣任務" msg_en="The other player did not complete the Away Quest normally" />
+	<item id="FriendErr.NoSuchHelper" msg="不能邀请此玩家助战" msg_cnt="不能邀請此玩家助戰" msg_en="Cannot invite this player to help" />
+	<item id="FriendErr.NoSuchPlayer" msg="此玩家不存在" msg_cnt="此玩家不存在" msg_en="Player not found" />
+	<item id="FriendErr.NotFound" msg="未找到该好友" msg_cnt="未找到該好友" msg_en="Friend not found" />
+	<item id="FriendErr.TargetFriendFull" msg="对方好友数量达到上限" msg_cnt="對方好友數量達到上限" msg_en="Target cannot add more friends" />
+	<item id="GoodsErr.BagIsNull" msg="没有背包数据" msg_cnt="沒有背包數據" msg_en="No backpack data" />
+	<item id="GoodsErr.GoodsCannotUse" msg="此物品不能使用" msg_cnt="此物品不能使用" msg_en="Cannot use this item" />
+	<item id="GoodsErr.GoodsStageCannotUse" msg="此药水该英雄不能使用" msg_cnt="此藥水該英雄不能使用" msg_en="Potion cannot be used by this hero" />
+	<item id="GoodsErr.MaxNum" msg="数量达上限" msg_cnt="數量達上限" msg_en="Maximum quantity reached" />
+	<item id="GoodsErr.NoSuchGoods" msg="物品{0}不存在" msg_cnt="物品不存在" msg_en="Item does not exist" />
+	<item id="GoodsErr.NotDecomposeGoods" msg="没有物品可分解" msg_cnt="沒有物品可分解" msg_en="No item to salvage" />
+	<item id="GoodsErr.NotEnoughGoods" msg="物品{0}数量不足{1}" msg_cnt="物品數量不足" msg_en="Insufficient items" />
+	<item id="GoodsErr.NotMultipleGift" msg="该礼包不是多选礼包" msg_cnt="該禮包不是多選禮包" msg_en="该礼包不是多选礼包" />
+	<item id="GoodsErr.ReceiveItemsFail" msg="领取物品失败" msg_cnt="領取物品失敗" msg_en="领取物品失败" />
+	<item id="GoodsErr.SelectGoodsErr" msg="该礼包无法选择这些物品" msg_cnt="該禮包無法選擇這些物品" msg_en="该礼包无法选择这些物品" />
+	<item id="GoodsErr.SelectNumberErr" msg="该礼包只能选择{0}件物品" msg_cnt="該禮包只能選擇%s件物品" msg_en="该礼包只能选择%s件物品" />
+	<item id="GoodsErr.SameGoodsId" msg="请求了相同的物品id" msg_cnt="请求了相同的物品id" msg_en="请求了相同的物品id" />
+	<item id="GrowthProcessErr.AlreadyReceiveAward" msg="奖励已经领取，不能重复领奖" msg_cnt="獎勵已經領取，不能重複領獎" msg_en="奖励已经领取，不能重复领奖" />
+	<item id="GrowthProcessErr.LevelNotEnough" msg="等级不足{0}级，无法领取奖励" msg_cnt="等級不足%s級，無法領取獎勵" msg_en="等级不足%s级，无法领取奖励" />
+	<item id="GuildErr.ApplyedGuild" msg="该公会已申请过" msg_cnt="該公會已申請過" msg_en="You have already requested to join that guild" />
+	<item id="GuildErr.ApplyFull" msg="玩家申请人数达到上限" msg_cnt="玩家申請人數達到上限" msg_en="Maximum applicants reached" />
+	<item id="GuildErr.BuildingLevelLow" msg="公会建筑的等级不足" msg_cnt="公會建築的等級不足" msg_en="Building levels are too low" />
+	<item id="GuildErr.BuildPointFull" msg="建造度已满" msg_cnt="建造度已滿" msg_en="Construction progress is full" />
+	<item id="GuildErr.BuildpointNotEnough" msg="公会建造度不足" msg_cnt="公會建造度不足" msg_en="Insufficient construction progress" />
+	<item id="GuildErr.BuildPointNotFull" msg="建造度未满" msg_cnt="建造度未滿" msg_en="Construction progress is not full yet" />
+	<item id="GuildErr.CanEnterTeam" msg="该队伍不能加入" msg_cnt="該隊伍不能加入" msg_en="Cannot join that team" />
+	<item id="GuildErr.CanNotApply" msg="上次退出的CD还没有over" msg_cnt="上次退出的CD還沒有over" msg_en="Still on cooldown from quitting previously" />
+	<item id="GuildErr.CanNotMerge" msg="对方正在合并中" msg_cnt="對方正在合併中" msg_en="Target is merging" />
+	<item id="GuildErr.CostGoldNotEnough" msg="创建公会的金币不足" msg_cnt="創建公會的金幣不足" msg_en="Guild creation: Not enough Gold" />
+	<item id="GuildErr.CostIngotNotEnough" msg="创建公会的钻石不足" msg_cnt="創建公會的鑽石不足" msg_en="Guild creation: Not enough Soulcores" />
+	<item id="GuildErr.CostMoneyNotEnough" msg="公会资金不足" msg_cnt="公會資金不足" msg_en="CostMoneyNotEnough" />
+	<item id="GuildErr.DeputyLeaderTime" msg="离下一次让位还有{0}小时{1}分钟" msg_cnt="離下一次讓位還有%s小時%s分鐘" msg_en="%s hour % minutes until the next leadership transfer" />
+	<item id="GuildErr.DisarrearProtect" msg="解散公会保护中" msg_cnt="解散公會保護中" msg_en="Under guild disbandment protection" />
+	<item id="GuildErr.DonatedAVGS" msg="公会捐献参数错误" msg_cnt="公會捐獻參數錯誤" msg_en="Guild donation parameter error" />
+	<item id="GuildErr.FullLevel" msg="满级公会" msg_cnt="滿級公會" msg_en="Max Level Guild" />
+	<item id="GuildErr.GuildIsDifferent" msg="该玩家已离开公会,不能进行该操作!" msg_cnt="該玩家已離開公會,不能進行該操作!" msg_en="That player has already left the guild" />
+	<item id="GuildErr.GuildIsNull" msg="该公会不存在" msg_cnt="該公會不存在" msg_en="Guild does not exist" />
+	<item id="GuildErr.GuildLevelIncorrect" msg="公会等级有更新，请刷新界面后重试" msg_cnt="公會等級有更新，請刷新介面後重試" msg_en="Guild level changed" />
+	<item id="GuildErr.GuildNameHad" msg="公会名已存在" msg_cnt="公會名已存在" msg_en="This guild name has been taken" />
+	<item id="GuildErr.GuildNotReally" msg="公会不存在" msg_cnt="公會不存在" msg_en="Guild does not exist" />
+	<item id="GuildErr.GuildTeamFull" msg="公会队伍已满" msg_cnt="公會隊伍已滿" msg_en="Guild team is full" />
+	<item id="GuildErr.GuildTeamNotFull" msg="公会队伍未满" msg_cnt="公會隊伍未滿" msg_en="Guild team is not full" />
+	<item id="GuildErr.HadGuild" msg="加入过公会" msg_cnt="加入過公會" msg_en="Join guild" />
+	<item id="GuildErr.InvaildNameLen" msg="公会名应为2~7个字符" msg_cnt="公會名應為2~7個字元" msg_en="Guild name should be between 2 to 7 characters" />
+	<item id="GuildErr.InvalidLength" msg="内容长度不符" msg_cnt="內容長度不符" msg_en="Length error" />
+	<item id="GuildErr.InvitedGuildTime" msg="邀请频繁,请十分钟后邀请!" msg_cnt="邀請頻繁,請十分鐘後邀請!" msg_en="Please invite again in 10 minutes" />
+	<item id="GuildErr.JoinedGuild" msg="该玩家已有公会" msg_cnt="該玩家已有公會" msg_en="Player is already in a guild" />
+	<item id="GuildErr.JoinGuildLvNotEnough" msg="等级不达加入公会指定的等级" msg_cnt="等級不達加入公會指定的等級" msg_en="Level requirement not met" />
+	<item id="GuildErr.LeaderExit" msg="让位后才能退出公会" msg_cnt="讓位後才能退出公會" msg_en="You will have to appoint someone else to your position before leaving the guild" />
+	<item id="GuildErr.LevelNotEnough" msg="公会等级不足" msg_cnt="公會等級不足" msg_en="Guild level too low" />
+	<item id="GuildErr.LowExp" msg="公会经验不足" msg_cnt="公會經驗不足" msg_en="LowExp" />
+	<item id="GuildErr.LowLevel" msg="创建公会的等级不足" msg_cnt="創建公會的等級不足" msg_en="Guild creation: Level too low" />
+	<item id="GuildErr.MaxApplyNum" msg="已经达到每天的申请上限" msg_cnt="已經達到每天的申請上限" msg_en="Daily request limit reached" />
+	<item id="GuildErr.MaxJoinNum" msg="已经达到每天加入公会次数上限" msg_cnt="已經達到每天加入公會次數上限" msg_en="Daily guild join limit has been reached" />
+	<item id="GuildErr.MemberFull" msg="公会人数达到上限" msg_cnt="公會人數達到上限" msg_en="Guild has reached member limit" />
+	<item id="GuildErr.MergeApplyOverTime" msg="合并请求已超时" msg_cnt="合併請求已超時" msg_en="Merge request has expired" />
+	<item id="GuildErr.MergeLevel" msg="不能合并等级比本公会高的公会" msg_cnt="不能合併等級比本公會高的公會" msg_en="Cannot merge with a higher level guild" />
+	<item id="GuildErr.MergeNumFull" msg="合并之后人数超过上限" msg_cnt="合併之後人數超過上限" msg_en="Guild will reach member limit after merging" />
+	<item id="GuildErr.MergeOne" msg="每天只能请求合并一次" msg_cnt="每天只能請求合併一次" msg_en="You may only request to merge once per day" />
+	<item id="GuildErr.NotAllow" msg="没有该项权限" msg_cnt="沒有該項許可權" msg_en="No permission for that action" />
+	<item id="GuildErr.NotApply" msg="未申请加入公会" msg_cnt="未申請加入公會" msg_en="Have not requested to join" />
+	<item id="GuildErr.NotInGuild" msg="未加入公会" msg_cnt="未加入公會" msg_en="Have not joined a guild" />
+	<item id="GuildErr.NotMemberTakeOffer" msg="没有公会成员可任命" msg_cnt="沒有公會成員可任命" msg_en="No members to appoint" />
+	<item id="GuildErr.OnlyDeputyLeaderCan" msg="只能让位给副会长" msg_cnt="只能讓位給副會長" msg_en="You may only transfer leadership to the vice leader" />
+	<item id="GuildErr.OpenOneBossInSametime" msg="同一时间只能开一个Boss" msg_cnt="同一時間只能開一個Boss" msg_en="Only one boss can be enabled" />
+	<item id="GuildErr.PositionFull" msg="职位人数达到上限" msg_cnt="職位人數達到上限" msg_en="This position has reached member limit" />
+	<item id="GuildErr.ProgressNotEnough" msg="进度未达标" msg_cnt="進度未達標" msg_en="Progress not enough" />
+	<item id="GuildErr.Rewarded" msg="已领取奖励" msg_cnt="已領取獎勵" msg_en="Already got the reawrd" />
+	<item id="GuildErr.Signined" msg="今日已签到" msg_cnt="今日已簽到" msg_en="Today is already signed" />
+	<item id="HeroErr.Activated" msg="该英雄已经激活" msg_cnt="該英雄已經啟動" msg_en="This hero has been activated" />
+	<item id="HeroErr.Dispatched" msg="这个英雄已经在执行派遣任务" msg_cnt="這個英雄已經在執行派遣任務" msg_en="This hero is on an Away Quest" />
+	<item id="HeroErr.HeroGoldNotEnough" msg="英雄升级所需的金币不足" msg_cnt="英雄升級所需的金幣不足" msg_en="Insufficient Gold" />
+	<item id="HeroErr.HeroSkillPointNotEnough" msg="英雄升级所需的技能点不足" msg_cnt="英雄升級所需的技能點不足" msg_en="Insufficient skill points" />
+	<item id="HeroErr.HeroUnlockMaterialNotEnough" msg="英雄解锁材料不足" msg_cnt="英雄解鎖材料不足" msg_en="英雄解锁材料不足" />
+	<item id="HeroErr.InvalidWeaponGrade" msg="武器品阶不能超过英雄的魂阶" msg_cnt="武器品階不能超過英雄的魂階" msg_en="Weapon rank cannot exceed hero's soulrank" />
+	<item id="HeroErr.MaxHeroSkillLevel" msg="该英雄技能已满级" msg_cnt="該英雄技能已滿級" msg_en="This hero's skills cannot be upgraded further" />
+	<item id="HeroErr.MaxLevel" msg="该英雄等级已经是最高等级了" msg_cnt="該英雄等級已經是最高等級了" msg_en="This hero is at the level cap" />
+	<item id="HeroErr.MaxLevelEquip" msg="此装备已达最高等级" msg_cnt="此裝備已達最高等級" msg_en="Equipment cannot be enhanced further" />
+	<item id="HeroErr.NoFirstHero" msg="主控英雄不能为空" msg_cnt="主控英雄不能為空" msg_en="Main hero cannot be empty" />
+	<item id="HeroErr.NoSuchEquip" msg="英雄没有此装备" msg_cnt="英雄沒有此裝備" msg_en="Hero does not have this piece of equipment" />
+	<item id="HeroErr.NotActivated" msg="该英雄还未激活" msg_cnt="該英雄還未啟動" msg_en="This hero has not been activated" />
+	<item id="HeroErr.NotEnchantGoods" msg="必须使用附魔材料" msg_cnt="必須使用附魔材料" msg_en="Enchant materials must be used" />
+	<item id="HeroErr.NotEnoughLevel" msg="英雄等级不够" msg_cnt="英雄等級不夠" msg_en="Hero level is too low" />
+	<item id="HeroErr.NotEnoughSoul" msg="没有足够的灵魂" msg_cnt="沒有足夠的靈魂" msg_en="Not enough souls" />
+	<item id="HeroErr.NotExist" msg="该英雄不存在" msg_cnt="該英雄不存在" msg_en="Hero does not exist" />
+	<item id="HeroErr.NotSkillActivated" msg="该英雄技能还未激活" msg_cnt="該英雄技能還未啟動" msg_en="This hero has inactivated skills" />
+	<item id="HeroErr.OverPlayerLevel" msg="英雄等级不足" msg_cnt="英雄等級不足" msg_en="Hero level is too low" />
+	<item id="HeroErr.OverRunelevel" msg="符文等级不足" msg_cnt="符文等級不足" msg_en="Rune level is too low" />
+	<item id="HeroErr.QeqMissionNotCompleted" msg="武器升阶所需英雄剧情任务未完成" msg_cnt="武器升階所需英雄劇情任務未完成" msg_en="Weapon upgrade quest has not been completed" />
+	<item id="HeroErr.SameFirstSecondHero" msg="主控、副控英雄不能为同一个" msg_cnt="主控、副控英雄不能為同一個" msg_en="Main and Secondary heroes cannot be the same" />
+	<item id="HeroErr.SkillNotOwn" msg="该英雄没有这个技能" msg_cnt="該英雄沒有這個技能" msg_en="Hero does not have this skill" />
+	<item id="HeroErr.WeaponEnchant" msg="不能附魔武器" msg_cnt="不能附魔武器" msg_en="Cannot Enchant weapon" />
+	<item id="IntimacyErr.ChatAlready" msg="每天只能通过交流增加一次亲密度" msg_cnt="每天只能通過交流增加一次親密度" msg_en="Increase Friendship once per day through interaction" />
+	<item id="IntimacyErr.MaxIntimacy" msg="亲密度已经达到当前最大值" msg_cnt="親密度已經達到當前最大值" msg_en="Friendship has reached the current maximum value" />
+	<item id="IntimacyErr.NotEnoughIntimacy" msg="亲密度未达到要求" msg_cnt="親密度未達到要求" msg_en="Friendship requirement not met" />
+	<item id="IntimacyErr.RewardAlready" msg="已经领取过奖励" msg_cnt="已經領取過獎勵" msg_en="Reward has been claimed" />
+	<item id="LampErr.CoinMax" msg="体力达到上限，无法领取" msg_cnt="體力達到上限，無法領取" msg_en="体力达到上限，无法领取" />
+	<item id="LampErr.CoolDown" msg="升级冷却完" msg_cnt="升級冷卻完" msg_en="升级冷却完" />
+	<item id="LampErr.CoolDownNotFinish" msg="升级冷却时间未到" msg_cnt="升級冷卻時間未到" msg_en="升级冷却时间未到" />
+	<item id="LampErr.FillProgressMax" msg="填充进度已满" msg_cnt="填充進度已滿" msg_en="填充进度已满" />
+	<item id="LampErr.FillProgressNotEnough" msg="填充进度未满" msg_cnt="填充進度未滿" msg_en="填充进度未满" />
+	<item id="LampErr.GiftUnopened" msg="魂灯之礼暂未开启" msg_cnt="魂燈之禮暫未開啟" msg_en="魂灯之礼暂未开启" />
+	<item id="LampErr.HaveNoCoinGet" msg="暂无体力可领取" msg_cnt="暫無體力可領取" msg_en="暂无体力可领取" />
+	<item id="LampErr.HaveNoGoldGet" msg="暂无金币可领取" msg_cnt="暫無金幣可領取" msg_en="暂无金币可领取" />
+	<item id="LampErr.LampLevelNotEnough" msg="魂灯等级不够" msg_cnt="魂燈等級不夠" msg_en="魂灯等级不够" />
+	<item id="LampErr.LampTechLevelNotEnough" msg="前置科技等级不够" msg_cnt="前置科技等級不夠" msg_en="前置科技等级不够" />
+	<item id="LampErr.LampUnopened" msg="魂灯暂未开启" msg_cnt="魂燈暫未開啟" msg_en="魂灯暂未开启" />
+	<item id="LampErr.LevelMax" msg="升到最高等级了" msg_cnt="升到最高等級了" msg_en="升到最高等级了" />
+	<item id="LampErr.LuckValueMax" msg="幸运值已满" msg_cnt="幸運值已滿" msg_en="幸运值已满" />
+	<item id="LampErr.LuckValueNotEnough" msg="幸运值未满" msg_cnt="幸運值未滿" msg_en="幸运值未满" />
+	<item id="LampErr.NeedStudyOtherTech" msg="前置技能未学习" msg_cnt="前置技能未學習" msg_en="前置技能未学习" />
+	<item id="LampErr.OverPlayerLevel" msg="魂灯等级不能超过玩家等级" msg_cnt="魂燈等級不能超過玩家等級" msg_en="魂灯等级不能超过玩家等级" />
+	<item id="LampErr.TechNotExtra" msg="该科技不存在" msg_cnt="該科技不存在" msg_en="该科技不存在" />
+	<item id="LampErr.TechNotOpen" msg="请先学习该魂灯咒术" msg_cnt="請先學習該魂燈咒術" msg_en="请先学习该魂灯咒术" />
+	<item id="MailErr.Accepted" msg="附件已经被领取" msg_cnt="附件已經被領取" msg_en="Attachment has been claimed" />
+	<item id="MailErr.DeleteNotAccepted" msg="附件还未领取，不能删除" msg_cnt="附件還未領取，不能刪除" msg_en="Attachment has not been claimed and cannot be deleted" />
+	<item id="MailErr.NoSuchMail" msg="邮件不存在" msg_cnt="郵件不存在" msg_en="Mail does not exist" />
+	<item id="MissionErr.BlessingClosed" msg="此关卡不能开启祝福" msg_cnt="此關卡不能開啟祝福" msg_en="此关卡不能开启祝福" />
+	<item id="MissionErr.BlessingClosed1" msg="此关卡需要通关后才能开启祝福" msg_cnt="此關卡需要通關後才能開啟祝福" msg_en="此关卡需要通关后才能开启祝福" />
+	<item id="MissionErr.BlessingClosed2" msg="此关卡需要3星通关后才能开启祝福" msg_cnt="此關卡需要3星通關後才能開啟祝福" msg_en="此关卡需要3星通关后才能开启祝福" />
+	<item id="MissionErr.BlessingLimitCount" msg="剩余挑战次数不足以开启此祝福" msg_cnt="剩餘挑戰次數不足以開啟此祝福" msg_en="剩余挑战次数不足以开启此祝福" />
+	<item id="MissionErr.BlessingNotOpen" msg="此祝福类型未开放" msg_cnt="此祝福類型未開放" msg_en="此祝福类型未开放" />
+	<item id="MissionErr.BoxOpenLimit" msg="任务失败：未开启全部宝箱" msg_cnt="任務失敗：未開啟全部寶箱" msg_en="Quest failed: Did not open all the chests" />
+	<item id="MissionErr.CanNotBuy" msg="此任务不可购买挑战次数" msg_cnt="此任務不可購買挑戰次數" msg_en="此任务不可购买挑战次数" />
+	<item id="MissionErr.CanNotRepeat" msg="此关卡不能重复打" msg_cnt="此關卡不能重複打" msg_en="此关卡不能重复打" />
+	<item id="MissionErr.CGOnly" msg="此关卡只用于播放CG，不能进入" msg_cnt="此關卡只用於播放CG，不能進入" msg_en="此关卡只用于播放CG，不能进入" />
+	<item id="MissionErr.CoinRewardAlready" msg="还未到领取战币时间" msg_cnt="還未到領取戰幣時間" msg_en="Battle Tokens are not available right now" />
+	<item id="MissionErr.DailyDungeonCanNotOpen" msg="该每日产出副不能消费解锁" msg_cnt="該每日產出副不能消費解鎖" msg_en="The daily output cannot be unlocked for consumption" />
+	<item id="MissionErr.DailyDungeonForceOpenMax" msg="该每日产出副消费解锁次数达到上限" msg_cnt="該每日產出副消費解鎖次數達到上限" msg_en="The daily output is unlocked by the number of secondary consumption caps" />
+	<item id="MissionErr.DailyDungeonIsOpen" msg="每日产出副进行中，无需解锁" msg_cnt="每日產出副進行中，無需解鎖" msg_en="Daily dungeon is in progress and does not need to be unlocked" />
+	<item id="MissionErr.DailyDungeonNotExist" msg="每日产出副不存在" msg_cnt="每日產出副不存在" msg_en="Daily dungeon does not exist" />
+	<item id="MissionErr.DailyDungeonNotOpen" msg="每日产出副本未开放" msg_cnt="每日產出副本未開放" msg_en="Daily dungeon is not open yet" />
+	<item id="MissionErr.DefendFail" msg="任务失败：成功防守次数不足" msg_cnt="任務失敗：成功防守次數不足" msg_en="Quest failed: Did not defend enough times" />
+	<item id="MissionErr.FailCreateBattle" msg="创建战斗失败" msg_cnt="創建戰鬥失敗" msg_en="创建战斗失败" />
+	<item id="MissionErr.HasMissionAlready" msg="有未完成的任务" msg_cnt="有未完成的任務" msg_en="There are incomplete quests" />
+	<item id="MissionErr.InvalidMission" msg="无效的任务" msg_cnt="無效的任務" msg_en="Invalid quest" />
+	<item id="MissionErr.InvalidNameLen" msg="请输入2个或以上字符进行搜索" msg_cnt="請輸入2個或以上字元進行搜索" msg_en="请输入2个或以上字符进行搜索" />
+	<item id="MissionErr.InviteInterval" msg="发送邀请太过频繁" msg_cnt="發送邀請太過頻繁" msg_en="发送邀请太过频繁" />
+	<item id="MissionErr.IsNotGuildMission" msg="不是公会任务" msg_cnt="不是公會任務" msg_en="Not a guild quest" />
+	<item id="MissionErr.KillMonsterRepeat" msg="重复歼灭怪物{0}" msg_cnt="重複殺死怪物%s" msg_en="Killed %s again" />
+	<item id="MissionErr.LimitCount" msg="已达到次数上限" msg_cnt="已達到次數上限" msg_en="Limit has been reached" />
+	<item id="MissionErr.LimitTime" msg="任务失败：任务超时" msg_cnt="任務失敗：任務超時" msg_en="Quest failed: Out of time" />
+	<item id="MissionErr.MopUpErr" msg="此任务不满足扫荡条件" msg_cnt="此任務不滿足掃蕩條件" msg_en="You cannot blitz this quest" />
+	<item id="MissionErr.NoFirstPass" msg="此关卡无首次通关记录" msg_cnt="此關卡無首次通關記錄" msg_en="此关卡无首次通关记录" />
+	<item id="MissionErr.NoMoreMission" msg="没有可以领取的任务" msg_cnt="沒有可以領取的任務" msg_en="No quests to accept" />
+	<item id="MissionErr.NoSuchMission" msg="还未领取任务" msg_cnt="還未領取任務" msg_en="Quest not accepted yet" />
+	<item id="MissionErr.NotEnoughConsume" msg="未满足祝福需求" msg_cnt="未滿足祝福需求" msg_en="未满足祝福需求" />
+	<item id="MissionErr.NotEnoughGoods" msg="任务失败：未收集到足够指定的道具" msg_cnt="任務失敗：未收集到足夠指定的道具" msg_en="Quest failed: Did not collect enough items" />
+	<item id="MissionErr.NotEnoughLevel" msg="等级太低" msg_cnt="等級太低" msg_en="Level too low" />
+	<item id="MissionErr.NotEnoughLevelHard" msg="等级太低，不能开启困难任务" msg_cnt="等級太低，不能開啟困難任務" msg_en="Level too low to unlock Difficult quests" />
+	<item id="MissionErr.NotInBattle" msg="还未进入关卡" msg_cnt="還未進入關卡" msg_en="You have not entered the stage" />
+	<item id="MissionErr.NotKillAll" msg="任务失败：歼灭全部怪物" msg_cnt="任務失敗：殺死全部怪物" msg_en="Quest failed: Killed all monsters" />
+	<item id="MissionErr.NotKillBoss" msg="任务失败：未歼灭指定Boss" msg_cnt="任務失敗：未殺死指定Boss" msg_en="Quest failed: Target boss not killed" />
+	<item id="MissionErr.NotKillEnoughMonster" msg="任务失败：未歼灭足够指定的怪物" msg_cnt="任務失敗：未殺死足夠指定的怪物" msg_en="Quest failed: Did not kill enough monsters" />
+	<item id="MissionErr.NotMatchCond" msg="未符合条件" msg_cnt="未符合條件" msg_en="Requirements not met" />
+	<item id="MissionErr.NotMatchTime" msg="当前时间不开放此任务" msg_cnt="當前時間不開放此任務" msg_en="Quest is not available at the current time" />
+	<item id="MissionErr.NotOpen" msg="此关卡还未通关，不能开启祝福" msg_cnt="此關卡還未通關，不能開啟祝福" msg_en="此关卡还未通关，不能开启祝福" />
+	<item id="MissionErr.NotOpenStory" msg="还未开启剧情" msg_cnt="還未開啟劇情" msg_en="You have not unlocked the story" />
+	<item id="MissionErr.NotSceneObject" msg="任务场景中没有此场景物体" msg_cnt="任務場景中沒有此場景物體" msg_en="任务场景中没有此场景物体" />
+	<item id="MissionErr.NotTriggerStory" msg="不可触发的剧情" msg_cnt="不可觸發的劇情" msg_en="Story cannot be triggered" />
+	<item id="MissionErr.OpenBoxRepeat" msg="重复打开宝箱{0}" msg_cnt="重複打開寶箱%s" msg_en="Opened Chest %s again" />
+	<item id="MissionErr.PreMission" msg="前置任务还未完成" msg_cnt="前置任務還未完成" msg_en="Previous quest incomplete" />
+	<item id="MissionErr.RsyncBattleDataError" msg="同步战斗数据出错" msg_cnt="同步戰鬥數據出錯" msg_en="同步战斗数据出错" />
+	<item id="MissionErr.SpecifiedHero" msg="需要指定的主控英雄才能领取任务" msg_cnt="需要指定的主控英雄才能領取任務" msg_en="Quest can only be picked up if you have the required main hero" />
+	<item id="MissionErr.Undefined" msg="未定义的类型" msg_cnt="未定義的類型" msg_en="Undefined type" />
+	<item id="NotInReqTeam.GameErr" msg="您不在之前的队伍中，无法进行此操作" msg_cnt="您不在之前的隊伍中，無法進行此操作" msg_en="您不再之前的隊伍中，無法進行此操作" />
+	<item id="OracleErr.Completed" msg="该神谕已完成" msg_cnt="該神諭已完成" msg_en="Oracle has been completed" />
+	<item id="OracleErr.Dumplicate" msg="已经挑战过" msg_cnt="已經挑戰過" msg_en="Already challenged" />
+	<item id="OracleErr.Expired" msg="该神谕已过期" msg_cnt="該神諭已過期" msg_en="Oracle has expired" />
+	<item id="OracleErr.InvalidLevel" msg="等级不符合要求" msg_cnt="等級不符合要求" msg_en="Level requirement not met" />
+	<item id="OracleErr.InvalidPos" msg="正在被其他玩家挑战" msg_cnt="正在被其他玩家挑戰" msg_en="Being challenged by another player" />
+	<item id="OracleErr.InviteInterval" msg="每10分钟才能再次发送信息" msg_cnt="每10分鐘才能再次發送資訊" msg_en="Messages can be sent once every 10 minutes" />
+	<item id="OracleErr.NoBattle" msg="未协助神谕战斗" msg_cnt="未協助神諭戰鬥" msg_en="Did not assist in Oracle battle" />
+	<item id="OracleErr.NotCompleted" msg="神谕还未完成" msg_cnt="神諭還未完成" msg_en="Oracle is incomplete" />
+	<item id="OracleErr.Rewarded" msg="已经领取过奖励" msg_cnt="已經領取過獎勵" msg_en="Reward has been claimed" />
+	<item id="OutfitErr.AlreadyPunched" msg="打孔次数超过规定次数" msg_cnt="打孔次數超過規定次數" msg_en="Punch times exceeded specified times" />
+	<item id="OutfitErr.Binded" msg="此装备已绑定其他英雄" msg_cnt="此裝備已綁定其他英雄" msg_en="Equipment is already bound to another hero" />
+	<item id="OutfitErr.CannotDecompose" msg="不能分解" msg_cnt="不能分解" msg_en="Cannot salvage" />
+	<item id="OutfitErr.CanNotGrade" msg="此装备不可强化" msg_cnt="此裝備不可強化" msg_en="" />
+	<item id="OutfitErr.Equiped" msg="已穿戴的装备不能执行此操作" msg_cnt="已穿戴的裝備不能執行此操作" msg_en="Cannot perform this action on equipped gear" />
+	<item id="OutfitErr.FillValueEnough" msg="填充值已满" msg_cnt="填充值已滿" msg_en="FillValue Enough" />
+	<item id="OutfitErr.FillValueNotEnough" msg="填充值不足" msg_cnt="填充值不足" msg_en="FillValue Not Enough" />
+	<item id="OutfitErr.GemCanNotCombine" msg="该宝石不能合成" msg_cnt="該寶石不能合成" msg_en="This gem cannot be fused" />
+	<item id="OutfitErr.GemConfigError" msg="宝石属性配置错误" msg_cnt="寶石屬性配置錯誤" msg_en="宝石属性配置错误" />
+	<item id="OutfitErr.GemContainerDifference" msg="同种母矿才能融合" msg_cnt="同種母礦才能融合" msg_en="The same parent ore can fuse" />
+	<item id="OutfitErr.GemContainerIdentifyAgain" msg="母矿重复鉴定" msg_cnt="母礦重複鑒定" msg_en="Repeated identification of parent ore" />
+	<item id="OutfitErr.GemContainerInserted" msg="母矿已镶嵌,不能进行此操作" msg_cnt="母礦已鑲嵌,不能進行此操作" msg_en="The mother mine has been inlaid and cannot be operated on" />
+	<item id="OutfitErr.GemContainerNotIdentify" msg="母矿未鉴定" msg_cnt="母礦未鑒定" msg_en="Mother mine not certified" />
+	<item id="OutfitErr.GemContainerOverdue" msg="母矿已过期" msg_cnt="母礦已過期" msg_en="" />
+	<item id="OutfitErr.GemInsertTargetInvalid" msg="镶嵌部位相符的小宝石才能储存" msg_cnt="鑲嵌部位相符的小寶石才能儲存" msg_en="Small stones that fit in place to store them" />
+	<item id="OutfitErr.GemLevelInvalid" msg="宝石等级不能大于装备等级" msg_cnt="寶石等級不能大於裝備等級" msg_en="Gem level shall not be greater than equipment level" />
+	<item id="OutfitErr.GoodsCanNotFillSlot" msg="此道具不能用于填充装备魔法槽位" msg_cnt="此道具不能用於填充裝備魔法槽位" msg_en="" />
+	<item id="OutfitErr.HeroLimit" msg="指定英雄才能佩戴此装备" msg_cnt="指定英雄才能佩戴此裝備" msg_en="Only equippable by specific heroes" />
+	<item id="OutfitErr.HeroTypeLimit" msg="英雄的属性与此装备不合" msg_cnt="英雄的屬性與此裝備不合" msg_en="Hero type does not match equipment" />
+	<item id="OutfitErr.HoleNumMax" msg="孔数已达上限" msg_cnt="孔數已達上限" msg_en="Maximum number of slots reached" />
+	<item id="OutfitErr.HoleNumNotEnough" msg="装备孔数量不足" msg_cnt="裝備孔數量不足" msg_en="Insufficient Equipment slots" />
+	<item id="OutfitErr.InsertSameGemType" msg="不能再次镶嵌同类宝石" msg_cnt="不能再次鑲嵌同類寶石" msg_en="Cannot embed another gem of the same type" />
+	<item id="OutfitErr.InsertTypeInvalid" msg="不能镶嵌在此部位的装备" msg_cnt="不能鑲嵌在此部位的裝備" msg_en="Cannot embed in this piece of equipment" />
+	<item id="OutfitErr.LevelLimit" msg="英雄等级不足" msg_cnt="英雄等級不足" msg_en="Hero level is too low" />
+	<item id="OutfitErr.MaxGrade" msg="此装备已经强化到最高等级" msg_cnt="此裝備已經強化到最高等級" msg_en="Equipment cannot be enhanced further" />
+	<item id="OutfitErr.NeedSelectAttr" msg="请先选择装备属性" msg_cnt="請先選擇裝備屬性" msg_en="" />
+	<item id="OutfitErr.NoExtendGem" msg="没有可继承的宝石" msg_cnt="沒有可繼承的寶石" msg_en="沒有可繼承的寶石" />
+	<item id="OutfitErr.NoFashion" msg="未收集这件时装" msg_cnt="未收集這件時裝" msg_en="" />
+	<item id="OutfitErr.NoFillers" msg="此没有填充道具，不能回溯" msg_cnt="此沒有填充道具，不能回溯" msg_en="" />
+	<item id="OutfitErr.NoNeedForce" msg="无需使用钻石提高成功率" msg_cnt="無需使用鑽石提高成功率" msg_en="Soulcore not required to increase success rate" />
+	<item id="OutfitErr.NoSuchGemContainer" msg="母矿不存在" msg_cnt="母礦不存在" msg_en="Mother mine does not exist" />
+	<item id="OutfitErr.NoSuchLottery" msg="无此装备的数据" msg_cnt="無此裝備的數據" msg_en="No data for this equip" />
+	<item id="OutfitErr.NoSuchOutfit" msg="装备不存在" msg_cnt="裝備不存在" msg_en="Equipment not found" />
+	<item id="OutfitErr.NotBinded" msg="此装备还未绑定" msg_cnt="此裝備還未綁定" msg_en="Equipment is not bound to any hero" />
+	<item id="OutfitErr.NotEquiped" msg="未穿戴的装备" msg_cnt="未穿戴的裝備" msg_en="Unequipped gear" />
+	<item id="OutfitErr.NotGem" msg="非宝石" msg_cnt="非寶石" msg_en="Non precious stone" />
+	<item id="OutfitErr.NotGemContainer" msg="非母矿" msg_cnt="非母礦" msg_en="Non parent ore" />
+	<item id="OutfitErr.NoThisGem" msg="没有镶嵌这个宝石" msg_cnt="沒有鑲嵌這個寶石" msg_en="Gem not embedded" />
+	<item id="OutfitErr.NotIdentified" msg="此装备还未鉴定" msg_cnt="此裝備還未鑒定" msg_en="Equipment has not been identified" />
+	<item id="OutfitErr.NotOutfit" msg="非装备物品" msg_cnt="非裝備物品" msg_en="Not equipment" />
+	<item id="OutfitErr.NotValidGoods" msg="不是指定的填充物品" msg_cnt="不是指定的填充物品" msg_en="Is not a specified fill item" />
+	<item id="OutfitErr.NoUnbindItem" msg="解绑道具数量不足" msg_cnt="解綁道具數量不足" msg_en="Insufficient Unbind items" />
+	<item id="OutfitErr.OnlyOneGemContainerEnable" msg="每个装备只能镶嵌一个母矿" msg_cnt="每個裝備只能鑲嵌一個母礦" msg_en="Each equipment can only be fitted with a mother mine" />
+	<item id="OutfitErr.OutfitNotEnougnSlot" msg="装备魔法槽位不足" msg_cnt="裝備魔法槽位不足" msg_en="" />
+	<item id="OutfitErr.OutfitNotUpgrade" msg="装备未强化，不能作为传承装备" msg_cnt="裝備未強化，不能作為傳承裝備" msg_en="" />
+	<item id="OutfitErr.OutfitOverdue" msg="装备已过期" msg_cnt="裝備已過期" msg_en="" />
+	<item id="OutfitErr.OutfitNotOverdue" msg="装备未过期" msg_cnt="裝備未過期" msg_en="" />
+	<item id="OutfitErr.OutfitUpgraded" msg="装备已强化，不能作为继承装备" msg_cnt="裝備已強化，不能作為繼承裝備" msg_en="" />
+	<item id="OutfitErr.OutfitUpgradeLvMax" msg="目标装备无法继承过高的强化等级" msg_cnt="目標裝備無法繼承過高的強化等級" msg_en="目標裝備無法繼承過高的強化等級" />
+	<item id="OutfitErr.RecastAttrTypeError" msg="固定属性attr和随机属性randAttr才能重铸" msg_cnt="固定屬性attr和隨機屬性randAttr才能重鑄" msg_en="" />
+	<item id="OutfitErr.RecastIndexError" msg="熔铸属性下标不正确" msg_cnt="熔鑄屬性下標不正確" msg_en="" />
+	<item id="OutfitErr.SlotFillerComposeNeedSameLevel" msg="需要同等级材料才能合成" msg_cnt="需要同等級材料才能合成" msg_en="" />
+	<item id="OutfitErr.SuperGemExist" msg="已存在更强大或同等级的同类宝石" msg_cnt="已存在更強大或同等級的同類寶石" msg_en="A more powerful or homogeneous Gemstone of the same rank" />
+	<item id="OutfitErr.SameUniqueId" msg="使用了相同的唯一ID" msg_cnt="使用了相同的唯一ID" msg_en="使用了相同的唯一ID" />
+	<item id="PayErr.DStoreIsNull" msg="玩家商城数据为空" msg_cnt="玩家商城數據為空" msg_en="玩家商城数据为空" />
+	<item id="PayErr.ShelfIdNull" msg="玩家商城信息中没有此货架" msg_cnt="玩家商城資訊中沒有此貨架" msg_en="玩家商城信息中没有此货架" />
+	<item id="PetErr.IsOnePet" msg="同一只宠物不能觉醒" msg_cnt="同一只寵物不能覺醒" msg_en="同一只宠物不能觉醒" />
+	<item id="PetErr.LevelErr" msg="宠物等级不足，无法觉醒" msg_cnt="寵物等級不足，無法覺醒" msg_en="宠物等级不足，无法觉醒" />
+	<item id="petErr.MaxNum" msg="宠物数量超过最大值" msg_cnt="寵物數量超過最大值" msg_en="宠物数量超过最大值" />
+	<item id="PetErr.NotEnoughLevel" msg="宠物等级不足" msg_cnt="寵物等級不足" msg_en="宠物等级不足" />
+	<item id="PetErr.NotEnoughPleayerLevel" msg="玩家等级不足，无法解锁第{0}栏位" msg_cnt="玩家等級不足，無法解鎖第%s欄位" msg_en="玩家等级不足，无法解锁第%s栏位" />
+	<item id="PetErr.NotEnoughTrainExp" msg="培养经验不足" msg_cnt="培養經驗不足" msg_en="培养经验不足" />
+	<item id="PetErr.NotExist" msg="宠物不存在" msg_cnt="寵物不存在" msg_en="宠物不存在" />
+	<item id="PetErr.NotPet" msg="{0}不是宠物" msg_cnt="%s不是寵物" msg_en="%s不是宠物" />
+	<item id="PetErr.NotSamePet" msg="不是同一种宠物" msg_cnt="不是同一種寵物" msg_en="不是同一种宠物" />
+	<item id="PetErr.PetInTeam" msg="阵容中宠物不能分解" msg_cnt="陣容中寵物不能分解" msg_en="阵容中宠物不能分解" />
+	<item id="PetErr.PetLevelBigger" msg="提升角色等级后可升级宠物" msg_cnt="提升角色等級後可升級寵物" msg_en="提升角色等级后可升级宠物" />
+	<item id="PetErr.SamePetInTeam" msg="同类型宠物不能上阵" msg_cnt="同類型寵物不能上陣" msg_en="同类型宠物不能上阵" />
+	<item id="PetErr.StageAwakeErr" msg="已达到最高觉醒阶" msg_cnt="已達到最高覺醒階" msg_en="已达到最高觉醒阶" />
+	<item id="PetErr.StarErr" msg="宠物星级不足，无法觉醒" msg_cnt="寵物星級不足，無法覺醒" msg_en="宠物星级不足，无法觉醒" />
+	<item id="PetErr.StarFull" msg="宠物星级已满" msg_cnt="寵物星級已滿" msg_en="宠物星级已满" />
+	<item id="PetErr.TrainExpFull" msg="培养经验已满" msg_cnt="培養經驗已滿" msg_en="培养经验已满" />
+	<item id="PetErr.ValueFull" msg="饱食度已满" msg_cnt="飽食度已滿" msg_en="饱食度已满" />
+	<item id="PotionErr.NotFitOutPotion" msg="药水没有装备，无法卸下" msg_cnt="藥水沒有裝備，無法卸下" msg_en="药水没有装备，无法卸下" />
+	<item id="PotionErr.NotPotion" msg="非消耗药水，无法装备" msg_cnt="非消耗藥水，無法裝備" msg_en="非消耗药水，无法装备" />
+	<item id="PotionErr.OrderIncorrect" msg="药水装备顺序不正确" msg_cnt="藥水裝備順序不正確" msg_en="药水装备顺序不正确" />
+	<item id="PotionErr.PotionAlreadyFitOut" msg="此药水已经装备，无法进行此操作" msg_cnt="此藥水已經裝備，無法進行此操作" msg_en="此药水已经装备，无法进行此操作" />
+	<item id="PotionErr.PotionSlotFull" msg="药剂装备栏已满，请先卸下药剂后再装备" msg_cnt="藥劑裝備欄已滿，請先卸下藥劑後再裝備" msg_en="药剂装备栏已满，请先卸下药剂后再装备" />
+	<item id="PotionErr.PotionSlotNotExist" msg="槽位不存在" msg_cnt="槽位不存在" msg_en="槽位不存在" />
+	<item id="PotionErr.PotionSlotNotMatch" msg="卸下药水和槽位不匹配" msg_cnt="卸下藥水和槽位不匹配" msg_en="卸下药水和槽位不匹配" />
+	<item id="PotionErr.SlotAlreadyFitOutPotion" msg="此槽位已经装备其他药水" msg_cnt="此槽位已經裝備其他藥水" msg_en="此槽位已经装备其他药水" />
+	<item id="PotionErr.SlotNotUnlocked" msg="此槽位未解锁" msg_cnt="此槽位未解锁" msg_en="此槽位未解锁" />
+	<item id="PrivilegeCardErr.CanNotUseThisLevel" msg="不能使用这个等级的特权卡" msg_cnt="不能使用這個等級的特權卡" msg_en="不能使用这个等级的特权卡" />
+	<item id="PrivilegeCardErr.NoReward" msg="没有奖励可领取" msg_cnt="沒有獎勵可領取" msg_en="No rewards" />
+	<item id="PrivilegeCardErr.NoThisCard" msg="没有购买这张特权卡" msg_cnt="沒有購買這張特權卡" msg_en="You have not purchased this Privilege Card" />
+	<item id="PrivilegeCardErr.OverlayMax" msg="达到叠加上限" msg_cnt="達到疊加上限" msg_en="达到叠加上限" />
+	<item id="PrivilegeCardErr.CardOverdue" msg="会员卡已过期" msg_cnt="會員卡已過期" msg_en="会员卡已过期" />
+	<item id="PrivilegeCardErr.ExtraDayLimit" msg="未达到指定天数，不能领取额外奖励" msg_cnt="未達到指定天數，不能領取額外獎勵" msg_en="未达到指定天数，不能领取额外奖励" />
+	<item id="PrivilegeCardErr.RewardTimeout" msg="超出领奖时间" msg_cnt="超出領獎時間" msg_en="" />
+	<item id="PVPRankErr.NoSeasonData" msg="当前没有排位赛" msg_cnt="當前沒有排位賽" msg_en="No Ranking Battles" />
+	<item id="PVPRankErr.NotEnoughArenaLevel" msg="竞技场等级未达到要求" msg_cnt="競技場等級未達到要求" msg_en="Arena level requirement not met" />
+	<item id="PVPRankErr.NotEnoughHero" msg="至少需要{0}个{1}级的英雄" msg_cnt="至少需要%s個%s級的英雄" msg_en="Need at least %s Level %s heroes" />
+	<item id="PVPRankErr.SeasonEnd" msg="赛季已经结束" msg_cnt="賽季已經結束" msg_en="Season has ended" />
+	<item id="PVPRankErr.SeasonNotStart" msg="还未到排位赛开启时间" msg_cnt="還未到排位賽開啟時間" msg_en="Ranking Battles are not available yet" />
+	<item id="QueueErr.ExpiredSign" msg="登录校验已经过期" msg_cnt="登錄校驗已經過期" msg_en="Authentication has expired" />
+	<item id="QueueErr.FailLogin" msg="登录失败" msg_cnt="登錄失敗" msg_en="Failed to log in" />
+	<item id="QueueErr.InvalidSign" msg="登录校验失败" msg_cnt="登錄校驗失敗" msg_en="Authentication failed" />
+	<item id="QueueErr.NotLogin" msg="你还未登录" msg_cnt="你還未登錄" msg_en="You are not logged in" />
+	<item id="RiftErr.CannotUseBottle" msg="暗影魔境不能使用回复药" msg_cnt="暗影魔境不能使用回復藥" msg_en="阿比斯魔境不能使用回复药" />
+	<item id="RiftErr.InvalidRift" msg="没有此魔境信息" msg_cnt="沒有此魔境資訊" msg_en="没有此魔境信息" />
+	<item id="RiftErr.InvalidType" msg="不存在的魔境类型" msg_cnt="不存在的魔境類型" msg_en="不存在的魔境类型" />
+	<item id="RiftErr.LevelNotEnough" msg="账号等级不足{0}级，无法进入" msg_cnt="帳號等級不足%s級，無法進入" msg_en="账号等级不足%s级，无法进入" />
+	<item id="RiftErr.MaxCount" msg="已达到最大挑战次数" msg_cnt="已達到最大挑戰次數" msg_en="已达到最大挑战次数" />
+	<item id="RiftErr.MaxLayer" msg="所选层数超出了你的能力" msg_cnt="所選層數超出了你的能力" msg_en="所选层数超出了你的能力" />
+	<item id="RiftErr.NoSuchMap" msg="地图已经被销毁" msg_cnt="地圖已經被銷毀" msg_en="地图已经被销毁" />
+	<item id="RiftErr.NoSuchRift" msg="魔境已经被销毁" msg_cnt="魔境已經被銷毀" msg_en="魔境已经被销毁" />
+	<item id="RiftErr.NoSuchStage" msg="魔境阶段配置错误" msg_cnt="魔境階段配置錯誤" msg_en="魔境阶段配置错误" />
+	<item id="RiftErr.TransferCodeTime" msg="传送冷却中，请稍后再试" msg_cnt="傳送冷卻中，請稍後再試" msg_en="傳送冷卻中，請稍後再試" />
+	<item id="ShopErr.Arrived" msg="已经回来了" msg_cnt="已經回來了" msg_en="Your hero has returned" />
+	<item id="ShopErr.Expire" msg="商品信息已过期" msg_cnt="商品資訊已過期" msg_en="Item info has expired" />
+	<item id="ShopErr.GoodsCanNotSell" msg="该物品不能出售" msg_cnt="該物品不能出售" msg_en="Item cannot be sold" />
+	<item id="ShopErr.MaxRefreshCount" msg="已经达到最大刷新次数" msg_cnt="已經達到最大刷新次數" msg_en="Refresh limit has been reached" />
+	<item id="ShopErr.NotMatch" msg="不符合购买要求" msg_cnt="不符合購買要求" msg_en="Purchase requirement not met" />
+	<item id="ShopErr.NotSimpleGoods" msg="此物品不能换成魔力值" msg_cnt="此物品不能換成魔力值" msg_en="Item cannot be converted to MP" />
+	<item id="ShopErr.SameTimeOnlyOne" msg="同一时间只能派遣一个英雄" msg_cnt="同一時間只能派遣一個英雄" msg_en="You can only send one hero at a time" />
+	<item id="ShopErr.SoldOut" msg="此物品已经卖出" msg_cnt="此物品已經賣出" msg_en="Item has been sold" />
+	<item id="ShopErr.WaitCDOver" msg="等待CD结束" msg_cnt="等待CD結束" msg_en="Waiting for cooldown" />
+	<item id="SkillErr.HeroDead" msg="英雄已经阵亡" msg_cnt="英雄已經阵亡" msg_en="Hero has died" />
+	<item id="SkillErr.InvalidPos" msg="无效的技能释放位置" msg_cnt="非法的技能釋放位置" msg_en="Skill cannot be used here" />
+	<item id="SkillErr.InvalidPosRequest" msg="无效的修正位置请求" msg_cnt="無效的修正位置請求" msg_en="Invalid positioning request" />
+	<item id="SkillErr.InvalidSkillType" msg="无效的技能类型" msg_cnt="非法的技能類型" msg_en="Invalid skill type" />
+	<item id="SkillErr.InvalidTargetDistance" msg="目标距离太远" msg_cnt="目標距離太遠" msg_en="Target is too far" />
+	<item id="SkillErr.InvalidTargetPos" msg="无效的目标位置" msg_cnt="非法的目標位置" msg_en="Skill cannot be used on that target" />
+	<item id="SkillErr.NoSuchSkill" msg="没有此技能" msg_cnt="沒有此技能" msg_en="Skill not found" />
+	<item id="SkillErr.NotEngouthEngine" msg="能量不足" msg_cnt="能量不足" msg_en="Insufficient energy" />
+	<item id="StoreErr.CanNotBuy" msg="已无法再次购买此商品" msg_cnt="已無法再次購買此商品" msg_en="已无法再次购买此商品" />
+	<item id="StoreErr.ExceedingMaximum" msg="此商品一次最多只能购买{0}件" msg_cnt="此商品一次最多只能購買%s件" msg_en="此商品一次最多只能购买%s件" />
+	<item id="StoreErr.NeedToReflush" msg="请重新刷新商店" msg_cnt="請重新刷新商店" msg_en="Please refresh Store" />
+	<item id="StoreErr.NeedToRefresh" msg="该商品已经过期" msg_cnt="該商品已經過期" msg_en="Item has expired" />
+	<item id="StoreErr.NoShelfType" msg="没有此类型的货架" msg_cnt="沒有此類型的貨架" msg_en="" />
+	<item id="StoreErr.NotAreaID" msg="无效商柜ID" msg_cnt="非法商櫃ID" msg_en="Invalid Stock ID" />
+	<item id="StoreErr.NotBuyKey" msg="兑换类型不存在" msg_cnt="兌換類型不存在" msg_en="Exchange type does not exist" />
+	<item id="StoreErr.NotExist" msg="商品不存在" msg_cnt="商品不存在" msg_en="Item does not exist" />
+	<item id="StoreErr.NotFixedShlef" msg="固定货架才能批量购买" msg_cnt="固定貨架才能批量購買" msg_en="" />
+	<item id="StoreErr.NotSelectionShelf" msg="不是选择货架" msg_cnt="不是選擇貨架" msg_en="" />
+	<item id="StoreErr.PrivilegedCardNotSuperimposed" msg="特权卡不可叠加" msg_cnt="特權卡不可疊加" msg_en="特权卡不可叠加" />
+	<item id="StoreErr.ProductDescNotExist" msg="商品描述配置不存在" msg_cnt="商品描述配置不存在" msg_en="商品描述配置不存在" />
+	<item id="StoreErr.SellLimit" msg="该商品已达到当天购买上限" msg_cnt="該商品已達到當天購買上限" msg_en="Item is sold out" />
+	<item id="StoreErr.ShelfErr" msg="物品所在货架不正确" msg_cnt="物品所在貨架不正確" msg_en="物品所在货架不正确" />
+	<item id="StoreErr.ShelfNoThisCommodity" msg="货架上没有此商品" msg_cnt="貨架上沒有此商品" msg_en="货架上没有此商品" />
+	<item id="StoreErr.StoreGiftTimeNotYet" msg="未到领取时间" msg_cnt="未到領取時間" msg_en="The time is not yet" />
+	<item id="SystemErr.Busy" msg="系统繁忙，请稍后再试" msg_cnt="系統繁忙，請稍後再試" msg_en="System busy, please try again later" />
+	<item id="SystemErr.ConfigError" msg="{0}配置错误" msg_cnt="%s配置錯誤" msg_en="%sSetting error" />
+	<item id="SystemErr.ConfigNotExist" msg="配置不存在" msg_cnt="配置不存在" msg_en="Setting does not exist" />
+	<item id="SystemErr.DBSignError" msg="数据不一致，请确认是否登录错误的服务器" msg_cnt="數據不一致，請確認是否登錄錯誤的伺服器" msg_en="Data mismatch. Please make sure you are logged into the right server" />
+	<item id="SystemErr.Error" msg="系统错误" msg_cnt="系統錯誤" msg_en="System error" />
+	<item id="SystemErr.FailCheckIllegalWord" msg="检查敏感字失败" msg_cnt="檢查敏感字失敗" msg_en="Failed to check for sensitive words" />
+	<item id="SystemErr.FailInitIllegalWords" msg="初始化敏感字失败" msg_cnt="初始化敏感字失敗" msg_en="Failed to initialize sensitive words" />
+	<item id="SystemErr.FailReconnect" msg="网络重连失败，请重新登录" msg_cnt="網路重連失敗，請重新登錄" msg_en="" />
+	<item id="SystemErr.FailResumeLogin" msg="恢复登录失败" msg_cnt="恢復登錄失敗" msg_en="Failed to recover login" />
+	<item id="SystemErr.HighLoad" msg="服务器人数爆满，请稍后再试" msg_cnt="伺服器人數爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.HighLoad_BS" msg="服务器(bs)爆满，请稍后再试" msg_cnt="伺服器(bs)爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.HighLoad_MS" msg="服务器(ms)爆满，请稍后再试" msg_cnt="伺服器(ms)爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.HighLoad_PS" msg="服务器(ps)爆满，请稍后再试" msg_cnt="伺服器(ps)爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.HighLoad_SS" msg="服务器(ss)爆满，请稍后再试" msg_cnt="伺服器(ss)爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.HighLoad_WS" msg="服务器(ws)爆满，请稍后再试" msg_cnt="伺服器(ws)爆滿，請稍後再試" msg_en="" />
+	<item id="SystemErr.InSceneFail" msg="进入场景失败" msg_cnt="進入場景失敗" msg_en="进入场景失败" />
+	<item id="SystemErr.InvalidData" msg="无效的数据" msg_cnt="非法的數據" msg_en="Invalid data" />
+	<item id="SystemErr.JsonErr" msg="JSON配置错误" msg_cnt="JSON配置錯誤" msg_en="JSON error" />
+	<item id="SystemErr.KickOffline" msg="您已被踢下线，请重新登录" msg_cnt="您已被踢下線，請重新登錄" msg_en="您已被踢下線，請重新登錄" />
+	<item id="SystemErr.KillRepeat" msg="重复歼灭怪物{0}" msg_cnt="重複殺死怪物%s" msg_en="Killed %s again" />
+	<item id="SystemErr.LoginElsewhere" msg="账号在别处登录" msg_cnt="帳號在別處登錄" msg_en="Account is logged in from another location" />
+	<item id="SystemErr.LoginNetError" msg="连接登录服异常，请重新登录游戏" msg_cnt="連接登錄服異常，請重新登錄遊戲" msg_en="" />
+	<item id="SystemErr.LsNotRegister" msg="登录服没有连接" msg_cnt="登錄服沒有連接" msg_en="Not connected to login server" />
+	<item id="SystemErr.MaxOnlineCount" msg="服务器已满员" msg_cnt="伺服器已滿員" msg_en="Server is full" />
+	<item id="SystemErr.NoSceneServer" msg="服务器(ss)繁忙，请稍后再试" msg_cnt="伺服器(ss)繁忙，請稍後再試" msg_en="" />
+	<item id="SystemErr.NoSuchMonster" msg="没有{0}此怪物" msg_cnt="沒有%s此怪物" msg_en="Monster %s not found" />
+	<item id="SystemErr.NotInScene" msg="还没有进入场景" msg_cnt="還沒有進入場景" msg_en="Not zoned in" />
+	<item id="SystemErr.NotLogin" msg="未登录" msg_cnt="未登錄" msg_en="Not logged in" />
+	<item id="SystemErr.NotOpen" msg="功能还未开放" msg_cnt="功能還未開放" msg_en="Feature is not available yet" />
+	<item id="SystemErr.NotReconnect" msg="网络重连还未成功，请重新登录" msg_cnt="網路重連還未成功，請重新登錄" msg_en="" />
+	<item id="SystemErr.NotSimpleGoods" msg="此物品不能换成魔力值" msg_cnt="此物品不能換成魔力值" msg_en="Item cannot be converted to MP" />
+	<item id="SystemErr.NotSync" msg="数据不同步" msg_cnt="數據不同步" msg_en="Data is not synchronized" />
+	<item id="SystemErr.NoWorldServer" msg="服务器(ws)繁忙，请稍后再试" msg_cnt="伺服器(ws)繁忙，請稍後再試" msg_en="" />
+	<item id="SystemErr.ParameterError" msg="参数错误{0}" msg_cnt="參數錯誤%s" msg_en="Parameter error %s" />
+	<item id="SystemErr.PsNotRegister" msg="代理服没有连接" msg_cnt="代理服沒有連接" msg_en="Not connected to agency server" />
+	<item id="SystemErr.ServerClosed" msg="服务器维护中，请稍后再试" msg_cnt="伺服器維護中，請稍後再試" msg_en="Server is under maintenance, please try again later" />
+	<item id="SystemErr.SessionDeadline" msg="登录授权过期，请重新登录。" msg_cnt="登錄授權過期，請重新登錄。" msg_en="登錄授權過期，請重新登錄。" />
+	<item id="SystemErr.NoRelationServer" msg="服务器繁忙，请稍后再试。(RS)" msg_cnt="伺服器繁忙，請稍後再試。(RS)" msg_en="伺服器繁忙，請稍後再試。(RS)" />
+	<item id="SystemErr.SignError" msg="请尝试重新登陆游戏解决此问题（Sign值校验错误）" msg_cnt="" msg_en="" />
+	<item id="SystemErr.TooOfen" msg="请求过于频繁" msg_cnt="請求過於頻繁" msg_en="" />
+	<item id="SystemErr.ZoneIdError" msg="zoneId{0}不正确" msg_cnt="zoneId%s不正確" msg_en="Incorrect zoneId %s" />
+	<item id="SystemErr.DiscardProto" msg="协议已废弃,{0}" msg_cnt="协议已废弃,%s" msg_en="协议已废弃,%s" />
+	<item id="TeamErr.AlreadyJoinTeam" msg="玩家已在队伍中，无需重复邀请" msg_cnt="玩家已經入隊,無需重複邀請" msg_en="玩家已經入隊,無需重複邀請" />
+	<item id="TeamErr.CanNotOperate" msg="可在主城中执行此操作" msg_cnt="當前位置無法執行此操作" msg_en="" />
+	<item id="TeamErr.ChangeTeamLeaderFail" msg="转让队长失败（队友数据异常）" msg_cnt="隊員數據異常，轉讓隊長失敗" msg_en="隊員資料異常，轉讓隊長失敗" />
+	<item id="TeamErr.ForceCountLimit" msg="当前挑战任务次数已达上限（凌晨5点重置此次数）" msg_cnt="已達到最大任務次數" msg_en="Quest attempt limit has been reached" />
+	<item id="TeamErr.HasInTeam" msg="已有队伍，退队后可加入" msg_cnt="已經有隊伍了" msg_en="Already on a team" />
+	<item id="TeamErr.KickLeader" msg="不能把队长踢出队伍" msg_cnt="不能踢隊長" msg_en="Cannot kick captain" />
+	<item id="TeamErr.KickMyself" msg="不能把自己踢出队伍" msg_cnt="不能踢自己" msg_en="" />
+	<item id="TeamErr.MembersNotCity" msg="有队员不在主城，无法组队出发" msg_cnt="有隊員不在主城，無法組隊出發" msg_en="" />
+	<item id="TeamErr.MembersNotCityOrTeamPlace" msg="有队员不在主城或者集会所，无法进行队长转让" msg_cnt="有隊員不在主城或者集會所，無法進行隊長轉讓" msg_en="有队员不在主城或者集会所，无法进行队长转让" />
+	<item id="TeamErr.NoSuchMember" msg="当前队伍无此成员" msg_cnt="不是隊伍成員" msg_en="Not on a team" />
+	<item id="TeamErr.NoSuchTeam" msg="申请加入的队伍不存在" msg_cnt="隊伍不存在" msg_en="Team not found" />
+	<item id="TeamErr.NotApplyList" msg="此玩家不在申请列表内" msg_cnt="目標玩家不在申請列表中" msg_en="" />
+	<item id="TeamErr.NotChangeWorldTeamLeader" msg="{0}地图任务进行中，无法转让队长" msg_cnt="%s地圖任務進行中，無法轉讓隊長" msg_en="%s地圖任務進行中，無法轉讓隊長" />
+	<item id="TeamErr.NotCity" msg="在主城中可执行此操作" msg_cnt="您不在主城，無法執行此操作" msg_en="" />
+	<item id="TeamErr.NoTeamSearched" msg="未匹配到符合条件的队伍" msg_cnt="未匹配到合適的隊伍" msg_en="Could not find a suitable team" />
+	<item id="TeamErr.NotInReqTeam" msg="您不在当前发出请求出发的队伍中，无法执行此操作" msg_cnt="您不在當前發出請求出發的隊伍中，無法執行此操作" msg_en="" />
+	<item id="TeamErr.NotInTeam" msg="尚未加入队伍，无法执行此操作" msg_cnt="還未加入隊伍,不能執行此操作" msg_en="Not on a team, cannot take this action" />
+	<item id="TeamErr.NotInvite" msg="在主城中可进行邀请" msg_cnt="當前位置無法進行邀請操作" msg_en="" />
+	<item id="TeamErr.NotLeader" msg="你不是队长，不能执行此操作" msg_cnt="你不是隊長，不能執行此操作" msg_en="Not team captain, cannot take this action" />
+	<item id="TeamErr.NotMatchMission" msg="未符合任务条件" msg_cnt="未符合任務條件" msg_en="Quest requirements not met" />
+	<item id="TeamErr.NotMatchTeam" msg="未符合队伍要求" msg_cnt="未符合隊伍要求" msg_en="Team requirements not met" />
+	<item id="TeamErr.NotTeamPlace" msg="不在组队大厅或者主城" msg_cnt="不在組隊大廳或者主城" msg_en="不在組隊大廳或主城" />
+	<item id="TeamErr.NotTransfer" msg="可在主城中进行队长转让" msg_cnt="此區域不允許隊長轉讓" msg_en="" />
+	<item id="TeamErr.PlayerDataAbnormal" msg="玩家数据异常，无法加入队伍" msg_cnt="玩家數據異常,無法加入隊伍" msg_en="玩家資料異常,無法加入隊伍" />
+	<item id="TeamErr.PosIsFull" msg="这个位置已经有队员了" msg_cnt="這個位置已經有隊員了" msg_en="This slot already has a member" />
+	<item id="TeamErr.PrivateTeam" msg="该队伍不存在或是私密队伍" msg_cnt="該隊伍不存在或是私密隊伍" msg_en="该队伍不存在或是私密队伍" />
+	<item id="TeamErr.RiftIn" msg="对方正常挑战秘境中，无法进行组队" msg_cnt="對方正在挑戰秘境中，暫時無法回應組隊" msg_en="對方正在挑戰秘境中，暫時無法響應組隊" />
+	<item id="TeamErr.RobotTarget" msg="目标不接受此操作" msg_cnt="目標不接受此操作" msg_en="Invalid action on target" />
+	<item id="TeamErr.SingleCanNotPubTask" msg="单人无法进行饭馆任务" msg_cnt="單人無法進行酒館任務" msg_en="" />
+	<item id="TeamErr.TargetHasTeam" msg="该玩家已加入其他队伍" msg_cnt="該玩家已加入其他隊伍" msg_en="該玩家已加入其他隊伍" />
+	<item id="TeamErr.TargetIsOffline" msg="该玩家已下线" msg_cnt="該玩家已下線" msg_en="該玩家已下線" />
+	<item id="TeamErr.TargetNotCityOrTeamPlace" msg="不在组队区域范围内（数据异常，可尝试重新登陆）" msg_cnt="目標不在可組隊的區域範圍內" msg_en="" />
+	<item id="TeamErr.TeamDisband" msg="队伍已解散" msg_cnt="隊伍已解散" msg_en="队伍已解散" />
+	<item id="TeamErr.TeamInFight" msg="队伍已开始战斗" msg_cnt="隊伍已開始戰鬥" msg_en="Battle has started" />
+	<item id="TeamErr.TeamIsFull" msg="队伍已满员" msg_cnt="隊伍已滿員" msg_en="Team is full" />
+	<item id="TeamErr.TeamUnopened" msg="组队功能尚未开启" msg_cnt="組隊功能尚未開啟" msg_en="組隊功能尚未開啟" />
+	<item id="TeamErr.WorldTaskAlreadyAccepted" msg="{0}地图任务进行中，无法离队，请放弃任务后再尝试" msg_cnt="%s地圖任務進行中,無法離隊,請放棄任務後再嘗試" msg_en="%s地圖任務進行中,無法離隊,請放棄任務後再嘗試" />
+	<item id="TeamMatchErr.InMatch" msg="您正在进行匹配，无法进行此操作" msg_cnt="您正在進行匹配，無法進行此操作" msg_en="您正在進行匹配，無法進行此操作" />
+	<item id="TeamMatchErr.InTeamNotMatch" msg="您当前正在组队，无法开始匹配" msg_cnt="您當前正在組隊，無法開始匹配" msg_en="您當前正在組隊，無法開始匹配" />
+	<item id="TeamMatchErr.ItemsNotEnough" msg="您的钥匙不足，无法开始匹配" msg_cnt="您的鑰匙不足，無法開始匹配" msg_en="您的鑰匙不足，無法開始匹配" />
+	<item id="TeamMatchErr.LevelNotEnough" msg="您的账号等级尚未达到{0}级，无法选择此关卡" msg_cnt="您的帳號等級尚未達到%s級，無法選擇此關卡" msg_en="您的帳號等級尚未達到%s級，無法選擇此關卡" />
+	<item id="TeamMatchErr.MatchTypeErr" msg="匹配类型错误" msg_cnt="匹配類型錯誤" msg_en="匹配類型錯誤" />
+	<item id="TeamMatchErr.NotInMatch" msg="不在匹配状态中，无法操作" msg_cnt="不在匹配狀態中，無法操作" msg_en="不在匹配狀態中，無法操作" />
+	<item id="TransferErr.INFIGHT" msg="正在战斗中" msg_cnt="正在戰鬥中" msg_en="In combat" />
+	<item id="TransferErr.NOTEXIST" msg="场景不存在" msg_cnt="場景不存在" msg_en="Zone not found" />
+	<item id="TransferErr.UNKNOW" msg="未知错误" msg_cnt="未知錯誤" msg_en="Unknown error" />
+	<item id="UntieBindingErr.AlreadyUntie" msg="已经是解绑状态，无法解绑" msg_cnt="已經是解綁狀態，無法解綁" msg_en="已经是解绑状态，无法解绑" />
+	<item id="UntieBindingErr.CannotUntie" msg="此物品不可以解绑" msg_cnt="此物品不可以解綁" msg_en="此物品不可以解绑" />
+	<item id="UntieBindingErr.NotEnough" msg="解绑物品数量不够" msg_cnt="解綁物品數量不夠" msg_en="解绑物品数量不够" />
+	<item id="UntieBindingErr.RemoveGem" msg="请拆除装备上面镶嵌的物品之后再进行解绑" msg_cnt="請拆除裝備上面鑲嵌的物品之後再進行解綁" msg_en="请拆除装备上面镶嵌的物品之后再进行解绑" />
+	<item id="UntieBindingErr.TypeUntieBinding" msg="解绑类型错误" msg_cnt="解綁類型錯誤" msg_en="解绑类型错误" />
+	<item id="UserErr.AchievementFinish" msg="成就已结束" msg_cnt="成就已結束" msg_en="Achievement has been completed" />
+	<item id="UserErr.AchievementNotOver" msg="成就未完成" msg_cnt="成就未完成" msg_en="Achievement not yet complete" />
+	<item id="UserErr.BagIsFull" msg="背包已满" msg_cnt="背包已滿" msg_en="Backpack is full" />
+	<item id="UserErr.BindedAccount" msg="已经绑定过其他帐号了" msg_cnt="已經綁定過其他帳號了" msg_en="Already bound to another account" />
+	<item id="UserErr.BindedVisitor" msg="此帐号已经被绑定" msg_cnt="此帳號已經被綁定" msg_en="This account has been bound" />
+	<item id="UserErr.HackAttr" msg="客户端数据异常" msg_cnt="客戶端數據異常" msg_en="客户端数据异常" />
+	<item id="UserErr.HuntingMagicNotOpen" msg="猎魔录未开启" msg_cnt="獵魔錄未開啟" msg_en="Monster Codex has not been unlocked" />
+	<item id="UserErr.InvalidAppId" msg="登录异常" msg_cnt="非法的登錄" msg_en="Invalid login" />
+	<item id="UserErr.InvalidPassword" msg="帐号与密码不匹配" msg_cnt="帳號與密碼不匹配" msg_en="Account name and password do not match" />
+	<item id="UserErr.InvalidPasswordLen" msg="密码必须为6-20个字母或数字" msg_cnt="密碼必須為6-20個字母或數字" msg_en="The password must be 6-20 letters or numbers" />
+	<item id="UserErr.InvalidToken" msg="帐号验证错误" msg_cnt="帳號驗證錯誤" msg_en="Account authentication error" />
+	<item id="UserErr.InvalidUserFormat" msg="请输入正确的邮箱，可使用字母、数字、“.”、“_”、“@”" msg_cnt="請輸入正確的郵箱，可使用字母、數字、“.”、“_”、“@”" msg_en="Please enter your vaild email, letters, numbers, '.', '_', '@' are available" />
+	<item id="UserErr.Kicked" msg="系统主动与你断开链接，请稍后登录" msg_cnt="系統主動與你斷開鏈接，請稍後登錄" msg_en="The system took the initiative to disconnect from you, please login later." />
+	<item id="UserErr.Locked" msg="该账号已封停" msg_cnt="該帳號已封停" msg_en="That account has been suspended" />
+	<item id="UserErr.NetTimeOut" msg="网络异常，校验失败" msg_cnt="網路異常，校驗失敗" msg_en="Network error, authentication failed" />
+	<item id="UserErr.NickExists" msg="该昵称已被占用" msg_cnt="該昵稱已被佔用" msg_en="That nickname is banned" />
+	<item id="UserErr.NickIllegal" msg="名称包含敏感字符{0}" msg_cnt="名稱包含非法字元%s" msg_en="Name contains invalid character %s" />
+	<item id="UserErr.NickLengthError" msg="昵称长度不符,请填写8个字符以内" msg_cnt="昵稱長度不符,請填寫8個字元以內" msg_en="Nickname cannot exceed 8 characters" />
+	<item id="UserErr.NoSuchUser" msg="帐号不存在" msg_cnt="帳號不存在" msg_en="Account does not exist" />
+	<item id="UserErr.NotCity" msg="只能在主城进行此操作" msg_cnt="只能在主城進行此操作" msg_en="只能在主城进行此操作" />
+	<item id="UserErr.NotEnoughAreaScore" msg="竞技场积分不足" msg_cnt="競技場積分不足" msg_en="Insufficient arena points" />
+	<item id="UserErr.NotEnoughBoundIngot" msg="绑定钻石不足" msg_cnt="綁定鑽石不足" msg_en="绑定钻石不足" />
+	<item id="UserErr.NotEnoughBuildPoint" msg="建造度不足" msg_cnt="建造度不足" msg_en="Insufficient construction progress" />
+	<item id="UserErr.NotEnoughChallengePoint" msg="混沌点数不足" msg_cnt="混沌點數不足" msg_en="Insufficient discord points" />
+	<item id="UserErr.NotEnoughChatItem" msg="世界发言道具不足" msg_cnt="世界發言道具不足" msg_en="世界发言道具不足" />
+	<item id="UserErr.NotEnoughContributeCoin" msg="公会贡献币不足" msg_cnt="公會貢獻幣不足" msg_en="公会贡献币不足" />
+	<item id="UserErr.NotEnoughGold" msg="金币不足" msg_cnt="金幣不足" msg_en="Insufficient Gold" />
+	<item id="UserErr.NotEnoughGoldCoin" msg="金币卷不足" msg_cnt="金幣卷不足" msg_en="金币卷不足" />
+	<item id="UserErr.NotEnoughGoods" msg="{0}(道具)不足" msg_cnt="%s(道具)不足" msg_en="Insufficient %s" />
+	<item id="UserErr.NotEnoughHeraldry" msg="纹章不足" msg_cnt="紋章不足" msg_en="Insufficient Crests" />
+	<item id="UserErr.NotEnoughHeroExp" msg="英雄经验不足" msg_cnt="英雄經驗不足" msg_en="英雄经验不足" />
+	<item id="UserErr.NotEnoughIngot" msg="钻石不足" msg_cnt="鑽石不足" msg_en="Insufficient Soulcores" />
+	<item id="UserErr.NotEnoughLevel" msg="角色等级不足" msg_cnt="角色等級不足" msg_en="Character level is too low" />
+	<item id="UserErr.NotEnoughMana" msg="魔力值不足" msg_cnt="魔力值不足" msg_en="Insufficient MP" />
+	<item id="UserErr.NotEnoughMoney" msg="金钱不足" msg_cnt="金錢不足" msg_en="Insufficient Gold" />
+	<item id="UserErr.NotEnoughPlayerExp" msg="玩家经验不足" msg_cnt="玩家經驗不足" msg_en="玩家经验不足" />
+	<item id="UserErr.NotEnoughPveScore" msg="推图积分不足" msg_cnt="推圖積分不足" msg_en="Insufficient tournament points" />
+	<item id="UserErr.NotEnoughSkillPoint" msg="技能点不足" msg_cnt="技能點不足" msg_en="Insufficient skill points" />
+	<item id="UserErr.NotEnoughSocialScore" msg="社交积分不足" msg_cnt="社交積分不足" msg_en="Insufficient social points" />
+	<item id="UserErr.NotEnoughTalentPoint" msg="天赋点不足" msg_cnt="天賦點不足" msg_en="天赋点不足" />
+	<item id="UserErr.NotExists" msg="不存在该玩家" msg_cnt="不存在該玩家" msg_en="Player not found" />
+	<item id="UserErr.NotLogin" msg="玩家未登录" msg_cnt="玩家未登錄" msg_en="Player is not online" />
+	<item id="UserErr.PayIsNotOpen" msg="支付功能暂未开启，详情请留意官网或公告。" msg_cnt="支付功能暫未開啟，詳情請留意官網或公告。" msg_en="支付功能暫未開啟，詳情請留意官網或公告。" />
+	<item id="UserErr.PlatformUserEmpty" msg="平台帐号还未创建" msg_cnt="平臺帳號還未創建" msg_en="Platform account has not been created" />
+	<item id="UserErr.RefreshTimeNotEnough" msg="刷新时间未到" msg_cnt="刷新時間未到" msg_en="Cannot refresh right now" />
+	<item id="UserErr.RestrictedIncome" msg="账号数据异常，无法获得任何奖励" msg_cnt="帳號數據異常，無法獲得任何獎勵" msg_en="帳號資料異常，無法獲得任何獎勵" />
+	<item id="UserErr.RoleHadCreated" msg="已经创建角色" msg_cnt="已經創建角色" msg_en="Character has been created" />
+	<item id="UserErr.TokenNotMatch" msg="帐号信息验证不一致" msg_cnt="帳號資訊驗證不一致" msg_en="Inconsistent account information" />
+	<item id="UserErr.TransferScene" msg="传送错误" msg_cnt="傳送錯誤" msg_en="Delivery error" />
+	<item id="UserErr.UsedEmail" msg="该邮箱已被使用" msg_cnt="該郵箱已被使用" msg_en="The email has been used" />
+	<item id="WorldBattleErr.NoSuchDrop" msg="无效的掉落数据" msg_cnt="非法的掉落數據" msg_en="非法的掉落数据" />
+	<item id="WorldBattleErr.NotOwner" msg="不能拾取他人的奖励" msg_cnt="不能拾取他人的獎勵" msg_en="不能拾取他人的奖励" />
+	<item id="WorldMapErr.CannotOpenDoor" msg="此地图不允许使用传送门" msg_cnt="此地圖不允許使用傳送門" msg_en="此地圖不允許使用傳送門" />
+	<item id="WorldMapErr.HighestQuality" msg="您的任务品质已全部达到最高，无需刷新" msg_cnt="您的任務品質已全部達到最高，無需刷新" msg_en="您的任務品質已全部達到最高，無需刷新" />
+	<item id="WorldMapErr.InvalidPoint" msg="无效的传送点" msg_cnt="無效的傳送點" msg_en="無效的傳送點" />
+	<item id="WorldMapErr.InvalidStation" msg="无效的传送阵" msg_cnt="無效的傳送陣" msg_en="無效的傳送陣" />
+	<item id="WorldMapErr.LogoutLock" msg="正在保存数据，请稍后再试" msg_cnt="正在保存數據，請稍後再試" msg_en="正在保存數據，請稍後再試" />
+	<item id="WorldMapErr.MatchServerError" msg="匹配服繁忙，请稍后再试" msg_cnt="匹配服繁忙，請稍後再試" msg_en="匹配服繁忙，請稍後再試" />
+	<item id="WorldMapErr.MustInWorldMap" msg="必须在大地图中才可以执行此操作" msg_cnt="必須在大地圖中才可以執行此操作" msg_en="必須在大地圖中才可以執行此操作" />
+	<item id="WorldMapErr.NoSuchDoor" msg="无效的传送门" msg_cnt="無效的傳送門" msg_en="無效的傳送門" />
+	<item id="WorldMapErr.NoSuchWorld" msg="世界已经被销毁" msg_cnt="世界已經被銷毀" msg_en="世界已經被銷毀" />
+	<item id="WorldMapErr.NotConfigTaskData" msg="目前这里还没有任务" msg_cnt="目前這裏還沒有任務" msg_en="目前這裡還沒有任務" />
+	<item id="WorldMapErr.NotEnoughLevel" msg="角色等级不足{0}级" msg_cnt="角色等級不足%s級" msg_en="角色等級不足%s級" />
+	<item id="WorldMapErr.NotEnoughTransferConsume" msg="传送费用不足" msg_cnt="傳送費用不足" msg_en="傳送費用不足" />
+	<item id="WorldMapErr.NotInPointMap" msg="当前地图没有此传送点" msg_cnt="當前地圖沒有此傳送點" msg_en="當前地圖沒有此傳送點" />
+	<item id="WorldMapErr.NotInStationMap" msg="不能使用其他地图的传送阵" msg_cnt="不能使用其他地圖的傳送陣" msg_en="不能使用其他地圖的傳送陣" />
+	<item id="WorldMapErr.NotReachedTaskRefreshTime" msg="还没有到任务的刷新时间" msg_cnt="還沒有到任務的刷新時間" msg_en="還沒有到任務的刷新時間" />
+	<item id="WorldMapErr.NotUnlock" msg="角色账号等级不足{0}级" msg_cnt="角色帳號等級不足%s級" msg_en="角色帳號等級不足%s級" />
+	<item id="WorldMapErr.OpenDoorCD" msg="传送门冷却中" msg_cnt="傳送門冷卻中" msg_en="傳送門冷卻中" />
+	<item id="WorldMapErr.PleaseRefreshMapTaskList" msg="{0}地图任务数据不同步，请重新刷新任务列表" msg_cnt="%s地圖任務數據不同步，請重新刷新任務列表" msg_en="%s地图任务数据不同步，请重新刷新任务列表" />
+	<item id="WorldMapErr.RefreshConsumeNotEnough" msg="刷新道具不足" msg_cnt="刷新道具不足" msg_en="刷新道具不足" />
+	<item id="WorldMapErr.SameMap" msg="不能使用传送阵进行本地图传送" msg_cnt="不能使用傳送陣進行本地圖傳送" msg_en="不能使用傳送陣進行本地圖傳送" />
+	<item id="WorldMapErr.StationNotOpen" msg="不能使用未激活的传送阵" msg_cnt="不能使用未啟動的傳送陣" msg_en="不能使用未激活的傳送陣" />
+	<item id="WorldMapErr.TaskCD" msg="还没有到任务的重置冷却时间" msg_cnt="還沒有到任務的重置冷卻時間" msg_en="還沒有到任務的重置冷卻時間" />
+	<item id="WorldMapErr.WorldMapCreateTaskErr" msg="任务生成失败" msg_cnt="任務生成失敗" msg_en="任务生成失败" />
+	<item id="WorldMapErr.WorldMapNotExist" msg="世界信息不存在" msg_cnt="世界資訊不存在" msg_en="世界地圖信息不存在" />
+	<item id="WorldMapErr.WorldMapTaskComplete" msg="任务已经完成" msg_cnt="任務已經完成" msg_en="任务已经完成" />
+	<item id="WorldMapErr.WorldMapTaskDataNull" msg="任务数据为空" msg_cnt="任務數據為空" msg_en="任务数据为空" />
+	<item id="WorldMapErr.WorldMapTaskStatus" msg="任务状态不正确" msg_cnt="任務狀態不正確" msg_en="任务状态不正确" />
+	<item id="WorldMapErr.WorldSceneEmpty" msg="当前地图场景不存在" msg_cnt="當前地圖場景不存在" msg_en="当前地图场景不存在" />
+	<item id="WorldMapErr.WorldSceneTaskIsEmpty" msg="当前场景任务对象不存在" msg_cnt="當前場景任務對象不存在" msg_en="当前场景任务对象不存在" />
+	<item id="WorldMapErr.StationDoorNoOpen" msg="组队回城功能即将开放" msg_cnt="组队回城功能即将开放" msg_en="组队回城功能即将开放" />
+	<item id="MissionErr.RepeatedDrop" msg="怪物掉落重复拾取:{0}" msg_cnt="怪物掉落重複拾取:%s" msg_en="怪物掉落重复拾取:%s" />
+	<item id="MissionErr.MultiKillSmall" msg="连续歼灭数低于最小配置数:{0}" msg_cnt="連殺數低於最小配置數:%s" msg_en="连续歼灭数低于最小配置数:%s" />
+	<item id="MissionErr.SceneObjectRepeatedDrop" msg="场景物品掉落重复拾取:{0}" msg_cnt="場景物品掉落重複拾取:%s" msg_en="场景物品掉落重复拾取:%s" />
+	<item id="UserErr.NotUseTeam" msg="您的账号数据异常，此功能暂不能使用" msg_cnt="您的帳號數據異常，此功能暫不能使用" msg_en="您的账号数据异常，此功能暂不能使用" />
+	<item id="AdminErr.NoPermission" msg="没有该操作权限" msg_cnt="沒有該操作許可權" msg_en="没有该操作权限" />
+	<item id="AuxiliaryGuidanceErr.ReceivedAward" msg="此任务奖励已经领取" msg_cnt="此任務獎勵已經領取" msg_en="此任务奖励已经领取" />
+	<item id="BattleTeamErr.Success" msg="成功" msg_cnt="成功" msg_en="成功" />
+	<item id="BattleTeamErr.Exist" msg="您已经加入战队" msg_cnt="您已經加入戰隊" msg_en="您已经加入战队" />
+	<item id="BattleTeamErr.OutOfService" msg="战队服务器故障" msg_cnt="戰隊服務器故障" msg_en="战队服务器故障" />
+	<item id="BattleTeamErr.NameTooLong" msg="名字限在12个字以内" msg_cnt="名字限在12個字以內" msg_en="名字限在12个字以内" />
+	<item id="BattleTeamErr.Null" msg="战队不存在" msg_cnt="戰隊不存在" msg_en="战队不存在" />
+	<item id="BattleTeamErr.Duplicate" msg="重复请求" msg_cnt="重複請求" msg_en="重复请求" />
+	<item id="BattleTeamErr.PermissionDenied" msg="没有权限" msg_cnt="沒有許可權" msg_en="没有权限" />
+	<item id="BattleTeamErr.Max" msg="战队人数已满" msg_cnt="戰隊人數已滿" msg_en="战队人数已满" />
+	<item id="BattleTeamErr.NoTarget" msg="目标不存在" msg_cnt="目標不存在" msg_en="目标不存在" />
+	<item id="BattleTeamErr.InviteOverflow" msg="最多只能邀请100个" msg_cnt="最多只能邀請100個" msg_en="最多只能邀请100个" />
+	<item id="BattleTeamErr.DuplicateInvite" msg="重复邀请" msg_cnt="重複邀請" msg_en="重复邀请" />
+	<item id="BattleTeamErr.DuplicateName" msg="名字已经被使用" msg_cnt="名字已經被使用" msg_en="名字已经被使用" />
+	<item id="BattleTeamErr.NoTeam" msg="没有战队" msg_cnt="沒有戰隊" msg_en="没有战队" />
+	<item id="BattleTeamErr.AreadyJoinATeam" msg="对方已经加入战队" msg_cnt="對方已經加入戰隊" msg_en="对方已经加入战队" />
+	<item id="BattleTeamErr.ApplicationOverflow" msg="战队申请人数已满" msg_cnt="戰隊申請人數已滿" msg_en="战队申请人数已满" />
+	<item id="BattleTeamErr.PlayerApplicationOverflow" msg="你的申请数日已满" msg_cnt="你的申請數日已滿" msg_en="你的申请数日已满" />
+	<item id="BattleTeamErr.LoseEfficacyInvite" msg="失效的邀请" msg_cnt="失效的邀請" msg_en="失效的邀请" />
+	<item id="BattleTeamErr.NotFoundTask" msg="未发现该任务" msg_cnt="未發現該任務" msg_en="未发现该任务" />
+	<item id="BattleTeamErr.TaskFinish" msg="该任务已完结" msg_cnt="該任務已完結" msg_en="该任务已完结" />
+	<item id="BattleTeamErr.TaskNotOver" msg="任务未完成" msg_cnt="任務未完成" msg_en="任务未完成" />
+	<item id="BattleTeamErr.BagIsFull" msg="背包没有足够空间" msg_cnt="背包沒有足夠空間" msg_en="背包没有足够空间" />
+	<item id="BattleTeamErr.TargetIsOffline" msg="对方不在线" msg_cnt="對方不線上" msg_en="对方不在线" />
+	<item id="BattleTeamErr.TargetNotOpen" msg="对方功能未开启" msg_cnt="對方功能未開啟" msg_en="对方功能未开启" />
+	<item id="CollectErr.NeedCollect" msg="需要收集装备{0}" msg_cnt="需要收集裝備%s" msg_en="需要收集装备%s" />
+	<item id="FriendErr.DayFriendFull" msg="单日添加好友数量达到上限" msg_cnt="單日添加好友數量達到上限" msg_en="单日添加好友数量达到上限" />
+	<item id="FriendErr.TargetDayFriendFull" msg="对方单日添加好友数量达到上限" msg_cnt="對方單日添加好友數量達到上限" msg_en="对方单日添加好友数量达到上限" />
+	<item id="GuildErr.MaxContributeTimes" msg="已经达到每天捐献金币次数上限" msg_cnt="已經達到每天捐獻金幣次數上限" msg_en="已经达到每天捐献金币次数上限" />
+	<item id="HuntingMagicErr.NumNotEnough" msg="数量不足不能领奖" msg_cnt="數量不足不能領獎" msg_en="数量不足不能领奖" />
+	<item id="IConError.NotExist" msg="没有解锁的头像或头像外框{0}" msg_cnt="沒有解鎖的頭像或頭像外框" msg_en="没有解锁的头像或头像外框" />
+	<item id="LampErr.ExpPoolNotEnough" msg="经验池经验不足" msg_cnt="經驗池經驗不足" msg_en="经验池经验不足" />
+	<item id="MissionErr.GroupErr" msg="错误组类型" msg_cnt="錯誤組類型" msg_en="错误组类型" />
+	<item id="MissionErr.DataIllegal" msg="传输的数据无效" msg_cnt="傳輸的數據非法" msg_en="传输的数据非法" />
+	<item id="OutfitErr.SameGrade" msg="强化等级相同，不可继承" msg_cnt="強化等級相同，不可繼承" msg_en="强化等级相同，不可继承" />
+	<item id="PayErr.Sucess" msg="成功" msg_cnt="成功" msg_en="成功" />
+	<item id="PayErr.RouteSendFail" msg="请求充值服失败" msg_cnt="請求充值服失敗" msg_en="请求充值服失败" />
+	<item id="PayErr.ReceiptMsgErr" msg="解释充值数据失败" msg_cnt="解釋充值數據失敗" msg_en="解释充值数据失败" />
+	<item id="PayErr.StoreCommodityIdNotFound" msg="商品ID不存在" msg_cnt="商品ID不存在" msg_en="商品ID不存在" />
+	<item id="PayErr.NotFindPayUrl" msg="找不到支付地址" msg_cnt="找不到支付地址" msg_en="找不到支付地址" />
+	<item id="PayErr.ReceiptTimeout" msg="请求苹果服务器发货超时，系统24小时内将自动重试" msg_cnt="請求蘋果伺服器發貨超時，系統24小時內將自動重試" msg_en="请求苹果服务器发货超时，系统24小时内将自动重试" />
+	<item id="PayErr.ReponsePayError" msg="充值服响应格式错误" msg_cnt="充值服回應格式錯誤" msg_en="充值服响应格式错误" />
+	<item id="PayErr.ReceiptError" msg="充值数据验证出错，请联系客服" msg_cnt="充值數據驗證出錯，請聯繫客服" msg_en="充值数据验证出错，请联系客服" />
+	<item id="PayErr.BundleError" msg="充值Bundle数据有误，发货失败" msg_cnt="充值Bundle數據有誤，發貨失敗" msg_en="充值Bundle数据有误，发货失败" />
+	<item id="PayErr.InappEmpty" msg="订单数据无效" msg_cnt="訂單數據無效" msg_en="订单数据无效" />
+	<item id="PayErr.SignFail" msg="Sign值校验出错" msg_cnt="Sign值校驗出錯" msg_en="Sign值校验出错" />
+	<item id="PayErr.TransactionRepeat" msg="订单已消费" msg_cnt="訂單已消費" msg_en="订单已消费" />
+	<item id="PayErr.ServeridNotFound" msg="服务器ID不存在" msg_cnt="伺服器ID不存在" msg_en="服务器ID不存在" />
+	<item id="PayErr.GameConnectFail" msg="游戏服连接失败" msg_cnt="遊戲服連接失敗" msg_en="游戏服连接失败" />
+	<item id="PayErr.GameSignFail" msg="游戏服Sign检验失败" msg_cnt="遊戲服Sign檢驗失敗" msg_en="游戏服Sign检验失败" />
+	<item id="PayErr.TimeOut" msg="超时" msg_cnt="超時" msg_en="超时" />
+	<item id="PayErr.SystemErr" msg="充值系统错误" msg_cnt="充值系統錯誤" msg_en="充值系统错误" />
+	<item id="PayErr.ReceiptEncoding" msg="充值数据出错" msg_cnt="充值數據出錯" msg_en="充值数据出错" />
+	<item id="PayErr.ConfigNotExist" msg="产品ID配置不正确" msg_cnt="產品ID配置不正確" msg_en="产品ID配置不正确" />
+	<item id="PayErr.UserInfoNotExsit" msg="充值发货失败：系统稍后将自动再次发货" msg_cnt="充值發貨失敗：系統稍後將自動再次發貨" msg_en="充值发货失败：系统稍后将自动再次发货" />
+	<item id="PayErr.SaveAward" msg="充值入库失败，请联系客服" msg_cnt="充值入庫失敗，請聯繫客服" msg_en="充值入库失败，请联系客服" />
+	<item id="PayErr.JsonAward" msg="奖励JSON错误" msg_cnt="獎勵JSON錯誤" msg_en="奖励JSON错误" />
+	<item id="PayErr.NotPay" msg="充值发货失败，您还没有支付" msg_cnt="充值發貨失敗，您還沒有支付" msg_en="充值发货失败，您还没有支付" />
+	<item id="PayErr.TokenError" msg="充值Token值出错，请联系客服" msg_cnt="充值Token值出錯，請聯繫客服" msg_en="充值Token值出错，请联系客服" />
+	<item id="PayErr.NotConsumption" msg="购买商品还没有消耗，请重新购买" msg_cnt="購買商品還沒有消耗，請重新購買" msg_en="购买商品还没有消耗，请重新购买" />
+	<item id="PayErr.GoogleConfig" msg="充值发货失败：找不到谷歌服务器" msg_cnt="充值發貨失敗：找不到穀歌伺服器" msg_en="充值发货失败：找不到谷歌服务器" />
+	<item id="PayErr.AccountNotExist" msg="充值发货失败：账号不存在" msg_cnt="充值發貨失敗：帳號不存在" msg_en="充值发货失败：账号不存在" />
+	<item id="PayErr.PlayerOffline" msg="玩家不在线，等上线再补单" msg_cnt="玩家不線上，等上線再補單" msg_en="玩家不在线，等上线再补单" />
+	<item id="PayErr.ShelfConfigNotExist" msg="货架配置不存在:{0}" msg_cnt="貨架配置不存在:%s" msg_en="货架配置不存在:%s" />
+	<item id="PetErr.PetMaxNum" msg="宠物数量超过最大值" msg_cnt="寵物數量超過最大值" msg_en="宠物数量超过最大值" />
+	<item id="PetErr.InvaildNameLen" msg="宠物名应为1~6个字符" msg_cnt="寵物名應為1~6個字元" msg_en="宠物名应为1~6个字符" />
+	<item id="RiftErr.UnknownRiftType" msg="未知秘境类型" msg_cnt="未知秘境類型" msg_en="未知秘境类型" />
+	<item id="SkillErr.NoInStatus" msg="该状态不能施放技能" msg_cnt="該狀態不能施放技能" msg_en="该状态不能施放技能" />
+	<item id="SkillErr.FailInSkill" msg="技能施放失败" msg_cnt="技能施放失敗" msg_en="技能施放失败" />
+	<item id="TitleErr.NotTitle" msg="{0}不是称号" msg_cnt="%s不是稱號" msg_en="%s不是称号" />
+	<item id="TitleErr.NotSuffixTitle" msg="{0}不是前缀称号" msg_cnt="" msg_en="" />
+	<item id="TitleErr.NotPrefixTitle," msg="{0}不是后缀称号" msg_cnt="" msg_en="" />
+	<item id="TypeCheckDamageErr.Success" msg="成功" msg_cnt="成功" msg_en="成功" />
+	<item id="TypeCheckDamageErr.Unknown" msg="未知错误" msg_cnt="未知錯誤" msg_en="未知错误" />
+	<item id="TypeCheckDamageErr.InvalidData" msg="客户端数据格式错误" msg_cnt="客戶端數據格式錯誤" msg_en="客户端数据格式错误" />
+	<item id="TypeCheckDamageErr.DuplicateMsgId" msg="重复包" msg_cnt="重複包" msg_en="重复包" />
+	<item id="TypeCheckDamageErr.NonsequenceMsgId" msg="不连续的包" msg_cnt="不連續的包" msg_en="不连续的包" />
+	<item id="TypeCheckDamageErr.Dodge" msg="闪避判定错误" msg_cnt="閃避判定錯誤" msg_en="闪避判定错误" />
+	<item id="TypeCheckDamageErr.God" msg="无敌判定错误" msg_cnt="無敵判定錯誤" msg_en="无敌判定错误" />
+	<item id="TypeCheckDamageErr.Immune" msg="免疫判断错误" msg_cnt="免疫判斷錯誤" msg_en="免疫判断错误" />
+	<item id="TypeCheckDamageErr.Miss" msg="无效判定错误" msg_cnt="無效判定錯誤" msg_en="无效判定错误" />
+	<item id="TypeCheckDamageErr.DamageProperty" msg="伤害属性判定错误" msg_cnt="傷害屬性判定錯誤" msg_en="伤害属性判定错误" />
+	<item id="TypeCheckDamageErr.Critical" msg="暴击判定错误" msg_cnt="暴擊判定錯誤" msg_en="暴击判定错误" />
+	<item id="TypeCheckDamageErr.Fail" msg="校验不通过" msg_cnt="校驗不通過" msg_en="校验不通过" />
+	<item id="TypeCheckDamageErr.InvalidRandomIndex" msg="随机下标不正确" msg_cnt="隨機下標不正確" msg_en="随机下标不正确" />
+	<item id="TypeCheckDamageErr.InvalidShieldAbsorbValue" msg="护盾值溢出" msg_cnt="護盾值溢出" msg_en="护盾值溢出" />
+	<item id="TypeCheckRoleAttrErr.Success" msg="成功" msg_cnt="成功" msg_en="成功" />
+	<item id="TypeCheckRoleAttrErr.Unknown" msg="未知错误" msg_cnt="未知錯誤" msg_en="未知错误" />
+	<item id="TypeCheckRoleAttrErr.DuplicateMsgId" msg="重复包" msg_cnt="重複包" msg_en="重复包" />
+	<item id="TypeCheckRoleAttrErr.NonsequenceMsgId" msg="不连续的包" msg_cnt="不連續的包" msg_en="不连续的包" />
+	<item id="TypeCheckRoleAttrErr.NullClientAttr" msg="客户端属性为空" msg_cnt="客戶端屬性為空" msg_en="客户端属性为空" />
+	<item id="TypeCheckRoleAttrErr.SceneNotFound" msg="找不到场景" msg_cnt="找不到場景" msg_en="找不到场景" />
+	<item id="TypeCheckRoleAttrErr.NoServerData" msg="服务器没有数据" msg_cnt="伺服器沒有數據" msg_en="服务器没有数据" />
+	<item id="TypeCheckRoleAttrErr.InvalidMsgId" msg="无效的包ID" msg_cnt="無效的包ID" msg_en="无效的包ID" />
+	<item id="TypeCheckRoleAttrErr.ValidateFail" msg="数据校验不通过" msg_cnt="數據校驗不通過" msg_en="数据校验不通过" />
+	<item id="TypeCheckRoleAttrErr.InvalidData" msg="无效客户端数据" msg_cnt="非法客戶端數據" msg_en="非法客户端数据" />
+	<item id="UserErr.NotWorldMapTaskPhy" msg="大地图任务体力值不足" msg_cnt="大地圖任務體力值不足" msg_en="大地图任务体力值不足" />
+	<item id="UserErr.AchievementNotExist" msg="成就类型不存在" msg_cnt="成就類型不存在" msg_en="成就类型不存在" />
+	<item id="UserErr.DailyTaskNotFinish" msg="每日任务未完成" msg_cnt="每日任務未完成" msg_en="每日任务未完成" />
+	<item id="UserErr.NotEnoughExChangeReel" msg="英雄兑换卷数量不足" msg_cnt="英雄兌換卷數量不足" msg_en="英雄兑换卷数量不足" />
+	<item id="TeamErr.NotRepeat" msg="已经加入此队伍" msg_cnt="已經加入此隊伍，無需重複" msg_en="已經加入此隊伍，無需重複" />
+	<item id="UserErr.Cheating" msg="系统检测到您有作弊行为，请稍后登录" msg_cnt="系統檢測到您有作弊行為，請稍後登錄" msg_en="系統檢測到您有作弊行為，請稍後登錄" />
+	<item id="UserErr.PlayerInfoVerifyFail" msg="信息校验失败，请稍后登录" msg_cnt="資訊校驗失敗，請稍後登錄" msg_en="資訊校驗失敗，請稍後登錄" />
+	<item id="TeamErr.InviteExpired" msg="邀请入队消息已过期" msg_cnt="邀請入隊消息已過期" msg_en="邀請入隊消息已過期" />
+	<item id="UserErr.ChooseInvalidHero" msg="尚未开放此英雄" msg_cnt="" msg_en="" />
+	<item id="UserErr.OnceForcedOffline" msg="您好，您连续玩游戏的时长已达到{0}小时，请休息{1}分钟后再来，点击“确定”即可退出游戏" msg_cnt="您好，您連續玩遊戲的時長已達到%s小時，請休息%s分鐘後再來，點擊“確定”即可退出遊戲" msg_en="您好，您连续玩游戏的时长已达到%s小时，请休息%s分钟后再来，点击“确定”即可退出游戏" />
+	<item id="UserErr.Ban" msg="【健康系统】您今日累计游戏时间已达到{0}小时，根据健康系统规则，您下次可登录的时间为{1}，请合理安排游戏时间，劳逸结合，具体规则详见官网公告，点击“确定”即可退出游戏" msg_cnt="【健康系統】您今日累計遊戲時間已達到%s小時，根據健康系統規則，您下次可登錄的時間為%s，請合理安排遊戲時間，勞逸結合，具體規則詳見官網公告，點擊“確定”即可退出遊戲" msg_en="【健康系统】您今日累计游戏时间已达到%s小时，根据健康系统规则，您下次可登录的时间为%s，请合理安排游戏时间，劳逸结合，具体规则详见官网公告，点击“确定”即可退出游戏" />
+	<item id="UserErr.Curfew" msg="【健康系统】您今日累计游戏时间已达到{0}小时，根据健康系统规则，您将在{1}-{2}时间内无法登陆游戏，请合理安排游戏时间，劳逸结合，具体规则详见官网公告，点击“确定”即可退出游戏" msg_cnt="【健康系統】您今日累計遊戲時間已達到%s小時，根據健康系統規則，您將在%s-%s時間內無法登陸遊戲，請合理安排遊戲時間，勞逸結合，具體規則詳見官網公告，點擊“確定”即可退出遊戲" msg_en="【健康系统】您今日累计游戏时间已达到%s小时，根据健康系统规则，您将在%s-%s时间内无法登陆游戏，请合理安排游戏时间，劳逸结合，具体规则详见官网公告，点击“确定”即可退出游戏" />
+	<item id="TeamErr.InviteSelf" msg="无法邀请自己" msg_cnt="無法邀請自己" msg_en="无法邀请自己" />
+	<item id="UserErr.AccumulateForcedOffline" msg="您好，您累计玩游戏的时长已达到{0}小时，请休息{1}小时后再来，点击“确定”即可退出游戏" msg_cnt="您好，您累計玩遊戲的時長已達到%s小時，請休息%s小時後再來，點擊“確定”即可退出遊戲" msg_en="您好，您累计玩游戏的时长已达到%s小时，请休息%s分钟后再来，点击“确定”即可退出游戏" />
+	<item id="ILLEGALITY_PHONE" msg="手机号码错误" msg_cnt="非法手機號碼" msg_en="非法手机号码" />
+	<item id="APPLY_CODE_FAILED" msg="获取验证码失败，请稍后再试" msg_cnt="獲取驗證碼失敗，請稍後再試" msg_en="获取验证码失败，请稍后再试" />
+	<item id="CODE_TIMEOUT" msg="验证码已过期，请重新获取" msg_cnt="驗證碼已過期，請重新獲取" msg_en="验证码已过期，请重新获取" />
+	<item id="VERIFY_CODE_FAILED" msg="验证码错误" msg_cnt="驗證碼錯誤" msg_en="验证码错误" />
+	<item id="BIND_REQUEST_TIMEOUT" msg="绑定请求超时,请重试" msg_cnt="綁定請求超時,請重試" msg_en="绑定请求超时,请重试" />
+	<item id="BIND_MOBILE_MAX_TIMES" msg="绑定次数已满，每个手机号最多绑定5个账号" msg_cnt="綁定次數已滿，每個手機號最多綁定5個帳號" msg_en="绑定次数已满，每个手机号最多绑定5个账号" />
+	<item id="DAILY_MOBILE_CODE_GET_MAX_TIMES" msg="每日手机验证码获取次数已满，请明日再试" msg_cnt="每日手機驗證碼獲取次數已滿，請明日再試" msg_en="每日手机验证码获取次数已满，请明日再试" />
+	<item id="IN_GET_CODE_CD" msg="请求验证码过快" msg_cnt="請求驗證碼過快" msg_en="请求验证码过快" />
+	<item id="MissionErr.StrategyTaskNotFinish" msg="任务未完成" msg_cnt="任務未完成" msg_en="任务未完成" />
+	<item id="MissionErr.StrategyTaskHasGot" msg="任务奖励已领取" msg_cnt="任務獎勵已領取" msg_en="任务奖励已领取" />
+	<item id="MissionErr.FirstNotPass" msg="未完成首次通关，请通关后再试" msg_cnt="未完成首次通關，請通關後再試" msg_en="未完成首次通关，请通关后再试" />
+	<item id="MissionErr.HasGotFirstPassReward" msg="已领取过首通奖励" msg_cnt="已領取過首通獎勵" msg_en="已领取过首通奖励" />
+	<item id="StoreErr.BuyFail" msg="商品购买失败，请稍候再试" msg_cnt="商品購買失敗，請稍候再試" msg_en="商品购买失败，请稍候再试" />
+	<item id="GET_CODE_TOO_MANY_TIMES" msg="请求验证码次数过多" msg_cnt="請求驗證碼次數過多" msg_en="请求验证码次数过多" />
+	<item id="CombinedTaskErr.TaskNotExsit" msg="任务不存在" msg_cnt="任務不存在" msg_en="任务不存在" />
+	<item id="CombinedTaskErr.NotFinishNoReward" msg="任务未完成，不可领奖" msg_cnt="任務未完成，不可領獎" msg_en="任务未完成，不可领奖" />
+	<item id="WorldMapErr.NoEntryMap" msg="世界地图进行刷新中，请稍等" msg_cnt="世界地圖進行刷新中，請稍等" msg_en="世界地图进行刷新中，请稍等" />
+	<item id="SignErr.SignTypeErr" msg="签到类型错误%s" msg_cnt="簽到類型錯誤%s" msg_en="签到类型错误%s" />
+	<item id="SignErr.NeedSignToday" msg="当天签到后才可以补签" msg_cnt="當天簽到後才可以補簽" msg_en="当天签到后才可以补签" />
+	<item id="SignErr.SignFull" msg="当月可签到次数已满" msg_cnt="當月可簽到次數已滿" msg_en="当月可签到次数已满" />
+	<item id="UserErr.RewardTimesMax" msg="每日分享奖励次数已达上限" msg_cnt="每日分享獎勵次數已達上限" msg_en="每日分享奖励次数已达上限" />
+	<item id="WorldMapErr.NotInLighthouseMap" msg="无法激活其他地图灯塔" msg_cnt="無法啟動其他地圖燈塔" msg_en="无法激活其他地图灯塔" />
+	<item id="WorldMapErr.NotRefreshMapTask" msg="地狱模式，任务数据无法刷新" msg_cnt="地獄模式，任務數據無法刷新" msg_en="地狱模式，任务数据无法刷新" />
+	<item id="TeamErr.LeaderReady" msg="队长不能取消准备状态" msg_cnt="隊長不能取消準備狀態" msg_en="队长不能取消准备状态" />
+	<item id="PetErr.NotSameStagePet" msg="不是同品质的宠物无法吞噬" msg_cnt="不是同品質的寵物無法吞噬" msg_en="不是同品质的宠物无法吞噬" />
+	<item id="RiftErr.InfiniteRiftSingleEntry" msg="无限深渊只能单人进入" msg_cnt="無限深淵只能單人進入" msg_en="无限深渊只能单人进入" />
+	<item id="RiftErr.InfiniteRiftMaxLayer" msg="该层已通过，请继续向上进行挑战" msg_cnt="該層已通過，請繼續向上進行挑戰" msg_en="该层已通过，请继续向上进行挑战" />
+	<item id="RiftErr.InfiniteRiftConfigErr" msg="无限深渊配置错误" msg_cnt="無限深淵配置錯誤" msg_en="无限深渊配置错误" />
+	<item id="BattlePassErr.Success" msg="操作成功" msg_cnt="操作成功" msg_en="操作成功" />
+	<item id="BattlePassErr.ShopTypeErr" msg="巅峰商品类型错误" msg_cnt="巔峰商品類型錯誤" msg_en="巅峰商品类型错误" />
+	<item id="BattlePassErr.ConfigNotExist" msg="配置不存在" msg_cnt="配置不存在" msg_en="配置不存在" />
+	<item id="BattlePassErr.NoChallengeTask" msg="没有该挑战任务" msg_cnt="沒有該挑戰任務" msg_en="没有该挑战任务" />
+	<item id="BattlePassErr.Rewarded" msg="奖励已领取" msg_cnt="獎勵已領取" msg_en="奖励已领取" />
+	<item id="BattlePassErr.NoReward" msg="奖励不可领" msg_cnt="獎勵不可領" msg_en="奖励不可领" />
+	<item id="BattlePassErr.ChallengeTaskOverdue" msg="挑战任务已过期" msg_cnt="挑戰任務已過期" msg_en="挑战任务已过期" />
+	<item id="BattlePassErr.BuyLimited" msg="已达到购买数量限制" msg_cnt="已達到購買數量限制" msg_en="已达到购买数量限制" />
+	<item id="BattlePassErr.MaxLeveled" msg="已达到最大等级" msg_cnt="已達到最大等級" msg_en="已达到最大等级" />
+	<item id="BattlePassErr.InSeasonBalance" msg="赛季结算中" msg_cnt="賽季結算中" msg_en="赛季结算中" />
+	<item id="FriendErr.FriendNotInRule" msg="玩家不符合条件" msg_cnt="玩家不符合條件" msg_en="玩家不符合条件" />
+	<item id="RiftErr.InfiniteRiftCannotUseBottle" msg="无限深渊不能使用药水" msg_cnt="無限深淵不能使用藥水" msg_en="无限深渊不能使用药水" />
+	<item id="ADErr.ADShowNumFull" msg="广告播放次数用完" msg_cnt="廣告播放次數用完" msg_en="廣告播放次數用完" />
+	<item id="ADErr.ADCDNotOver" msg="广告CD还未结束" msg_cnt="廣告CD還未結束" msg_en="廣告CD還未結束" />
+	<item id="ADErr.SignError" msg="sign错误" msg_cnt="sign錯誤" msg_en="sign錯誤" />
+	<item id="ADErr.TimeTooShort" msg="广告时间太短" msg_cnt="廣告時間太短" msg_en="廣告時間太短" />
+	<item id="WorldMapErr.DungeonNotExist" msg="副本不存在" msg_cnt="副本不存在" msg_en="副本不存在" />
+	<item id="WorldMapErr.RoomNotExist" msg="房间不存在" msg_cnt="房间不存在" msg_en="房间不存在" />
+	<item id="WorldMapErr.RoomNotInit" msg="房间未初始化" msg_cnt="房间未初始化" msg_en="房间未初始化" />
+	<item id="WorldMapErr.RoomNotLink" msg="房间节点不连接" msg_cnt="房间节点不连接" msg_en="房间节点不连接" />
+	<item id="WorldMapErr.MonsterNotExist" msg="怪物不存在" msg_cnt="怪物不存在" msg_en="怪物不存在" />
+	<item id="WorldMapErr.RandomMazeSingleEntry" msg="随机迷宫只允许单人进入" msg_cnt="随机迷宫只允许单人进入" msg_en="随机迷宫只允许单人进入" />
+	<item id="WorldMapErr.AreaNotRefresh" msg="区域未刷新" msg_cnt="区域未刷新" msg_en="区域未刷新" />
+	<item id="WorldMapErr.NowRoomNoFinished" msg="当前房间挑战尚未完成,未激活出口传送阵" msg_cnt="当前房间挑战尚未完成,未激活出口传送阵" msg_en="当前房间挑战尚未完成,未激活出口传送阵" />
+	<item id="OutfitErr.AttrValueLimit" msg="英雄属性或等级不足" msg_cnt="英雄屬性或等級不足" msg_en="英雄屬性或等級不足" />
+	<item id="WorldMapErr.NoEnoughPhy" msg="体力不足" msg_cnt="体力不足" msg_en="体力不足" />
+	<item id="WorldMapErr.BoxLocked" msg="宝箱未解锁" msg_cnt="宝箱未解锁" msg_en="宝箱未解锁" />
+	<item id="WorldMapErr.BoxOpened" msg="宝箱已开启" msg_cnt="宝箱已开启" msg_en="宝箱已开启" />
+	<item id="WorldMapErr.InitRoomNoChange" msg="初始房不可以切换" msg_cnt="初始房不可以切换" msg_en="初始房不可以切换" />
+	<item id="WorldMapErr.BossRoomNoChange" msg="Boss房不可以切换" msg_cnt="Boss房不可以切换" msg_en="Boss房不可以切换" />
+	<item id="WorldMapErr.NoRoomType" msg="不存在的房间类型" msg_cnt="不存在的房间类型" msg_en="不存在的房间类型" />
+	<item id="WorldMapErr.BattleFinished" msg="挑战已结束" msg_cnt="挑战已结束" msg_en="挑战已结束" />
+	<item id="WorldMapErr.ActiveNeedCond" msg="无法通行需完成对应任务" msg_cnt="無法通行需完成對應任務" msg_en="無法通行需完成對應任務" />
+	<item id="ChargeErr.GuestRecharge" msg="游客用户不能充值" msg_cnt="游客用户不能充值" msg_en="游客用户不能充值" />
+	<item id="ChargeErr.InfantRecharge" msg="未满8周岁未成年人无法使用充值服务" msg_cnt="未滿8周歲未成年人無法使用充值服務" msg_en="未滿8周歲未成年人無法使用充值服務" />
+	<item id="ChargeErr.RechargeOverValue" msg="您本次充值已超出限额，您的单次限额为{0}元" msg_cnt="您本次充值已超出限額，您的單次限額為%S元" msg_en="Your recharge has exceeded the limit. Your single limit is %s Yuan" />
+	<item id="ChargeErr.RechargeOverMonthValue" msg="您的充值已超出本月累计限额，您的每月限额为{0}元" msg_cnt="您的充值已超出本月累計限額，您的每月限額為%S元" msg_en="Your recharge has exceeded the accumulated limit of this month. Your monthly limit is %s Yuan" />
+	<item id="UserErr.AccumulateForcedOfflineGuest" msg="您好，您是游客用户，只能体验游戏{0}小时，点击“确定”即可退出游戏。" msg_cnt="您好，您是游客用户，只能体验游戏%s小时，点击“确定”即可退出游戏。" msg_en="您好，您是游客用户，只能体验游戏%s小时，点击“确定”即可退出游戏。" />
+	<item id="SkillErr.SkillTreeNotOpen" msg="技能树未开启" msg_cnt="技能树未开启" msg_en="技能树未开启" />
+	<item id="SkillErr.SkillHasActivated" msg="此技能已激活" msg_cnt="此技能已激活" msg_en="此技能已激活" />
+	<item id="SkillErr.SkillHasNotActivated" msg="此技能还未激活" msg_cnt="此技能還未激活" msg_en="此技能還未激活" />
+	<item id="SkillErr.SkillActivateNeedSkill" msg="激活失败，前置技能条件不足" msg_cnt="激活失敗，前置技能條件不足" msg_en="激活失敗，前置技能條件不足" />
+	<item id="SkillErr.SkillActivateNotEnough" msg="激活失败，英雄等级不足" msg_cnt="激活失敗，英雄等級不足" msg_en="激活失敗，英雄等級不足" />
+	<item id="SkillErr.SkillActivateNeedRes" msg="激活失败，所需条件不足" msg_cnt="激活失敗，所需條件不足" msg_en="激活失敗，所需條件不足" />
+	<item id="SkillErr.SkillHeroNotMatch" msg="此技能已激活，可以进行配置" msg_cnt="此技能已啟動，可以進行配置" msg_en="此技能已啟動，可以進行配置" />
+	<item id="SkillErr.SkillLevelMax" msg="此技能已经满级" msg_cnt="此技能已經滿級" msg_en="此技能已經滿級" />
+	<item id="SkillErr.SkillResetLevelNotEnough" msg="当前英雄等级未开启重置功能" msg_cnt="當前英雄等級未開啟重置功能" msg_en="當前英雄等級未開啟重置功能" />
+	<item id="SkillErr.SkillLevelNotEnough" msg="技能等级不够" msg_cnt="技能等級不夠" msg_en="技能等級不夠" />
+	<item id="SkillErr.SkillUpgradeNeedSkill" msg="前置技能尚未解锁" msg_cnt="前置技能尚未解鎖" msg_en="前置技能尚未解鎖" />
+	<item id="HeroErr.AttributeResetFuncLocked" msg="功能将于{0}级开启" msg_cnt="功能將於%s級開啟" msg_en="功能將於%s級開啟" />
+	<item id="HeroErr.AttributeResetCostNotEnough" msg="洗点费用不够" msg_cnt="洗點費用不夠" msg_en="洗點費用不夠" />
+	<item id="HeroErr.AttributeNoNeedReset" msg="属性点尚未分配，暂无法重置" msg_cnt="屬性點尚未分配，暫無法重置" msg_en="屬性點尚未分配，暫無法重置" />
+	<item id="HeroErr.AttributeFuncLocked" msg="属性功能未解锁,解锁等级:{0}" msg_cnt="屬性功能未解鎖,解鎖等級:%s" msg_en="屬性功能未解鎖,解鎖等級:%s" />
+	<item id="UserErr.NotEnoughHeroSkillTreePoint" msg="升级失败，英雄技能点数不足" msg_cnt="升级失敗，英雄技能點數不足" msg_en="升级失敗，英雄技能點數不足" />
+	<item id="TeamMatchErr.NotCellGroup" msg="没有找到对应cell组id" msg_cnt="沒有找到對應cell組id" msg_en="沒有找到對應cell組id" />
+	<item id="CrystalErr.CrystalNotOpen" msg="符石功能英雄{0}级开启" msg_cnt="符石功能英雄%s級開啟" msg_en="符石功能英雄%s级开启" />
+	<item id="CrystalErr.CrystalHoleLocked" msg="符石孔未解锁" msg_cnt="符石孔未解鎖" msg_en="符石孔未解锁" />
+	<item id="CrystalErr.NoCrystalInHole" msg="该符石孔未镶嵌符石" msg_cnt="該符石孔未鑲嵌符石" msg_en="该符石孔未镶嵌符石" />
+	<item id="CrystalErr.CrystalTypeImproper" msg="符石类型不符合" msg_cnt="符石類型不符合" msg_en="符石类型不符合" />
+	<item id="CrystalErr.NotCrystalGoods" msg="这个不是符石" msg_cnt="這個不是符石" msg_en="这个不是符石" />
+	<item id="CrystalErr.CrystalUpgradeImproper" msg="不满足符石升级条件" msg_cnt="不滿足符石升級條件" msg_en="不满足符石升级条件" />
+	<item id="CrystalErr.NoNextCrystalLevel" msg="符石已经升到最高级" msg_cnt="符石已經升到最高級" msg_en="符石已经升到最高级" />
+	<item id="CrystalErr.PutOnSameGroupCrystal" msg="不能安装同名符石" msg_cnt="不能安装同名符石" msg_en="不能安装同名符石" />
+	<item id="QualityNoExist" msg="装备品质{0}不存在" msg_cnt="" msg_en="装备品质不存在" />
+	<item id="PartNoExist" msg="装备穿戴部位{0}不存在" msg_cnt="" msg_en="装备穿戴部位不存在" />
+	<item id="GoodsErr.UsedHeldMaxNum" msg="携带道具数量不足" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.NoHeldItem" msg="无携带道具，在英雄界面携带道具中携带" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.OptionErr" msg="当前题目已完结" msg_cnt="当前题目已完结" msg_en="当前题目已完结" />
+	<item id="WorldMapErr.SceneObjectHasUsed" msg="当前已存在玩家使用中" msg_cnt="当前已存在玩家使用中" msg_en="当前已存在玩家使用中" />
+	<item id="WorldMapErr.MapUnlockRewardReceived" msg="地图解锁奖励已领取" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.GoodsNumNotEnough" msg="当前货币不足" msg_cnt="当前货币不足" msg_en="当前货币不足" />
+	<item id="CrystalErr.CrystalWeared" msg="符石已镶嵌" msg_cnt="符石已镶嵌" msg_en="符石已镶嵌" />
+	<item id="CrystalErr.CrystalNoExist" msg="符石不存在" msg_cnt="符石不存在" msg_en="符石不存在" />
+	<item id="CrystalErr.CrystalMaterialNotEnough" msg="符石材料数量不足{0}" msg_cnt="符石材料数量不足{0}" msg_en="符石材料数量不足{0}" />
+	<item id="CrystalErr.ExpCrystalNoCanPutOn" msg="经验符石不可以镶嵌或升级" msg_cnt="经验符石不可以镶嵌或升级" msg_en="经验符石不可以镶嵌或升级" />
+	<item id="CrystalErr.CrystalLevelImproper" msg="符石等级不符合" msg_cnt="符石等级不符合" msg_en="符石等级不符合" />
+	<item id="CrystalErr.CrystalNoSelect" msg="未选择符石材料" msg_cnt="未选择符石材料" msg_en="未选择符石材料" />
+	<item id="CrystalErr.TargetCrystalOwnNotMaterial" msg="升级的符石不能作为材料" msg_cnt="升级的符石不能作为材料" msg_en="升级的符石不能作为材料" />
+	<item id="UserErr.BackToLogin" msg="道具使用成功，点击“确定”返回登录界面重新进入游戏" msg_cnt="道具使用成功，点击“确定”返回登录界面重新进入游戏" msg_en="道具使用成功，点击“确定”返回登录界面重新进入游戏" />
+	<item id="GemstoneErr.GemstoneNotOpen" msg="宝石功能玩家{0}级开启" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.IndexOutOfHoleNum" msg="下标超过宝石孔位数" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.NoGemstoneInHole" msg="该孔位未镶嵌宝石" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.NotGemGoods" msg="这个不是宝石" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemPartImproper" msg="宝石部位不符合" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneUpgradeImproper" msg="不满足宝石升级条件" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.NoNextGemstoneLevel" msg="宝石已经升到最高级" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneNotWeared" msg="宝石未镶嵌" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneWeared" msg="宝石已镶嵌" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneNoExist" msg="宝石不存在" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneMaterialNotEnough" msg="宝石材料数量不足" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneNoSelect" msg="未选择宝石材料" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.TargetGemstoneOwnNotMaterial" msg="升级的目标宝石不能作为材料" msg_cnt="" msg_en="" />
+	<item id="ChestErr.ChestNotOpen" msg="魂匣功能玩家{0}级开启" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.MapClosed" msg="地图未开启" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.NotEnoughCount" msg="挑战次数不足（每日凌晨5点重置次数）" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DarkCurseCodeErr" msg="主城入口校验码错误" msg_cnt="" msg_en="" />
+	<item id="SystemErr.UnSupportedGameErrValueType" msg="暂未找到对应的提示" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.CannotSellUpgradedOutfit" msg="已强化的装备不可出售" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.NoSuchGoodsType" msg="不存在的物品类型:{0}" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.UnSupportedDecomposeGoodsType" msg="不支持分解的物品类型:{0}" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.NoRoguelikeTimes" msg="次数已用完" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.RoguelikeNoStart" msg="翻牌未开始" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.RoguelikeStarted" msg="翻牌已开始" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.UnableToGo" msg="队员{0}已离线，不可组队出发" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.NotUseOtherDoor" msg="走错啦，这是别人的传送门" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.PleaseActivateStation" msg="请先激活{0}地图传送阵" msg_cnt="" msg_en="" />
+	<item id="MissionErr.PleaseCompletedMission" msg="请先完成{0}任务" msg_cnt="" msg_en="" />
+	<item id="UserErr.NotEnoughCrystalCoin" msg="符石魔币不足" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneMaterialNotSame" msg="只能使用相同类型的宝石作为升级材料" msg_cnt="" msg_en="" />
+	<item id="RiftErr.NotReceiveSectionRewards" msg="有到达此阶段，无法领取阶段奖励" msg_cnt="" msg_en="" />
+	<item id="RiftErr.AlreadyReceivedSectionRewards" msg="阶段奖励已领取" msg_cnt="" msg_en="" />
+	<item id="RiftErr.AlreadyReceivedRiftLayerDailyReward" msg="末影深渊最高层数奖励已领取" msg_cnt="" msg_en="" />
+	<item id="PayErr.ProductNoErr" msg="登录服商品id与游戏服商品不匹配" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.NotOpenRoguelike" msg="无法开启:未达到开启条件({0})" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.IsUnlocked" msg="{0}名片已解锁" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.NoUnlocked" msg="{0}名片未解锁" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.BadgeNoUnlocked" msg="未解锁纹饰{0}" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.CardBackgroundNoUnlocked" msg="未解锁背景{0}" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.ActionNoUnlocked" msg="未解锁动作{0}" msg_cnt="" msg_en="" />
+	<item id="PlayerCardErr.CannotPraiseToOwn" msg="看到了，你在给自己偷偷点赞！" msg_cnt="" msg_en="" />
+	<item id="RiftErr.GreatRiftSingleEntry" msg="深渊只容单人通行" msg_cnt="" msg_en="" />
+	<item id="HeroErr.NotDeadNotResurrect" msg="队友还能再抢救一会！" msg_cnt="" msg_en="" />
+	<item id="HeroErr.OfflineNotResurrect" msg="队友已经回归现实世界，无法复活" msg_cnt="" msg_en="" />
+	<item id="HeroErr.NotAllResurrect" msg="没有队友阵亡，无法使用全体复活" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DistrictOpened" msg="地区已解锁" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.LowDistrictLocked" msg="请先解锁前置地区" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DistrictLocked" msg="目标地区尚未解锁" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.WorldMapExploreActErr" msg="探索条目无法激活" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.ExploreStageRewardReceived" msg="探索奖励已领取" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.ExploreStageNotEnough" msg="探索度不足，无法领取奖励" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.WorldMapExploreActed" msg="探索条目已激活" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.LowWorldMapExploreLocked" msg="需激活上一级探索条目" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.WorldMapExploreProgressNotEnough" msg="地区探索度不足" msg_cnt="" msg_en="" />
+	<item id="HeroErr.OverLimit" msg="{0}的属性加点超出上限" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.ContractorNotActivation" msg="建设功能未激活" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.Locked" msg="水晶还未激活" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.Unlocked" msg="水晶已激活" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.Charging" msg="水晶正在蓄能中" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.ChargingErr" msg="蓄能水晶错误" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.DevourMax" msg="水晶今日吞噬成长值已满" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.ExpMax" msg="水晶成长值已满" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.ExpMaterialErr" msg="所选材料不可吞噬" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.CultivateTypeErr" msg="当前成长类型错误" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.NotEnoughExp" msg="成长值不足" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.NoReward" msg="当前无奖励可以领取" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.CannotEvolution" msg="不满足进化条件" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.EvolutionLocked" msg="进化阶段未解锁" msg_cnt="" msg_en="" />
+	<item id="StatueCrystalErr.GiftSkillUnlocked" msg="恩赐已解锁" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.InvalidRequest" msg="无效请求" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DarkCurseUnlocked" msg="此地宫已经解锁" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.NotUnlock" msg="没有达到解锁条件，无法解锁" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.AlreadyUnlock" msg="功能已解锁，请勿重复操作" msg_cnt="" msg_en="" />
+	<item id="RobErr.CardNotExist" msg="还未拥有此卡牌" msg_cnt="" msg_en="" />
+	<item id="RobErr.CardAlreadyDeployed" msg="此战魂或陷阱已部署在其它战域" msg_cnt="" msg_en="" />
+	<item id="RobErr.RoomHaveNotThisPit" msg="数据异常，房间没有此怪物或陷阱位" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotOnHookIncome" msg="暂无资源可收取" msg_cnt="" msg_en="" />
+	<item id="RobErr.RoomIsDispatch" msg="已激活此战域" msg_cnt="" msg_en="" />
+	<item id="RobErr.RoomIsNotDispatch" msg="需要替换的战域未被激活" msg_cnt="" msg_en="" />
+	<item id="RobErr.PleaseMatchRoom" msg="请选择想要挑战的战域" msg_cnt="" msg_en="" />
+	<item id="RobErr.EnterRoomAndMatchInconsistent" msg="请求进入的战域与匹配的不一致" msg_cnt="" msg_en="" />
+	<item id="RobErr.OnlyCanSingleEntry" msg="战域只容单人通行" msg_cnt="" msg_en="" />
+	<item id="RobErr.UpperLimit" msg="今日挑战次数已用尽" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneNotPutOnCondition" msg="无法穿戴此品质的宝石" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneNotDecomposeCondition" msg="无法分解此品质的宝石" msg_cnt="" msg_en="" />
+	<item id="GemstoneErr.GemstoneProductCondition" msg="无法制作此品质的宝石" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.NotStageLvReward" msg="不能提前预支未来的奖励哦！" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.StageLvRewarded" msg="建设奖励已领取" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.StagePointsNotEnough" msg="建设值不足，还要加把劲！" msg_cnt="" msg_en="" />
+	<item id="ContractorErr.NotEnoughStageLevel" msg="建设等级不足{0}" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.StationOpened" msg="传送阵已激活" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterNotMatchPit" msg="所选位置不能部署此类型战魂" msg_cnt="" msg_en="" />
+	<item id="RobErr.InvalidPit" msg="无效坑位" msg_cnt="" msg_en="" />
+	<item id="RobErr.RoomNotExist" msg="房间不存在或者未解锁" msg_cnt="" msg_en="" />
+	<item id="RobErr.NoSuchRob" msg="场景不存在" msg_cnt="" msg_en="" />
+	<item id="RobErr.PleaseGoToWarRoom" msg="请选择一个战域进行部署" msg_cnt="" msg_en="" />
+	<item id="ChestErr.MaxOpen" msg="当日抽取次数已达上限" msg_cnt="" msg_en="" />
+	<item id="BattlePassErr.HavePBCard" msg="玩家已经购买该卡" msg_cnt="" msg_en="" />
+	<item id="RiftErr.CannotOverMaxLayer" msg="未满足当前层数的挑战条件" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.UnOverLockOutfitTime" msg="未到装备解锁时间" msg_cnt="" msg_en="" />
+	<item id="SignErr.CannotRepair" msg="不可补签" msg_cnt="" msg_en="" />
+	<item id="SignErr.SignedToday" msg="当日已签到" msg_cnt="" msg_en="" />
+	<item id="UserErr.NotEnoughStrengthPhy" msg="大地图增益体力值不足" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.PhyIsMax" msg="当前体力值已达上限" msg_cnt="" msg_en="" />
+	<item id="RobErr.LevelBigger" msg="请提升等级阶段" msg_cnt="" msg_en="" />
+	<item id="RobErr.LevelLimit" msg="已经达到等级上限" msg_cnt="" msg_en="" />
+	<item id="RobErr.PleaseUpgradePlayerLevel" msg="请提升角色等级" msg_cnt="" msg_en="" />
+	<item id="RobErr.MaxLevelStage" msg="已达到最大等级阶段" msg_cnt="" msg_en="" />
+	<item id="RobErr.LevelNotEnoughNotStageUp" msg="等级不足，不能升阶" msg_cnt="" msg_en="" />
+	<item id="RobErr.UnlockLevelStageLimit" msg="战魂等级已达上限，请前往老镇长处解锁更高等级" msg_cnt="" msg_en="" />
+	<item id="RobErr.StarLimit" msg="阶段星级达上限，请先突破" msg_cnt="" msg_en="" />
+	<item id="RobErr.StageLimitAndStarLimit" msg="满阶满星，无法操作" msg_cnt="" msg_en="" />
+	<item id="RobErr.StarStageLimit" msg="星阶达到上限，无法操作" msg_cnt="" msg_en="" />
+	<item id="RobErr.PleaseUpgradeStar" msg="请先进行突破" msg_cnt="" msg_en="" />
+	<item id="PubTimeErr.Rewarded" msg="已享用美食" msg_cnt="" msg_en="" />
+	<item id="PubTimeErr.Cooking" msg="烹饪中……" msg_cnt="" msg_en="" />
+	<item id="PubTimeErr.NeedReward" msg="还有美食未被享用" msg_cnt="" msg_en="" />
+	<item id="PubTimeErr.NoReward" msg="当前没有准备好的美食" msg_cnt="" msg_en="" />
+	<item id="PubTimeErr.NotInTime" msg="心急吃不了热豆腐，再等等吧" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DistrictExploreProgressNotEnough" msg="地区探索度度不足" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.DistrictExploreAwardGain" msg="地区探索奖励已领取" msg_cnt="" msg_en="" />
+	<item id="UnpackGiftErr.UnpackGiftNotActivation" msg="礼包未激活" msg_cnt="" msg_en="" />
+	<item id="UnpackGiftErr.NotRepeatBuy" msg="特惠礼包生效中，不能重复购买" msg_cnt="" msg_en="" />
+	<item id="UnpackGiftErr.NotReceiveAward" msg="不能领取奖励" msg_cnt="" msg_en="" />
+	<item id="UnpackGiftErr.UnpackGiftExpired" msg="特惠礼包已经过期" msg_cnt="" msg_en="" />
+	<item id="UnpackGiftErr.AllAwardAlreadyReceive" msg="所有奖励已领取" msg_cnt="" msg_en="" />
+	<item id="RobErr.CannotDecompose" msg="无法回收" msg_cnt="" msg_en="" />
+	<item id="RobErr.InRoomCannotDecompose" msg="战魂已在战域中部署，无法回收" msg_cnt="" msg_en="" />
+	<item id="RobErr.InEchoSlotCannotDecompose" msg="战魂已在共鸣槽位上阵，无法回收" msg_cnt="" msg_en="" />
+	<item id="RobErr.TypeEchoSlotError" msg="共鸣槽类型错误" msg_cnt="" msg_en="" />
+	<item id="RobErr.SlotNotUnlocked" msg="未解锁此共鸣槽位" msg_cnt="" msg_en="" />
+	<item id="RobErr.EchoSlotFull" msg="共鸣槽位已满，请卸下不需要的战魂" msg_cnt="" msg_en="" />
+	<item id="RobErr.EchoSlotNotExist" msg="共鸣插槽不存在" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterCardAlreadyFitOut" msg="所选战魂已经上阵" msg_cnt="" msg_en="" />
+	<item id="RobErr.EchoSlotAlreadyFitOutMonsterCard" msg="所选槽位已有其它战魂上阵" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotFitOutMonsterCard" msg="所选战魂尚未上阵，无法卸下" msg_cnt="" msg_en="" />
+	<item id="RobErr.EchoSlotNotMatch" msg="卸下战魂卡牌位置和共鸣插槽位置不匹配" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterTypeAndEchoSlotTypeNotMatch" msg="战魂类型与共鸣槽位类型不匹配" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotUse" msg="{0}不适用于升级此战魂" msg_cnt="" msg_en="" />
+	<item id="TeamMatchErr.InTeamMatchBattle" msg="有队友处于战斗中，无法匹配" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotDispatchNotOpenDefend" msg="战域尚未激活，无法开启防护罩" msg_cnt="" msg_en="" />
+	<item id="CommonErr.RewardReceived" msg="奖励已领取" msg_cnt="" msg_en="" />
+	<item id="CommonErr.RewardCanNotReceive" msg="奖励不可领取" msg_cnt="" msg_en="" />
+	<item id="TeamErr.TeamJoinCopy" msg="队伍正在战斗中，暂时无法加入" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.OpenCountryBossSingleEntry" msg="野外首领只允许单人挑战" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.AllOpenCountryBossDead" msg="已击败当前地区的所有野外首领" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.NotAllPerfectChallenged" msg="当前地区尚有未完美击败的野外首领" msg_cnt="" msg_en="" />
+	<item id="RobErr.LevelNotEnoughNotActivationEchoSkill" msg="战魂等级不足，无法激活共鸣技能" msg_cnt="" msg_en="" />
+	<item id="RobErr.BossFirstEchoSlotNotFitOutMonsterCard" msg="首领槽位未有战魂上阵" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterCardConfigEchoSkillIsNull" msg="所选战魂不拥有共鸣技能" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterCardIsNotEchoSkillId" msg="战魂卡牌没有此共鸣技能数据" msg_cnt="" msg_en="" />
+	<item id="RobErr.AssignMatchRoomTypeError" msg="定向匹配房间类型错误" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterEggNotEnough" msg="魂核数量不足" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterNotExist" msg="战魂不存在" msg_cnt="" msg_en="" />
+	<item id="HeroErr.NotUseResurrectItem" msg="意识已经迷失虚空，无法复活" msg_cnt="" msg_en="" />
+	<item id="RescueErr.NoRescueAskTimes" msg="求援次数已耗尽" msg_cnt="" msg_en="" />
+	<item id="RescueErr.NotRescueType" msg="该玩法类型不可请求救援" msg_cnt="" msg_en="" />
+	<item id="RescueErr.HadRescued" msg="已有玩家加入救援队伍" msg_cnt="" msg_en="" />
+	<item id="RescueErr.NoRescueReplyTimes" msg="救援次数已耗尽" msg_cnt="" msg_en="" />
+	<item id="ERROR_NOREPORTDATA_14504" msg="没有战况数据" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.PhyIsZero" msg="体力不足（当前体力值{0}），无法挑战" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotOpenMonsterCard" msg="当前版本暂不开放此战魂" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotOpenTrapCard" msg="当前版本暂不开放此陷阱" msg_cnt="" msg_en="" />
+	<item id="RobErr.DeployMonsterCardCanBeDispatchRoom" msg="部署战魂后才能激活战域" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.SceneObjectHasOpened" msg="被其它队友占用中……" msg_cnt="" msg_en="" />
+	<item id="RobErr.NotDispatchRoomNotMatch" msg="尚未激活战域，无法匹配" msg_cnt="" msg_en="" />
+	<item id="RobErr.GoToWarRoomNoDeployMonsterNotMatch" msg="战域尚未部署战魂，无法匹配" msg_cnt="" msg_en="" />
+	<item id="RobErr.AdventureUsing" msg="探宝中，无法上阵" msg_cnt="" msg_en="" />
+	<item id="RobErr.EchoUsing" msg="共鸣中，无法上部署" msg_cnt="" msg_en="" />
+	<item id="RobErr.NoDeployMonsterCard" msg="当前暂未部署寻宝队伍，点击[FEFAC8FF]【前往寻宝】[-]进行部署" msg_cnt="" msg_en="" />
+	<item id="RescueErr.RescueReplyMatch" msg="救援排队中，不能进行组队和进入战斗等操作" msg_cnt="" msg_en="" />
+	<item id="HeroErr.NotEnoughReBornCount" msg="已无复活次数" msg_cnt="" msg_en="" />
+	<item id="HeroErr.CanNotBeUsedByOtherPlayers" msg="复活羽毛不能用于其他玩家" msg_cnt="" msg_en="" />
+	<item id="HeroErr.RebornCDIsNotOver" msg="复活冷却时间还没结束" msg_cnt="" msg_en="" />
+	<item id="HeroErr.PlayerResurrecting" msg="玩家正在复活中" msg_cnt="" msg_en="" />
+	<item id="HeroErr.CanNotRebornMore" msg="不能同时对多名玩家进行复活" msg_cnt="" msg_en="" />
+	<item id="HeroErr.CannotOperateOnYourself" msg="不能对自己进行操作" msg_cnt="" msg_en="" />
+	<item id="RiftErr.NotReceiveTargetRewards" msg="没有到达此目标，无法领取目标奖励" msg_cnt="" msg_en="" />
+	<item id="RiftErr.AlreadyReceivedTargetRewards" msg="目标奖励已经领取" msg_cnt="" msg_en="" />
+	<item id="RobErr.RefreshUpperLimit" msg="本日刷新次数已达上限" msg_cnt="" msg_en="" />
+	<item id="RobErr.RoomAlreadyOpenDefend" msg="该玩家已开启护盾，无法挑战" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.BossChallengeRewarded" msg="奖励已领取" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.BossChallengeNoReward" msg="奖励不可领" msg_cnt="" msg_en="" />
+	<item id="RobErr.AlreadyLock" msg="战魂已上锁" msg_cnt="" msg_en="" />
+	<item id="RobErr.NoDeployMonsterNotOperate" msg="未上阵战魂，无法进行该操作" msg_cnt="" msg_en="" />
+	<item id="HeroErr.IllegalPoint" msg="加点异常:{0}" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.MultipleGiftCannotBatch" msg="多选礼包不可批量打开" msg_cnt="" msg_en="" />
+	<item id="RobErr.TalentCannotReset" msg="当前不可重置" msg_cnt="" msg_en="" />
+	<item id="UserErr.UserIntervalTimeErr" msg="改名冷却时间不足" msg_cnt="" msg_en="" />
+	<item id="HeroErr.CantRebornAfterSettlement" msg="结算后无法进行复活" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.CantCultivationOrRefined" msg="无法强化或精炼" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.CultivationMaxGrade" msg="强化已达最高等级" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.RefinedMaxGrade" msg="精炼已达最高等级" msg_cnt="" msg_en="" />
+	<item id="OutfitErr.RefinedColourNotEnough" msg="品质不足无法进行精炼" msg_cnt="" msg_en="" />
+	<item id="GoodsErr.ConditionNotEnough" msg="条件不满足" msg_cnt="" msg_en="" />
+	<item id="WorldMapErr.SceneObjectNotExist" msg="场景物品不存在" msg_cnt="" msg_en="" />
+	<item id="SkillErr.SkillPageLocked" msg="技能页还未解锁" msg_cnt="" msg_en="" />
+	<item id="SkillErr.SkillPageOpened" msg="技能页已解锁" msg_cnt="" msg_en="" />
+	<item id="SkillErr.SameSkillPage" msg="相同技能页无需切换" msg_cnt="" msg_en="" />
+	<item id="SkillErr.SkillModelError" msg="技能模板不属于该英雄" msg_cnt="" msg_en="" />
+	<item id="RobErr.MonsterExist" msg="怪物已存在" msg_cnt="" msg_en="" />
+</root>

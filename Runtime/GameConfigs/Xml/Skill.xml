@@ -1,0 +1,33 @@
+<root platform="" >
+	<header table="Skill" desc="信息">
+		<field order="0" name="id" type="int" desc="SkillID" />
+		<field order="1" name="description" type="string" desc="名称" />
+		<field order="2" name="prefab" type="string" desc="类型ID" />
+		<field order="3" name="cd" type="int" desc="冷却" />
+		<field order="4" name="needEnable" type="int" desc="消耗释放开启" />
+		<field order="5" name="PersistStateId" type="int" desc="吟唱持续动作id" />
+	</header>
+	<item id="1" description="打印1" prefab="Skill_Example" cd="3" needEnable="0" PersistStateId="0" />
+	<item id="2" description="回血" prefab="Skill_Cure" cd="3" needEnable="0" PersistStateId="0" />
+	<item id="10001" description="NikiSkill" prefab="Skill_Niki" cd="10" needEnable="0" PersistStateId="8" />
+	<item id="10002" description="HertalinSkill" prefab="Skill_Hertalin" cd="10" needEnable="0" PersistStateId="8" />
+	<item id="10003" description="PesterSkill" prefab="Skill_Pester" cd="10" needEnable="0" PersistStateId="8" />
+	<item id="10004" description="OktanSkill" prefab="Skill_Oktan" cd="0" needEnable="0" PersistStateId="0" />
+	<item id="10005" description="CantorSkill" prefab="Skill_Cantor" cd="10" needEnable="0" PersistStateId="8" />
+	<item id="10006" description="KaretovaSkill" prefab="Skill_Karetova" cd="10" needEnable="0" PersistStateId="0" />
+	<item id="10007" description="NavudSkill" prefab="Skill_Navud" cd="10" needEnable="0" PersistStateId="0" />
+	<item id="10008" description="WisleySkill" prefab="Skill_Wisley" cd="10" needEnable="0" PersistStateId="0" />
+	<item id="20011" description="GnasherAlert" prefab="Skill_GnasherAlert" cd="12" needEnable="0" PersistStateId="0" />
+	<item id="20012" description="GnasherAttack1" prefab="Skill_GnasherAttack1" cd="0" needEnable="0" PersistStateId="0" />
+	<item id="20013" description="GnasherAttack2" prefab="Skill_GnasherAttack2" cd="6" needEnable="0" PersistStateId="0" />
+	<item id="20021" description="CattleAttack" prefab="Skill_CattleAttack" cd="100" needEnable="0" PersistStateId="0" />
+	<item id="20031" description="CleanerAttack" prefab="Skill_CleanerAttack" cd="0" needEnable="0" PersistStateId="0" />
+	<item id="20032" description="CleanerSkill1" prefab="Skill_CleanerSkill1" cd="8" needEnable="0" PersistStateId="0" />
+	<item id="20033" description="CleanerSkill2" prefab="Skill_CleanerSkill2" cd="15" needEnable="0" PersistStateId="0" />
+	<item id="20006" description="YethAttack1" prefab="Skill_YethAttack1" cd="0" needEnable="0" PersistStateId="0" />
+	<item id="20007" description="YethAttack2" prefab="Skill_YethAttack2" cd="0" needEnable="0" PersistStateId="0" />
+	<item id="20008" description="DreamvineAttack" prefab="Skill_DreamvineAttack" cd="3" needEnable="0" PersistStateId="0" />
+	<item id="20009" description="MistbloomAttack1" prefab="Skill_MistbloomAttack1" cd="2" needEnable="0" PersistStateId="0" />
+	<item id="20121" description="MistbloomAttack2" prefab="Skill_MistbloomAttack2" cd="10" needEnable="0" PersistStateId="0" />
+	<item id="20122" description="MediaAttack" prefab="Skill_MediaAttack" cd="15" needEnable="0" PersistStateId="0" />
+</root>

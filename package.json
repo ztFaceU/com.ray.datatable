@@ -1,0 +1,23 @@
+{
+  "name": "com.ray.datatable",
+  "displayName": "DataTable",
+  "version": "1.0.1",
+  "unity": "2021.3",
+  "description": "Xml & Bytes code genarate and load",
+  "keywords": [
+    "Data",
+    "config",
+    "Xml",
+    "code genarate"
+  ],
+  "license": "MIT",
+  "category": "Data",
+  "dependencies": {
+    "com.unity.addressables": "1.19.19"
+  },
+  "author": {
+    "name": "Ray",
+    "email": "623215873@qq.com",
+    "url": "https://github.com/Unity-Mc-Donalds/Ray.Unity.Custom.Pkgs/tree/main/com.ray.datatable"
+  }
+}

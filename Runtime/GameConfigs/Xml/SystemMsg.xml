@@ -1,0 +1,22 @@
+<root platform="" >
+	<header table="SystemMsg" desc="系统消息表">
+		<field order="0" name="MsgId" type="int" desc="消息ID" />
+		<field order="1" name="Mark" type="string" desc="标识" />
+		<field order="2" name="Msg" type="string" desc="消息" />
+	</header>
+	<item MsgId="1" Mark="MySelfEnterRoom" Msg="{0}进入房间" />
+	<item MsgId="2" Mark="PlayerExitRoom" Msg="{0}离开房间" />
+	<item MsgId="3" Mark="GameStart" Msg="你已抵达灰区" />
+	<item MsgId="4" Mark="DayChange" Msg="太阳升起，第{0}天到来" />
+	<item MsgId="5" Mark="InfestationClosed" Msg="{0}的异变被关闭" />
+	<item MsgId="6" Mark="InfestationOccur" Msg="新异变出现在{0}" />
+	<item MsgId="7" Mark="InfestationWorsen" Msg="{0}的异变恶化：{1}" />
+	<item MsgId="8" Mark="TrainStationOpen" Msg="火车站已开启" />
+	<item MsgId="9" Mark="AirdropChange" Msg="空投信息已被修改" />
+	<item MsgId="10" Mark="AirdropLanding" Msg="空投已降落在{0}" />
+	<item MsgId="11" Mark="BombCountStart" Msg="降雨装置倒计时已开始" />
+	<item MsgId="12" Mark="BombCountHalf" Msg="降雨装置倒计时已过半，无法中止" />
+	<item MsgId="13" Mark="BombCountClosed" Msg="降雨装置倒计时已关闭" />
+	<item MsgId="14" Mark="EscapeSuccess" Msg="{0}已成功独自逃生" />
+	<item MsgId="15" Mark="CreateTrainKey" Msg="火车钥匙已刷新" />
+</root>

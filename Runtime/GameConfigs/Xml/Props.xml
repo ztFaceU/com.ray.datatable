@@ -1,0 +1,67 @@
+<root platform="" >
+	<header table="Props" desc="道具表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="name" type="string" desc="名称" />
+		<field order="2" name="nameEN" type="string" desc="英文名" />
+		<field order="3" name="typeDesc" type="string" desc="分类描述" />
+		<field order="4" name="useType" type="int" desc="使用类型" />
+		<field order="5" name="level" type="int" desc="道具等级" />
+		<field order="6" name="overlay" type="int" desc="叠堆数量" />
+		<field order="7" name="maxCount" type="int" desc="背包最大数量" />
+		<field order="8" name="canUse" type="int" desc="能否使用 0：否 1：能" />
+		<field order="9" name="scriptId" type="string" desc="逻辑脚本ID" />
+		<field order="10" name="logic" type="string" desc="道具逻辑" />
+		<field order="11" name="isUsePersist" type="int" desc="道具使用过程需要持续" />
+		<field order="12" name="usePersistID" type="int" desc="道具使用过程持续ID" />
+		<field order="13" name="icon" type="string" desc="图标" />
+		<field order="14" name="audio" type="string" desc="音效" />
+		<field order="15" name="source" type="string" desc="道具来源" />
+		<field order="16" name="desc" type="string" desc="道具描述" />
+	</header>
+	<item id="1" name="破布" nameEN="Rag" typeDesc="基础材料" useType="0" level="1" overlay="5" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_rag" audio="" source="箱子拾取" desc="" />
+	<item id="2" name="木头" nameEN="Timber" typeDesc="基础材料" useType="0" level="1" overlay="10" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_imber" audio="" source="砍伐树木，箱子拾取" desc="" />
+	<item id="3" name="废弃金属" nameEN="Metal" typeDesc="基础材料" useType="0" level="1" overlay="5" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_metal" audio="" source="箱子拾取" desc="" />
+	<item id="4" name="电子元件" nameEN="ElecComponent" typeDesc="基础材料" useType="0" level="1" overlay="5" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_eleccomponent" audio="" source="箱子拾取" desc="" />
+	<item id="5" name="烈酒" nameEN="spirit" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40001}" isUsePersist="0" usePersistID="0" icon="Item_spirit" audio="UI_Battle_Item_Drink" source="箱子拾取" desc="使用后在15s内停止San值衰减，获得30s醉酒效果，可能将看到的角色随机替换模型（该效果在交互角色后结束）" />
+	<item id="6" name="废铁" nameEN="Component" typeDesc="基础材料" useType="0" level="1" overlay="5" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_omponent" audio="" source="箱子拾取" desc="" />
+	<item id="7" name="可疑的心脏" nameEN="heart" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40003}" isUsePersist="0" usePersistID="0" icon="Item_heart" audio="UI_Battle_Item_Eat" source="怪物掉落" desc="使用后10s内回复30血量，每秒掉san2点" />
+	<item id="8" name="手枪配件" nameEN="Pistolfitting" typeDesc="基础材料" useType="0" level="1" overlay="1" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_pistolfitting" audio="" source="空投掉落，箱子拾取" desc="" />
+	<item id="9" name="步枪配件" nameEN="Riflefitting" typeDesc="基础材料" useType="0" level="1" overlay="1" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_riflefitting" audio="" source="空投掉落，箱子拾取" desc="" />
+	<item id="10" name="霰弹枪配件" nameEN="Shotgunfitting" typeDesc="基础材料" useType="0" level="1" overlay="1" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_shotgunfitting" audio="" source="空投掉落，箱子拾取" desc="" />
+	<item id="11" name="雾状菇" nameEN="mushroom" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40004}" isUsePersist="0" usePersistID="0" icon="Item_mushroom" audio="UI_Battle_Item_Eat" source="野外拾取" desc="使用后10s内回复40饥饿度，每秒掉san2点" />
+	<item id="12" name="肾上腺素" nameEN="Adrenaline" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40005}" isUsePersist="0" usePersistID="0" icon="Item_adrenaline" audio="UI_Battle_Item_Injection" source="箱子拾取" desc="使用后移动速度增加50%，视野扩大50%，声音变得清晰（L4D）" />
+	<item id="13" name="灰疫样本" nameEN="sample" typeDesc="功能类" useType="0" level="1" overlay="2" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_sample" audio="" source="特殊怪物掉落" desc="" />
+	<item id="14" name="通行证" nameEN="key" typeDesc="任务类" useType="0" level="1" overlay="1" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_key" audio="" source="事件拾取" desc="携带后可以交互车站" />
+	<item id="15" name="能量棒" nameEN="EnergyBar" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="ChangeHeroProperty" logic="{&quot;PropertyType&quot; : 13,&quot;Value&quot;:30}" isUsePersist="0" usePersistID="0" icon="Item_energybar" audio="UI_Battle_Item_Eat" source="箱子拾取" desc="立即回复30饥饿" />
+	<item id="16" name="弹匣" nameEN="BoxMagazine" typeDesc="战斗类" useType="1" level="1" overlay="5" maxCount="99" canUse="1" scriptId="GunReload" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_boxmagazine" audio="" source="空投掉落，箱子拾取" desc="使用消耗1个弹匣填满手枪，2个弹匣填满霰弹枪，3个弹匣填满步枪" />
+	<item id="17" name="培养罐" nameEN="CultivatingPot" typeDesc="功能类" useType="2" level="1" overlay="1" maxCount="1" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 4}" isUsePersist="0" usePersistID="0" icon="Item_cultivatingpot" audio="" source="研究所特殊道具" desc="投掷武器，投掷产生AOE范围，使一定范围的怪物靠近培养罐，如范围内有玩家，则攻击该玩家" />
+	<item id="18" name="抗结剂" nameEN="Blocker" typeDesc="生存类" useType="1" level="1" overlay="1" maxCount="1" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40010}" isUsePersist="0" usePersistID="0" icon="Item_blocker" audio="UI_Battle_Item_Injection" source="医院特殊道具" desc="清除当前所有debuff" />
+	<item id="19" name="绷带" nameEN="Bandage" typeDesc="生存类" useType="1" level="2" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40006}" isUsePersist="1" usePersistID="3" icon="Item_bandage" audio="UI_Battle_Item_Bind" source="" desc="使用后5s回复30血量" />
+	<item id="20" name="球棒" nameEN="Knife" typeDesc="战斗类" useType="2" level="2" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 5}" isUsePersist="0" usePersistID="0" icon="Item_knife" audio="" source="" desc="攻击速度快，伤害=基础攻击力+3，蓄力最多2s，按比例额外获得1~5点伤害" />
+	<item id="21" name="开锁器" nameEN="LockPick" typeDesc="功能类" useType="0" level="2" overlay="3" maxCount="99" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_lockpick" audio="" source="" desc="拥有时可以开启保险箱" />
+	<item id="22" name="燃烧瓶" nameEN="Molotov" typeDesc="战斗类" useType="2" level="2" overlay="3" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 8}" isUsePersist="0" usePersistID="0" icon="Item_molotov" audio="" source="" desc="投掷武器，投掷造成持续火焰伤害，范围内有光源" />
+	<item id="23" name="雾化吸入剂" nameEN="MistDrug" typeDesc="生存类" useType="1" level="2" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40007}" isUsePersist="0" usePersistID="0" icon="Item_mistdrug" audio="UI_Battle_Item_Injection" source="" desc="使用后10s回复50san值" />
+	<item id="24" name="腰包" nameEN="pocket" typeDesc="功能类" useType="1" level="2" overlay="2" maxCount="99" canUse="1" scriptId="AddBagStorage" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_pocket" audio="" source="" desc="使用扩容背包2格，最多使用2次" />
+	<item id="25" name="火把" nameEN="torch" typeDesc="战斗类" useType="2" level="2" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 10}" isUsePersist="0" usePersistID="0" icon="Item_torch" audio="" source="" desc="近战武器，造成火焰伤害，提供额外光源" />
+	<item id="26" name="电网" nameEN="trap" typeDesc="战斗类" useType="1" level="2" overlay="3" maxCount="99" canUse="1" scriptId="CreateSceneItem" logic="{&quot;ItemModelName&quot;:&quot;Trap&quot;}" isUsePersist="1" usePersistID="7" icon="Item_trap" audio="" source="" desc="使用读条3s放置在面前，对第一个接近范围的角色/怪物造成30伤害，并困住3s" />
+	<item id="27" name="减速陷阱" nameEN="Chaintrap" typeDesc="战斗类" useType="1" level="2" overlay="3" maxCount="99" canUse="1" scriptId="CreateSceneItem" logic="{&quot;ItemModelName&quot;:&quot;ChainTrap&quot;}" isUsePersist="1" usePersistID="7" icon="Item_chaintrap" audio="" source="" desc="使用读条3s放置在面前，困住第一个接近范围的角色/怪物8s" />
+	<item id="28" name="斧头" nameEN="axe" typeDesc="战斗类" useType="2" level="3" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 9}" isUsePersist="0" usePersistID="0" icon="Item_axe" audio="" source="" desc="攻击速度中，伤害=基础攻击力+8，蓄力最多2s，按比例额外获得1~10点伤害" />
+	<item id="29" name="对讲机" nameEN="interphone" typeDesc="功能类" useType="4" level="3" overlay="1" maxCount="99" canUse="1" scriptId="OpenUI" logic="{&quot;UIID&quot;:1}" isUsePersist="0" usePersistID="0" icon="Item_interphone" audio="" source="" desc="使用打开UI，拨号000与通讯站交流，其他频段111~666对应其他玩家" />
+	<item id="30" name="手枪" nameEN="pistol" typeDesc="战斗类" useType="2" level="1" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 2}" isUsePersist="0" usePersistID="0" icon="Item_pistol" audio="" source="" desc="枪械，单发，每发造成30点伤害，15发子弹，需要1个弹匣装满" />
+	<item id="31" name="霰弹枪" nameEN="Shotgun" typeDesc="战斗类" useType="2" level="3" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 6}" isUsePersist="0" usePersistID="0" icon="Item_shotgun" audio="" source="" desc="枪械，单发，每发造成50点伤害，10发子弹，需要2个弹匣装满" />
+	<item id="32" name="步枪" nameEN="Rifle" typeDesc="战斗类" useType="2" level="3" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 7}" isUsePersist="0" usePersistID="0" icon="Item_rifle" audio="" source="" desc="枪械，单发/连发，每发25点伤害，30发子弹，需要3个弹匣装满" />
+	<item id="33" name="罐装迷雾" nameEN="MistPot" typeDesc="战斗类" useType="2" level="3" overlay="3" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 11}" isUsePersist="0" usePersistID="0" icon="Item_mistPot" audio="" source="" desc="投掷武器，遮挡一定范围的视野，并持续掉san" />
+	<item id="34" name="便携声呐" nameEN="sonar" typeDesc="功能类" useType="3" level="3" overlay="1" maxCount="99" canUse="1" scriptId="SonarEnable" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_sonar" audio="" source="" desc="持续开启型道具，打开时可以在视野范围外看到其他生物的声波，每2s刷新一次" />
+	<item id="35" name="电击棒" nameEN="ElectricBaton" typeDesc="战斗类" useType="2" level="3" overlay="1" maxCount="99" canUse="1" scriptId="SwitchWeapon" logic="{&quot;WeaponID&quot; : 3}" isUsePersist="0" usePersistID="0" icon="Item_electricbaton" audio="" source="" desc="近战武器，攻击有30%率麻痹敌方，使其受控1s" />
+	<item id="36" name="止痛药" nameEN="MedicalKit" typeDesc="生存类" useType="1" level="3" overlay="1" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40020}" isUsePersist="1" usePersistID="3" icon="Item_medicalkit" audio="" source="" desc="使血量回满，并清除个人负面debuff" />
+	<item id="37" name="心灵钝化器" nameEN="MindMachine" typeDesc="生存类" useType="1" level="1" overlay="1" maxCount="1" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40011}" isUsePersist="1" usePersistID="3" icon="Item_mindmachine" audio="UI_Battle_Item_Injection" source="箱子拾取" desc="使用后在120s内停止San值衰减，效果结束后60s内无法回San" />
+	<item id="38" name="烤熟的心脏" nameEN="CookedHeart" typeDesc="生存类" useType="1" level="3" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40008}" isUsePersist="0" usePersistID="0" icon="Item_cookedheart" audio="UI_Battle_Item_Eat" source="" desc="使用后5s内回复30血量" />
+	<item id="39" name="烤雾菇" nameEN="CookedMushroom" typeDesc="生存类" useType="1" level="3" overlay="3" maxCount="99" canUse="1" scriptId="AddBuff" logic="{&quot;BuffID&quot; : 40009}" isUsePersist="0" usePersistID="0" icon="Item_cookedmushroom" audio="UI_Battle_Item_Eat" source="" desc="使用后5s内回复40饥饿度" />
+	<item id="40" name="现实稳定锚" nameEN="RealityAnchor" typeDesc="任务类" useType="0" level="3" overlay="1" maxCount="1" canUse="0" scriptId="" logic="{}" isUsePersist="0" usePersistID="0" icon="Item_realityanchor" audio="" source="" desc="" />
+	<item id="41" name="花苞" nameEN="FloraSeed" typeDesc="功能类" useType="1" level="1" overlay="1" maxCount="1" canUse="1" scriptId="" logic="{}" isUsePersist="1" usePersistID="3" icon="Item_bud" audio="" source="" desc="" />
+	<item id="42" name="加特林" nameEN="" typeDesc="战斗类" useType="2" level="3" overlay="1" maxCount="99" canUse="1" scriptId="" logic="" isUsePersist="0" usePersistID="0" icon="" audio="" source="" desc="" />
+	<item id="43" name="防毒面具" nameEN="" typeDesc="生存类" useType="3" level="3" overlay="1" maxCount="99" canUse="1" scriptId="" logic="" isUsePersist="0" usePersistID="0" icon="" audio="" source="" desc="" />
+	<item id="44" name="超级压缩饼干" nameEN="" typeDesc="生存类" useType="1" level="3" overlay="1" maxCount="99" canUse="1" scriptId="" logic="" isUsePersist="0" usePersistID="0" icon="" audio="" source="" desc="" />
+	<item id="45" name="自动除颤器" nameEN="" typeDesc="生存类" useType="1" level="3" overlay="1" maxCount="99" canUse="1" scriptId="" logic="" isUsePersist="0" usePersistID="0" icon="" audio="" source="" desc="" />
+	<item id="46" name="研究报告" nameEN="" typeDesc="生存类" useType="1" level="1" overlay="3" maxCount="99" canUse="1" scriptId="" logic="" isUsePersist="0" usePersistID="0" icon="" audio="" source="" desc="" />
+</root>

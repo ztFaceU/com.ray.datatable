@@ -1,0 +1,126 @@
+<root platform="" >
+	<header table="Audio" desc="音效表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="name" type="string" desc="名称" />
+		<field order="2" name="assetName" type="string" desc="资源名" />
+		<field order="3" name="group" type="string" desc="互斥组" />
+		<field order="4" name="order" type="int" desc="互斥优先级" />
+		<field order="5" name="loop" type="int" desc="是否循环" />
+		<field order="6" name="open3D" type="int" desc="是否3D" />
+	</header>
+	<item id="1" name="置身浓雾音乐（循环）" assetName="Amb_Landform_Fog" group="1" order="1" loop="1" open3D="0" />
+	<item id="2" name="下雨声" assetName="Amb_Weather_Rain_Close" group="1" order="4" loop="1" open3D="0" />
+	<item id="3" name="无异变（空背景音乐）" assetName="Amb_Landform_NoMutation" group="1" order="1" loop="1" open3D="0" />
+	<item id="4" name="开启异变音效" assetName="UI_Battle_Mutation_Open" group="0" order="0" loop="0" open3D="0" />
+	<item id="5" name="异变持续音乐（在异变区域周围的播放）" assetName="Amb_Points_Mutation" group="1" order="3" loop="1" open3D="1" />
+	<item id="6" name="关闭异变音效" assetName="UI_Battle_Mutation_Close" group="0" order="0" loop="0" open3D="0" />
+	<item id="7" name="开启恶化音效" assetName="UI_Battle_Deteriorate_Open" group="0" order="0" loop="0" open3D="0" />
+	<item id="8" name="恶化持续音乐（在恶化区域周围时播放）" assetName="Amb_Points_Deteriorate" group="1" order="3" loop="1" open3D="1" />
+	<item id="9" name="关闭恶化音效" assetName="UI_Battle_Deteriorate_Close" group="0" order="0" loop="0" open3D="0" />
+	<item id="10" name="恶化开启音效" assetName="SFX_Buff_Deteriorate" group="0" order="0" loop="0" open3D="0" />
+	<item id="11" name="恶化持续音乐" assetName="SFX_Buff_Deteriorate_Loop" group="1" order="2" loop="1" open3D="1" />
+	<item id="12" name="开启包裹/纸箱音效" assetName="SFX_Object_Package_Open" group="0" order="0" loop="0" open3D="1" />
+	<item id="13" name="关闭包裹/纸箱音效" assetName="SFX_Object_Package_Close" group="0" order="0" loop="0" open3D="1" />
+	<item id="14" name="通用丢弃包裹音效" assetName="SFX_Object_Package_Throw" group="0" order="0" loop="0" open3D="1" />
+	<item id="15" name="开启木箱子音效" assetName="SFX_Object_BoxWood_Open" group="0" order="0" loop="0" open3D="1" />
+	<item id="16" name="关闭木箱子音效" assetName="SFX_Object_BoxWood_Close" group="0" order="0" loop="0" open3D="1" />
+	<item id="17" name="开启金属箱子音效" assetName="SFX_Object_BoxMetal_Open" group="0" order="0" loop="0" open3D="1" />
+	<item id="18" name="关闭金属箱子音效" assetName="SFX_Object_BoxMetal_Close" group="0" order="0" loop="0" open3D="1" />
+	<item id="19" name="开启尸体音效" assetName="SFX_Object_Corpse_Open" group="0" order="0" loop="0" open3D="1" />
+	<item id="20" name="关闭尸体音效" assetName="SFX_Object_Corpse_Close" group="0" order="0" loop="0" open3D="1" />
+	<item id="21" name="通用开启工作台音效" assetName="UI_Int_Workshop_Into" group="0" order="0" loop="0" open3D="1" />
+	<item id="22" name="通用关闭工作台音效" assetName="UI_Int_Workshop_Exit" group="0" order="0" loop="0" open3D="1" />
+	<item id="23" name="制作物品音效" assetName="UI_Int_Workshop_Make" group="0" order="0" loop="1" open3D="1" />
+	<item id="24" name="制作成功音效" assetName="UI_Int_Workshop_MakeSuccess" group="0" order="0" loop="0" open3D="1" />
+	<item id="25" name="投入物品音效" assetName="UI_Int_Workshop_MakeAdd" group="0" order="0" loop="0" open3D="1" />
+	<item id="26" name="通用工作中音效" assetName="UI_Int_Workshop_MakeProcess" group="0" order="0" loop="1" open3D="1" />
+	<item id="27" name="酒吧" assetName="Amb_Building_Tavern" group="1" order="1" loop="1" open3D="0" />
+	<item id="28" name="研究所" assetName="Amb_Building_Graduate" group="1" order="1" loop="1" open3D="0" />
+	<item id="29" name="教会" assetName="Amb_Building_Church" group="1" order="1" loop="1" open3D="0" />
+	<item id="30" name="气化站" assetName="Amb_Building_GasStation" group="1" order="1" loop="1" open3D="0" />
+	<item id="31" name="通讯室" assetName="Amb_Building_Communication" group="1" order="1" loop="1" open3D="0" />
+	<item id="32" name="控制站" assetName="Amb_Building_ControlStation" group="1" order="1" loop="1" open3D="0" />
+	<item id="33" name="气炉工作中音效" assetName="SFX_Object_Stove_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="34" name="咖啡机工作音效" assetName="SFX_Object_CoffeeMaker_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="35" name="萃取台工作音效" assetName="SFX_Object_centrifuge_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="36" name="电疗椅工作音效" assetName="SFX_Object_ElectricChair_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="37" name="轨道车运行音效" assetName="SFX_Object_Railcar_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="38" name="滴答倒计时音效" assetName="SFX_Object_CountDown_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="39" name="空投落地音效" assetName="SFX_Object_BoxWood_Drop" group="0" order="0" loop="0" open3D="1" />
+	<item id="40" name="空投飞机飞过" assetName="UI_Battle_Supply_Renewal" group="0" order="0" loop="0" open3D="1" />
+	<item id="41" name="监控器打开音效" assetName="UI_Int_ControlRoom_Monitor" group="0" order="0" loop="0" open3D="1" />
+	<item id="42" name="放电音效" assetName="Amb_Building_ElectricRoom_Discharge" group="0" order="0" loop="1" open3D="1" />
+	<item id="43" name="充电音效" assetName="Amb_Building_ElectricRoom_Recharge" group="0" order="0" loop="1" open3D="1" />
+	<item id="44" name="通讯室电磁干扰音效" assetName="Amb_Building_Communi_Magnet" group="0" order="0" loop="1" open3D="0" />
+	<item id="52" name="通用按钮音效" assetName="UI_Menu_Click" group="0" order="0" loop="0" open3D="0" />
+	<item id="53" name="通用禁止音效（如：选择不可选择的角色）" assetName="UI_Menu_Click_Forbid" group="0" order="0" loop="0" open3D="0" />
+	<item id="54" name="通用滑块拖动音效" assetName="UI_Menu_Click_Slide" group="0" order="0" loop="0" open3D="0" />
+	<item id="55" name="无效点击音效（如：点击空白处）" assetName="UI_Menu_Click_Void" group="0" order="0" loop="0" open3D="0" />
+	<item id="56" name="通用界面打开音效" assetName="UI_Menu_Into" group="0" order="0" loop="0" open3D="0" />
+	<item id="57" name="通用界面关闭音效" assetName="UI_Menu_Exit" group="0" order="0" loop="0" open3D="0" />
+	<item id="58" name="大厅窗口和切换音效" assetName="UI_Menu_Popup_Lv1" group="0" order="0" loop="0" open3D="0" />
+	<item id="59" name="通用二级弹窗音效" assetName="UI_Menu_Popup_Lv2" group="0" order="0" loop="0" open3D="0" />
+	<item id="60" name="通用Tips窗口音效" assetName="UI_Menu_Popup_Tips" group="0" order="0" loop="0" open3D="1" />
+	<item id="61" name="通用警告弹窗音效" assetName="UI_Menu_Popup_Warn" group="0" order="0" loop="0" open3D="1" />
+	<item id="62" name="进入游戏页面" assetName="Mus_Interface_Login" group="0" order="0" loop="1" open3D="0" />
+	<item id="63" name="大厅页面" assetName="Mus_Interface_Hall" group="0" order="0" loop="1" open3D="0" />
+	<item id="64" name="匹配页面" assetName="Mus_Interface_Matching" group="0" order="0" loop="1" open3D="0" />
+	<item id="65" name="匹配成功" assetName="Mus_Interface_MatchingSuccess" group="0" order="0" loop="0" open3D="0" />
+	<item id="66" name="载入中页面" assetName="Mus_Interface_Loading" group="0" order="0" loop="1" open3D="0" />
+	<item id="67" name="匹配成功（UI音效）" assetName="UI_Battle_Matching_Success" group="0" order="0" loop="0" open3D="0" />
+	<item id="68" name="打开背包音效" assetName="UI_Int_Bag_Into" group="0" order="0" loop="0" open3D="0" />
+	<item id="69" name="关闭背包音效" assetName="UI_Int_Bag_Exit" group="0" order="0" loop="0" open3D="0" />
+	<item id="70" name="转移/交换道具音效" assetName="UI_Int_Bag_ItemChange" group="0" order="0" loop="0" open3D="0" />
+	<item id="71" name="手电筒音效（打开）" assetName="UI_Battle_Item_FlashlightOn" group="0" order="0" loop="0" open3D="0" />
+	<item id="72" name="手电筒音效（关闭）" assetName="UI_Battle_Item_FlashlightOff" group="0" order="0" loop="0" open3D="1" />
+	<item id="73" name="对讲机音效（打开）" assetName="UI_Battle_Item_RadioOn" group="0" order="0" loop="0" open3D="1" />
+	<item id="74" name="对讲机音效（白噪音）" assetName="UI_Battle_Item_RadioLoop" group="0" order="0" loop="1" open3D="0" />
+	<item id="75" name="对讲机音效（关闭）" assetName="UI_Battle_Item_RadioOff" group="0" order="0" loop="0" open3D="1" />
+	<item id="76" name="进食类道具使用音效" assetName="UIBattle_Item_Eat" group="0" order="0" loop="0" open3D="1" />
+	<item id="77" name="饮用类道具使用音效" assetName="UI_Battle_Item_Drink" group="0" order="0" loop="0" open3D="1" />
+	<item id="78" name="注射类道具使用音效" assetName="UI_Battle_Item_Injection" group="0" order="0" loop="0" open3D="1" />
+	<item id="79" name="包扎类道具使用音效" assetName="UI_Battle_Item_Bind" group="0" order="0" loop="0" open3D="1" />
+	<item id="80" name="通用仪器使用音效" assetName="SFX_Object_Instrument_Use" group="0" order="0" loop="0" open3D="1" />
+	<item id="81" name="通用陷阱放置音效，放置中" assetName="SFX_Object_Trap_PutProcess" group="0" order="0" loop="1" open3D="1" />
+	<item id="82" name="通用陷阱放置音效，成功放置" assetName="SFX_Object_Trap_Put" group="0" order="0" loop="0" open3D="1" />
+	<item id="83" name="捕兽陷阱触发" assetName="SFX_Object_TrapClamp_Trigger" group="0" order="0" loop="0" open3D="1" />
+	<item id="84" name="锁链陷阱触发" assetName="SFX_Object_TrapChain_Trigger" group="0" order="0" loop="0" open3D="1" />
+	<item id="85" name="燃烧瓶破碎" assetName="SFX_Object_FireBottle_Break" group="0" order="0" loop="0" open3D="1" />
+	<item id="86" name="燃烧瓶燃烧" assetName="Amb_Points_FireBottle" group="0" order="0" loop="1" open3D="1" />
+	<item id="87" name="非燃烧瓶投掷破碎" assetName="SFX_Object_IceCube_Break" group="0" order="0" loop="0" open3D="1" />
+	<item id="88" name="通用近战攻击" assetName="SFX_Weapon_StickMetal_Whoosh" group="0" order="0" loop="0" open3D="1" />
+	<item id="89" name="火把拿出/蓄力" assetName="SFX_Weapon_Torch_Loop" group="0" order="0" loop="1" open3D="1" />
+	<item id="90" name="火把攻击" assetName="SFX_Weapon_Torch_Whoosh" group="0" order="0" loop="0" open3D="1" />
+	<item id="91" name="手枪音效" assetName="SFX_Weapon_Pistol_ShootSingle" group="0" order="0" loop="0" open3D="1" />
+	<item id="92" name="霰弹枪音效" assetName="SFX_Weapon_Shotgun_ShootSingle" group="0" order="0" loop="0" open3D="0" />
+	<item id="93" name="步枪音效" assetName="SFX_Weapon_Rifle_ShootSingle" group="0" order="0" loop="0" open3D="0" />
+	<item id="94" name="钝器受击" assetName="SFX_Impact_Blunt_Flesh" group="0" order="0" loop="0" open3D="1" />
+	<item id="95" name="锐气受击" assetName="SFX_Impact_Spear_Flesh" group="0" order="0" loop="0" open3D="1" />
+	<item id="96" name="走路脚步声" assetName="SFX_Move_Boot_Walk" group="0" order="0" loop="0" open3D="1" />
+	<item id="97" name="跑步声" assetName="SFX_Move_Boot_Run" group="0" order="0" loop="0" open3D="1" />
+	<item id="98" name="冲刺跑步声" assetName="SFX_Move_Boot_Sprint" group="0" order="0" loop="0" open3D="1" />
+	<item id="99" name="急速呼吸声" assetName="VO_Role_Male_Breath" group="0" order="0" loop="1" open3D="1" />
+	<item id="100" name="濒死心跳声" assetName="UI_Battle_Role_Heartbeat" group="0" order="0" loop="1" open3D="1" />
+	<item id="101" name="怪物警戒（1）" assetName="SFX_Anim_Monster1_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="102" name="怪物攻击（1）" assetName="SFX_Anim_Monster1_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="103" name="死亡音效（1）" assetName="SFX_Anim_Monster1_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="104" name="怪物待机（2）" assetName="SFX_Anim_Monster2_Idle" group="0" order="0" loop="0" open3D="1" />
+	<item id="105" name="怪物警戒（2）" assetName="SFX_Anim_Monster2_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="106" name="怪物攻击（2）" assetName="SFX_Anim_Monster2_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="107" name="死亡音效（2）" assetName="SFX_Anim_Monster2_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="108" name="怪物警戒（3）" assetName="SFX_Anim_Monster3_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="109" name="怪物攻击（3）" assetName="SFX_Anim_Monster3_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="110" name="死亡音效（3）" assetName="SFX_Anim_Monster3_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="111" name="怪物警戒（4）" assetName="SFX_Anim_Monster4_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="112" name="怪物攻击（4）" assetName="SFX_Anim_Monster4_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="113" name="死亡音效（4）" assetName="SFX_Anim_Monster4_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="114" name="怪物警戒（5）" assetName="SFX_Anim_Monster5_Vigilance" group="0" order="0" loop="1" open3D="1" />
+	<item id="115" name="怪物攻击（5）" assetName="SFX_Anim_Monster5_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="116" name="死亡音效（5）" assetName="SFX_Anim_Monster5_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="117" name="怪物警戒（6）" assetName="SFX_Anim_Monster6_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="118" name="怪物攻击（6）" assetName="SFX_Anim_Monster6_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="119" name="死亡音效（6）" assetName="SFX_Anim_Monster6_Die" group="0" order="0" loop="0" open3D="1" />
+	<item id="120" name="怪物警戒（7）" assetName="SFX_Anim_Monster7_Vigilance" group="0" order="0" loop="0" open3D="1" />
+	<item id="121" name="怪物攻击（7）" assetName="SFX_Anim_Monster7_Attack" group="0" order="0" loop="0" open3D="1" />
+	<item id="122" name="死亡音效（7）" assetName="SFX_Anim_Monster7_Die" group="0" order="0" loop="0" open3D="1" />
+</root>

@@ -1,0 +1,15 @@
+<root platform="" >
+	<header table="Area" desc="区域表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="areaName" type="string" desc="区域名称" />
+	</header>
+	<item id="1" areaName="酒吧" />
+	<item id="2" areaName="医院" />
+	<item id="3" areaName="警局" />
+	<item id="4" areaName="研究所" />
+	<item id="5" areaName="教会" />
+	<item id="6" areaName="供气站" />
+	<item id="7" areaName="火车站" />
+	<item id="8" areaName="信号站" />
+	<item id="9" areaName="降雨站" />
+</root>

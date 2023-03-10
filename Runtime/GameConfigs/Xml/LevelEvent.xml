@@ -1,0 +1,29 @@
+<root platform="" >
+	<header table="LevelEvent" desc="关卡事件配置">
+		<field order="0" name="LevelEventId" type="int" desc="事件ID" />
+		<field order="1" name="EventType" type="int" desc="事件类型" />
+		<field order="2" name="PutMonsterAreaType" type="int" desc="投放区域类型" />
+		<field order="3" name="PutMonsterAreaId" type="int" desc="投放区域id" />
+		<field order="4" name="PutGoodsAreaId" type="int" desc="道具投放区域id" />
+	</header>
+	<item LevelEventId="1" EventType="1" PutMonsterAreaType="2" PutMonsterAreaId="0" PutGoodsAreaId="0" />
+	<item LevelEventId="2" EventType="1" PutMonsterAreaType="3" PutMonsterAreaId="0" PutGoodsAreaId="0" />
+	<item LevelEventId="3" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="1" PutGoodsAreaId="0" />
+	<item LevelEventId="4" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="2" PutGoodsAreaId="0" />
+	<item LevelEventId="5" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="3" PutGoodsAreaId="0" />
+	<item LevelEventId="6" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="4" PutGoodsAreaId="0" />
+	<item LevelEventId="7" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="5" PutGoodsAreaId="0" />
+	<item LevelEventId="8" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="6" PutGoodsAreaId="0" />
+	<item LevelEventId="9" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="7" PutGoodsAreaId="0" />
+	<item LevelEventId="10" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="8" PutGoodsAreaId="0" />
+	<item LevelEventId="11" EventType="1" PutMonsterAreaType="1" PutMonsterAreaId="9" PutGoodsAreaId="0" />
+	<item LevelEventId="101" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="1" />
+	<item LevelEventId="102" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="2" />
+	<item LevelEventId="103" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="3" />
+	<item LevelEventId="104" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="4" />
+	<item LevelEventId="105" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="5" />
+	<item LevelEventId="106" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="6" />
+	<item LevelEventId="107" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="7" />
+	<item LevelEventId="108" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="8" />
+	<item LevelEventId="109" EventType="2" PutMonsterAreaType="0" PutMonsterAreaId="0" PutGoodsAreaId="9" />
+</root>

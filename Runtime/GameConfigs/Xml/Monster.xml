@@ -1,0 +1,24 @@
+<root platform="" >
+	<header table="Monster" desc="怪物信息">
+		<field order="0" name="id" type="int" desc="怪物ID" />
+		<field order="1" name="name" type="string" desc="怪物名称" />
+		<field order="2" name="modelPrefab" type="string" desc="模型预设" />
+		<field order="3" name="Attack" type="int" desc="攻击力" />
+		<field order="4" name="speed" type="int" desc="攻击速度" />
+		<field order="5" name="HP" type="int" desc="生命值" />
+		<field order="6" name="rankType" type="int" desc="怪物类型" />
+		<field order="7" name="DropGoodsId" type="int" desc="掉落物品ID" />
+		<field order="8" name="DropGoodsNumWeight" type="string" desc="掉落物品数量概率权重" />
+		<field order="9" name="DropPackagePrefabName" type="string" desc="掉落包裹的预设" />
+	</header>
+	<item id="0" name="测试怪物" modelPrefab="TestMonster" Attack="1" speed="1" HP="10000" rankType="1" DropGoodsId="7" DropGoodsNumWeight="0,1;1,5;" DropPackagePrefabName="GnasherPackage" />
+	<item id="1" name="家犬" modelPrefab="Gnasher" Attack="8" speed="8" HP="20" rankType="1" DropGoodsId="7" DropGoodsNumWeight="0,1;1,5;" DropPackagePrefabName="GnasherPackage" />
+	<item id="2" name="灰色牲口" modelPrefab="Cattle" Attack="10" speed="9" HP="30" rankType="1" DropGoodsId="13" DropGoodsNumWeight="0,10;1,5;" DropPackagePrefabName="CattlePackage" />
+	<item id="3" name="梦藤" modelPrefab="Dreamvine" Attack="2" speed="10" HP="10" rankType="2" DropGoodsId="13" DropGoodsNumWeight="0,5;1,5;" DropPackagePrefabName="DreamvinePackage" />
+	<item id="4" name="雾诡" modelPrefab="Mistbloom" Attack="5" speed="5" HP="85" rankType="2" DropGoodsId="13" DropGoodsNumWeight="1,5;" DropPackagePrefabName="MistbloomPackage" />
+	<item id="5" name="清道夫" modelPrefab="Cleaner" Attack="10" speed="5" HP="80" rankType="1" DropGoodsId="7" DropGoodsNumWeight="0,1;1,9;" DropPackagePrefabName="CleanerPackage" />
+	<item id="6" name="宣传机器" modelPrefab="Media" Attack="1" speed="8" HP="80" rankType="2" DropGoodsId="13" DropGoodsNumWeight="1,5;" DropPackagePrefabName="MediaPackage" />
+	<item id="7" name="夜嘶" modelPrefab="Yeth" Attack="8" speed="8" HP="25" rankType="1" DropGoodsId="13" DropGoodsNumWeight="0,10;1,5;" DropPackagePrefabName="YethPackage" />
+	<item id="8" name="11105" modelPrefab="Schizom" Attack="8" speed="8" HP="25" rankType="1" DropGoodsId="13" DropGoodsNumWeight="0,2;1,6;" DropPackagePrefabName="SchizomPackage" />
+	<item id="9" name="11106" modelPrefab="SchizomBaby" Attack="2" speed="8" HP="5" rankType="1" DropGoodsId="7" DropGoodsNumWeight="0,1;" DropPackagePrefabName="SchizomBabyPackage" />
+</root>

@@ -1,0 +1,26 @@
+<root platform="" >
+	<header table="Compound" desc="合成表">
+		<field order="0" name="id" type="int" desc="道具id" />
+		<field order="1" name="type" type="int" desc="类型" />
+		<field order="2" name="desc" type="string" desc="描述" />
+		<field order="3" name="consume" type="string" desc="所需材料" />
+		<field order="4" name="isPersist" type="int" desc="需要合成持续表现" />
+		<field order="5" name="persistID" type="int" desc="合成持续表现ID" />
+	</header>
+	<item id="19" type="1" desc="布*2" consume="[{&quot;itemId&quot;:1,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="23" type="1" desc="蘑菇*3+电子元件*1" consume="[{&quot;itemId&quot;:11,&quot;itemCount&quot;:1},{&quot;itemId&quot;:4,&quot;itemCount&quot;:1}]" isPersist="1" persistID="6" />
+	<item id="20" type="1" desc="木头*3" consume="[{&quot;itemId&quot;:2,&quot;itemCount&quot;:3}]" isPersist="1" persistID="6" />
+	<item id="21" type="2" desc="废铁*1+木头*1" consume="[{&quot;itemId&quot;:6,&quot;itemCount&quot;:1},{&quot;itemId&quot;:2,&quot;itemCount&quot;:1}]" isPersist="1" persistID="6" />
+	<item id="22" type="1" desc="布*1+酒精*1" consume="[{&quot;itemId&quot;:1,&quot;itemCount&quot;:1},{&quot;itemId&quot;:5,&quot;itemCount&quot;:1}]" isPersist="1" persistID="6" />
+	<item id="26" type="2" desc="电子元件*2" consume="[{&quot;itemId&quot;:4,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="27" type="1" desc="电子元件*1+木头*2" consume="[{&quot;itemId&quot;:4,&quot;itemCount&quot;:1},{&quot;itemId&quot;:2,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="28" type="2" desc="废铁*3+木头*3" consume="[{&quot;itemId&quot;:6,&quot;itemCount&quot;:3},{&quot;itemId&quot;:2,&quot;itemCount&quot;:3}]" isPersist="1" persistID="6" />
+	<item id="29" type="2" desc="电子元件*3+废铁*3" consume="[{&quot;itemId&quot;:4,&quot;itemCount&quot;:3},{&quot;itemId&quot;:6,&quot;itemCount&quot;:3}]" isPersist="1" persistID="6" />
+	<item id="30" type="2" desc="废铁*4+木头*2" consume="[{&quot;itemId&quot;:6,&quot;itemCount&quot;:4},{&quot;itemId&quot;:2,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="31" type="2" desc="霰弹枪配件+废铁*3+木头*3" consume="[{&quot;itemId&quot;:10,&quot;itemCount&quot;:1},{&quot;itemId&quot;:6,&quot;itemCount&quot;:3},{&quot;itemId&quot;:2,&quot;itemCount&quot;:3}]" isPersist="1" persistID="6" />
+	<item id="33" type="2" desc="样本*1+电子元件*2" consume="[{&quot;itemId&quot;:13,&quot;itemCount&quot;:1},{&quot;itemId&quot;:4,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="34" type="2" desc="电子元件*3+废铁*2+木头*2" consume="[{&quot;itemId&quot;:4,&quot;itemCount&quot;:3},{&quot;itemId&quot;:6,&quot;itemCount&quot;:2},{&quot;itemId&quot;:2,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+	<item id="38" type="4" desc="奇怪的心脏*1" consume="[{&quot;itemId&quot;:7,&quot;itemCount&quot;:1}]" isPersist="0" persistID="0" />
+	<item id="39" type="4" desc="蘑菇*1" consume="[{&quot;itemId&quot;:11,&quot;itemCount&quot;:1}]" isPersist="0" persistID="0" />
+	<item id="16" type="2" desc="废铁*2" consume="[{&quot;itemId&quot;:6,&quot;itemCount&quot;:2}]" isPersist="1" persistID="6" />
+</root>

@@ -1,0 +1,26 @@
+<root platform="" >
+	<header table="Mission" desc="任务表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="name" type="string" desc="名称" />
+		<field order="2" name="group" type="int" desc="分组" />
+		<field order="3" name="type" type="int" desc="类型" />
+		<field order="4" name="submitCondition" type="string" desc="提交任务条件" />
+		<field order="5" name="desc" type="string" desc="描述" />
+		<field order="6" name="Script" type="string" desc="脚本" />
+	</header>
+	<item id="1" name="好人任务" group="1" type="1" submitCondition="[{'type':5,'param':{}}]" desc="区域变异开启，需关闭变异" Script="NoHandle" />
+	<item id="2" name="坏人任务" group="2" type="1" submitCondition="[{'type':2,'param':{}}]" desc="区域变异开启，需关闭变异" Script="NoHandle" />
+	<item id="1001" name="降神仪式" group="10" type="2" submitCondition="[{'type':1,'param':{'itemId':7,'itemCount':6}},{'type':1,'param':{'itemId':7,'itemCount':6}},{'type':1,'param':{'itemId':7,'itemCount':6}}]" desc="激活位于3个地点的祭坛，每个祭坛需要交付6个可疑的心脏&#x000A;完成后变身为强力怪物" Script="GodAltar" />
+	<item id="1002" name="降雨预警" group="10" type="3" submitCondition="[{'type':1,'param':{'itemId':17,'itemCount':2}},{'type':1,'param':{'itemId':18,'itemCount':2}},{'type':1,'param':{'itemId':40,'itemCount':1}}]" desc="激活位于3个地点的祭坛，每个祭坛分别需要交付培养罐*2/抗结剂*2/现实稳定锚*1&#x000A;完成后从降雨站出现不断扩大的降雨圈" Script="RainAltar" />
+	<item id="1003" name="万物生长" group="10" type="4" submitCondition="[{'type':26,'param':{'value':3}}]" desc="对三具不同的玩家尸体交付一个培养罐（尸体被培养罐影响后会长出植物）&#x000A;完成后自己和被影响的尸体转化为玩家外观的怪物，这种怪物会感染其他存活玩家并有可能使其转化为同样的怪物" Script="DeadWalker" />
+	<item id="1004" name="脱离现实" group="10" type="5" submitCondition="[{'type':1,'param':{'itemId':18,'itemCount':3}}]" desc="去固定交付点交付3次抗结剂，每次只能交付一剂，CD 300s&#x000A;完成后所有房间内自然回san取消" Script="OutOfTouch" />
+	<item id="1005" name="折磨永存" group="10" type="6" submitCondition="[{'type':28,'param':{}}]" desc="杀死一个15s内被电击和燃烧过的疯狂状态的玩家&#x000A;完成后你的主动技能替换为即刻使范围内的所有其他玩家获得电击和燃烧debuff并将理智清零，CD 60s" Script="TormentLastsForever" />
+	<item id="2001" name="冤家路窄" group="20" type="1" submitCondition="[{'type':16,'param':{}}]" desc="使特定角色无法幸存" Script="NoHandle" />
+	<item id="2002" name="疯子无罪" group="20" type="1" submitCondition="[{'type':17,'param':{}}]" desc="在疯狂状态下目睹1个玩家死亡" Script="NoHandle" />
+	<item id="2003" name="未来储备" group="20" type="1" submitCondition="[{'type':18,'param':{}}]" desc="在固定交付点交付抗结剂*2/培养罐*2/现实稳定锚*1/烤熟的心脏*6+烤雾菇*6/简易手枪*5/灰疫样本*3" Script="NoHandle" />
+	<item id="2004" name="受虐妄想" group="20" type="1" submitCondition="[{'type':19,'param':{'monsterTypeNum':5}}]" desc="受到来自5种不同怪物的伤害" Script="NoHandle" />
+	<item id="2005" name="逆我者亡" group="20" type="1" submitCondition="[{'type':20,'param':{'damage':50}}]" desc="对其他玩家累计造成50点伤害" Script="NoHandle" />
+	<item id="2006" name="天使之音" group="20" type="1" submitCondition="[{'type':21,'param':{'times':2}}]" desc="救助2次濒死玩家" Script="NoHandle" />
+	<item id="2007" name="直面死亡" group="20" type="1" submitCondition="[{'type':22,'param':{'attrValue':40,'duration':60}}]" desc="使你的生命值和饥饿值保持在40点以下，持续60s，濒死或任意项超过40点时重新计时（完成后不会重新计时）" Script="NoHandle" />
+	<item id="2008" name="食腐动物" group="20" type="1" submitCondition="[{'type':23,'param':{'defPlayerNum':2}}]" desc="从2个不同其他玩家的尸体上掠夺物品" Script="NoHandle" />
+</root>

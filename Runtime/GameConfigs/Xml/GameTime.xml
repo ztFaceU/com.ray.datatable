@@ -1,0 +1,16 @@
+<root platform="" >
+	<header table="GameTime" desc="游戏时间表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="group" type="int" desc="分组" />
+		<field order="2" name="day" type="int" desc="天数" />
+		<field order="3" name="type" type="int" desc="类型（0：昼，1：夜）" />
+		<field order="4" name="duration" type="int" desc="时长（秒）" />
+	</header>
+	<item id="1" group="1" day="1" type="0" duration="360" />
+	<item id="2" group="1" day="1" type="1" duration="120" />
+	<item id="3" group="1" day="2" type="0" duration="360" />
+	<item id="4" group="1" day="2" type="1" duration="120" />
+	<item id="5" group="1" day="3" type="0" duration="360" />
+	<item id="6" group="1" day="3" type="1" duration="120" />
+	<item id="7" group="1" day="4" type="0" duration="360" />
+</root>

@@ -1,0 +1,26 @@
+<root platform="" >
+	<header table="Weapon" desc="装备武器信息">
+		<field order="0" name="id" type="int" desc="武器ID" />
+		<field order="1" name="name" type="string" desc="武器名称" />
+		<field order="2" name="itemID" type="int" desc="对应道具ID" />
+		<field order="3" name="modelPrefab" type="string" desc="模型预设" />
+		<field order="4" name="Attack" type="int" desc="攻击力" />
+		<field order="5" name="speed" type="int" desc="攻击速度" />
+		<field order="6" name="animations" type="string" desc="动作模组" />
+		<field order="7" name="type" type="int" desc="武器类型" />
+		<field order="8" name="expend" type="int" desc="消耗数量" />
+		<field order="9" name="loadedSum" type="int" desc="装满数量" />
+		<field order="10" name="onceLoadCount" type="int" desc="单次装填数量" />
+	</header>
+	<item id="1" name="拳头" itemID="0" modelPrefab="Riot" Attack="1" speed="8" animations="Riot" type="0" expend="0" loadedSum="0" onceLoadCount="0" />
+	<item id="2" name="手枪" itemID="30" modelPrefab="Gun" Attack="2" speed="9" animations="Pistol" type="2" expend="0" loadedSum="15" onceLoadCount="15" />
+	<item id="3" name="电击棒" itemID="35" modelPrefab="ElectricBaton" Attack="1" speed="1" animations="OneHand" type="1" expend="0" loadedSum="0" onceLoadCount="0" />
+	<item id="4" name="培养罐" itemID="17" modelPrefab="CultivatingPot" Attack="2" speed="9" animations="Throw" type="3" expend="1" loadedSum="0" onceLoadCount="0" />
+	<item id="5" name="小刀" itemID="20" modelPrefab="Knife" Attack="1" speed="2" animations="OneHand" type="1" expend="0" loadedSum="0" onceLoadCount="0" />
+	<item id="6" name="霰弹枪" itemID="31" modelPrefab="ShotGun" Attack="2" speed="9" animations="TwoHand" type="2" expend="0" loadedSum="10" onceLoadCount="5" />
+	<item id="7" name="步枪" itemID="32" modelPrefab="Rifle" Attack="2" speed="9" animations="TwoHand" type="2" expend="0" loadedSum="30" onceLoadCount="10" />
+	<item id="8" name="燃烧瓶" itemID="22" modelPrefab="MolotovCocktail" Attack="2" speed="9" animations="Throw" type="3" expend="1" loadedSum="0" onceLoadCount="0" />
+	<item id="9" name="斧头" itemID="28" modelPrefab="Axe" Attack="1" speed="1" animations="OneHand" type="1" expend="0" loadedSum="0" onceLoadCount="0" />
+	<item id="10" name="火把" itemID="25" modelPrefab="Torch" Attack="2" speed="2" animations="Torch" type="1" expend="0" loadedSum="0" onceLoadCount="0" />
+	<item id="11" name="罐装迷雾" itemID="33" modelPrefab="MistPot" Attack="0" speed="1" animations="Throw" type="3" expend="1" loadedSum="0" onceLoadCount="0" />
+</root>

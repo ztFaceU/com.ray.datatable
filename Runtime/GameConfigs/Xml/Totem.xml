@@ -1,0 +1,23 @@
+<root platform="" >
+	<header table="Totem" desc="图腾表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="name" type="string" desc="效果名称" />
+		<field order="2" name="script" type="string" desc="效果类型" />
+		<field order="3" name="des" type="string" desc="描述" />
+		<field order="4" name="uniqueEffect" type="int" desc="是否为独特效果" />
+		<field order="5" name="icon" type="string" desc="技能UI图标" />
+	</header>
+	<item id="1" name="脆弱结构" script="GasStoveWeaken" des="气炉耐久度减少50%，制作现实稳定锚的时间延长100%" uniqueEffect="0" icon="ydb_icon_01" />
+	<item id="2" name="供气短缺" script="InRoomSanRecoverReduce" des="所有坏人阵营之外的玩家室内回复的san值减少50%" uniqueEffect="0" icon="ydb_icon_02" />
+	<item id="3" name="他们来了" script="MoreMonsters" des="夜晚进攻的怪物数量增加50%" uniqueEffect="0" icon="ydb_icon_03" />
+	<item id="4" name="思维饥荒" script="MoreHungry" des="所有坏人阵营之外的玩家自然损失的饥饿值增加100%" uniqueEffect="0" icon="ydb_icon_04" />
+	<item id="5" name="重重迷雾" script="ThickMist" des="所有坏人阵营之外的玩家视野降低50%" uniqueEffect="0" icon="ydb_icon_05" />
+	<item id="6" name="狂欢派对" script="EveryoneCrazy" des="所有坏人阵营之外的玩家获得同一个随机的额外疯狂效果，该疯狂效果无法被电疗椅消除，此图腾被破坏后该疯狂效果消除" uniqueEffect="0" icon="ydb_icon_06" />
+	<item id="7" name="迷雾游荡者" script="GenerateBoss" des="刷出一只强力怪物并在大路上游荡，此图腾被破坏时该怪物死亡" uniqueEffect="0" icon="ydb_icon_07" />
+	<item id="8" name="群体失忆" script="LockMainSkill" des="所有坏人阵营之外的玩家无法使用职业主动技能" uniqueEffect="0" icon="ydb_icon_08" />
+	<item id="9" name="设备失灵" script="LockCraftTable" des="所有坏人阵营之外的玩家无法使用工作台" uniqueEffect="0" icon="ydb_icon_09" />
+	<item id="10" name="失语症" script="DeadlySilence" des="所有玩家无法聊天，计时300s后此图腾自毁" uniqueEffect="0" icon="ydb_icon_10" />
+	<item id="11" name="现实间隙" script="LockMutation" des="异变无法被关闭，计时300s后此图腾自毁" uniqueEffect="0" icon="ydb_icon_11" />
+	<item id="12" name="猜疑丛生" script="SuspicionChain" des="计时300s后所有好人阵营自动脱离阵营" uniqueEffect="1" icon="ydb_icon_03" />
+	<item id="13" name="新秩序" script="GameOver" des="计时300s后游戏结束，坏人阵营直接获得游戏胜利" uniqueEffect="1" icon="ydb_icon_02" />
+</root>

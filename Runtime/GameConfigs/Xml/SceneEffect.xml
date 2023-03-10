@@ -1,0 +1,16 @@
+<root platform="" >
+	<header table="SceneEffect" desc="场景效果表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="name" type="string" desc="名称" />
+		<field order="2" name="type" type="int" desc="类型" />
+		<field order="3" name="value" type="int" desc="数值" />
+		<field order="4" name="target" type="int" desc="作用目标" />
+		<field order="5" name="icon" type="string" desc="图标" />
+		<field order="6" name="desc" type="string" desc="描述" />
+	</header>
+	<item id="1" name="思维饥荒" type="1" value="0" target="0" icon="icon_1" desc="所有玩家理智值减少时，额外损失等量的饥饿值" />
+	<item id="2" name="太阳变节" type="2" value="70" target="0" icon="icon_1" desc="所有玩家的可见范围减少至正常值的70%" />
+	<item id="3" name="心灵溃烂" type="3" value="10" target="0" icon="icon_1" desc="玩家在失去生命值的同时失去理智值" />
+	<item id="4" name="众人皆孤独" type="4" value="0" target="0" icon="icon_1" desc="视野内没有其他玩家时每秒失去1点理智值" />
+	<item id="5" name="献给农神" type="5" value="70" target="0" icon="icon_1" desc="玩家使用技能/道具回复HP SAN 饥饿时，效果降低至原先的70%" />
+</root>

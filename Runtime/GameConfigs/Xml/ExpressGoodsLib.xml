@@ -1,0 +1,38 @@
+<root platform="" >
+	<header table="ExpressGoodsLib" desc="快递物资包配置">
+		<field order="0" name="Id" type="int" desc="唯一ID" />
+		<field order="1" name="LevelId" type="int" desc="关卡ID" />
+		<field order="2" name="GoodsLibId" type="int" desc="道具库id" />
+		<field order="3" name="TimeRange" type="int" desc="时间范围" />
+		<field order="4" name="UnitPutCount" type="int" desc="单次投放量" />
+		<field order="5" name="GoodsWeightList" type="string" desc="道具权重列表" />
+	</header>
+	<item Id="1" LevelId="1" GoodsLibId="10001" TimeRange="60" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="2" LevelId="1" GoodsLibId="10002" TimeRange="120" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="3" LevelId="1" GoodsLibId="10003" TimeRange="180" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="4" LevelId="1" GoodsLibId="10004" TimeRange="240" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="5" LevelId="1" GoodsLibId="10005" TimeRange="300" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="6" LevelId="1" GoodsLibId="10006" TimeRange="360" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="7" LevelId="1" GoodsLibId="10007" TimeRange="420" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="8" LevelId="1" GoodsLibId="10008" TimeRange="480" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="9" LevelId="1" GoodsLibId="10009" TimeRange="540" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="10" LevelId="1" GoodsLibId="10010" TimeRange="600" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="11" LevelId="1" GoodsLibId="10011" TimeRange="660" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="12" LevelId="1" GoodsLibId="10012" TimeRange="720" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="13" LevelId="1" GoodsLibId="10013" TimeRange="780" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="14" LevelId="1" GoodsLibId="10014" TimeRange="840" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="15" LevelId="1" GoodsLibId="10015" TimeRange="900" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="16" LevelId="1" GoodsLibId="10016" TimeRange="960" UnitPutCount="1" GoodsWeightList="1,15;2,15;4,15;5,15;6,15;10,1;12,5;13,3;15,5;16,5;20,1;22,1;35,1;36,5" />
+	<item Id="17" LevelId="1" GoodsLibId="10017" TimeRange="1020" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="18" LevelId="1" GoodsLibId="10018" TimeRange="1080" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="19" LevelId="1" GoodsLibId="10019" TimeRange="1140" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="20" LevelId="1" GoodsLibId="10020" TimeRange="1200" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;10,1;12,3;15,3;16,3;35,1;36,1" />
+	<item Id="21" LevelId="1" GoodsLibId="10021" TimeRange="1260" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="22" LevelId="1" GoodsLibId="10022" TimeRange="1320" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="23" LevelId="1" GoodsLibId="10023" TimeRange="1380" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="24" LevelId="1" GoodsLibId="10024" TimeRange="1440" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="25" LevelId="1" GoodsLibId="10025" TimeRange="1500" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="26" LevelId="1" GoodsLibId="10026" TimeRange="1560" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="27" LevelId="1" GoodsLibId="10027" TimeRange="1620" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+	<item Id="28" LevelId="1" GoodsLibId="10028" TimeRange="1680" UnitPutCount="1" GoodsWeightList="1,9;2,9;4,9;5,9;6,9;12,3;15,3;16,3" />
+</root>

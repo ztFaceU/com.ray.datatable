@@ -1,0 +1,38 @@
+<root platform="" >
+	<header table="GameEventCondition" desc="游戏事件条件表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="type" type="int" desc="条件类型" />
+		<field order="2" name="relation" type="int" desc="关系（1：大于、2：小于、3：等于）" />
+		<field order="3" name="param" type="int" desc="参数" />
+		<field order="4" name="value" type="int" desc="值" />
+	</header>
+	<item id="10001" type="10" relation="2" param="12" value="75" />
+	<item id="10002" type="13" relation="1" param="17" value="0" />
+	<item id="10003" type="15" relation="0" param="2" value="0" />
+	<item id="10004" type="14" relation="0" param="1" value="0" />
+	<item id="10005" type="14" relation="0" param="4" value="0" />
+	<item id="10006" type="13" relation="1" param="20" value="0" />
+	<item id="10007" type="13" relation="1" param="28" value="0" />
+	<item id="10008" type="11" relation="1" param="0" value="1" />
+	<item id="10009" type="10" relation="2" param="13" value="50" />
+	<item id="10010" type="13" relation="1" param="25" value="0" />
+	<item id="0" type="0" relation="0" param="0" value="0" />
+	<item id="10011" type="15" relation="0" param="1" value="0" />
+	<item id="10012" type="15" relation="0" param="3" value="0" />
+	<item id="10013" type="15" relation="0" param="4" value="0" />
+	<item id="10014" type="15" relation="0" param="5" value="0" />
+	<item id="10015" type="15" relation="0" param="6" value="0" />
+	<item id="10016" type="15" relation="0" param="7" value="0" />
+	<item id="10017" type="1" relation="0" param="8" value="0" />
+	<item id="10018" type="15" relation="0" param="9" value="0" />
+	<item id="10019" type="3" relation="1" param="120" value="0" />
+	<item id="10020" type="13" relation="1" param="18" value="0" />
+	<item id="10021" type="13" relation="1" param="5" value="0" />
+	<item id="10022" type="14" relation="3" param="3" value="0" />
+	<item id="10023" type="11" relation="0" param="5" value="3" />
+	<item id="10024" type="13" relation="1" param="30" value="0" />
+	<item id="10025" type="13" relation="1" param="31" value="0" />
+	<item id="10026" type="14" relation="3" param="5" value="0" />
+	<item id="10027" type="13" relation="1" param="22" value="0" />
+	<item id="10028" type="10" relation="2" param="12" value="15" />
+</root>

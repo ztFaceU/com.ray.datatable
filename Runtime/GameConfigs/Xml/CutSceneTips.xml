@@ -1,0 +1,12 @@
+<root platform="" >
+	<header table="CutSceneTips" desc="过场提示表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="tipsText" type="string" desc="提示文本" />
+	</header>
+	<item id="1" tipsText="入夜后，怪物的袭击会更加频繁。" />
+	<item id="2" tipsText="心脏与雾状菇最好在煮熟后食用。" />
+	<item id="3" tipsText="供气站需要两人同时操作才能启动。" />
+	<item id="4" tipsText="随着时间的推移，怪物会更加致命。" />
+	<item id="5" tipsText="尽快制造出武器，无论是为了自卫还是其他目的。" />
+	<item id="6" tipsText="不同地点的物资分布不同。例如，医院中更容易找到绷带。" />
+</root>

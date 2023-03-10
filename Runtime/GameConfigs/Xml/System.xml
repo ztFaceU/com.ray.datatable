@@ -1,0 +1,13 @@
+<root platform="" >
+	<header table="System" desc="系统配置表">
+		<field order="0" name="id" type="string" desc="模块名称 + 键名称" />
+		<field order="1" name="model" type="string" desc="模块名称" />
+		<field order="2" name="key" type="string" desc="键名称" />
+		<field order="3" name="valueType" type="int" desc="值类型" />
+		<field order="4" name="value" type="string" desc="值" />
+	</header>
+	<item id="Common.AoiNum" model="Common" key="AoiNum" valueType="0" value="[12,16,16,20]" />
+	<item id="Common.ResetTime" model="Common" key="ResetTime" valueType="1" value="5" />
+	<item id="Tollgate.BombCountDown" model="Tollgate" key="BombCountDown" valueType="1" value="300" />
+	<item id="Tollgate.BombSpeed" model="Tollgate" key="BombSpeed" valueType="1" value="10" />
+</root>

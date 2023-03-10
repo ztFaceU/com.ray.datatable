@@ -1,0 +1,22 @@
+<root platform="" >
+	<header table="GoodsLib" desc="道具库配置">
+		<field order="0" name="Id" type="int" desc="唯一ID" />
+		<field order="1" name="LevelId" type="int" desc="关卡ID" />
+		<field order="2" name="GoodsLibId" type="int" desc="道具库id" />
+		<field order="3" name="SceneAreaId" type="int" desc="区域ID" />
+		<field order="4" name="BoxType" type="int" desc="箱子类型" />
+		<field order="5" name="SingleBoxPutCount" type="int" desc="单个箱子投放道具数量" />
+		<field order="6" name="GoodsWeightList" type="string" desc="道具权重列表" />
+	</header>
+	<item Id="1" LevelId="1" GoodsLibId="10001" SceneAreaId="1" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="2" LevelId="1" GoodsLibId="10002" SceneAreaId="1" BoxType="2" SingleBoxPutCount="4" GoodsWeightList="2,10" />
+	<item Id="3" LevelId="1" GoodsLibId="10003" SceneAreaId="1" BoxType="3" SingleBoxPutCount="4" GoodsWeightList="5,6;15,4" />
+	<item Id="4" LevelId="1" GoodsLibId="10004" SceneAreaId="2" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="5" LevelId="1" GoodsLibId="10005" SceneAreaId="3" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="6" LevelId="1" GoodsLibId="10006" SceneAreaId="4" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="7" LevelId="1" GoodsLibId="10007" SceneAreaId="5" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="8" LevelId="1" GoodsLibId="10008" SceneAreaId="6" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="9" LevelId="1" GoodsLibId="10009" SceneAreaId="7" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="10" LevelId="1" GoodsLibId="10010" SceneAreaId="8" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+	<item Id="11" LevelId="1" GoodsLibId="10011" SceneAreaId="9" BoxType="1" SingleBoxPutCount="4" GoodsWeightList="4,8;6,2" />
+</root>

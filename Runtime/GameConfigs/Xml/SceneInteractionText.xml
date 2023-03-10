@@ -1,0 +1,35 @@
+<root platform="" >
+	<header table="SceneInteractionText" desc="场景交互文案表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="title" type="string" desc="交互物名称" />
+		<field order="2" name="interactionType" type="int" desc="面板类型枚举值" />
+		<field order="3" name="interactionSubType" type="int" desc="子面板类型枚举值" />
+		<field order="4" name="image" type="string" desc="交互物图片" />
+		<field order="5" name="bg" type="string" desc="背景" />
+		<field order="6" name="desTitle" type="string" desc="描述标题" />
+		<field order="7" name="des" type="string" desc="描述" />
+		<field order="8" name="useEffectDes" type="string" desc="使用效果" />
+		<field order="9" name="useButtonText" type="string" desc="使用按钮文本" />
+		<field order="10" name="cancelButtonText" type="string" desc="取消按钮文本" />
+	</header>
+	<item id="1" title="咖啡机" interactionType="4" interactionSubType="1" image="guanka_bg01" bg="main_g_bg2" desTitle="“一杯咖啡总会让人身心舒畅。”" des="轻按铝合金开关，热腾腾的液体从冰冷的机器内流入玻璃杯中，苦涩的香气随之扩散。" useEffectDes="*获得生命恢复buff[img]ui://SceneInteraction/icon_up_r[/img]&#x000A;*获得理智恢复buff[img]ui://SceneInteraction/icon_up_b[/img]&#x000A;*获得饥饿恢复buff[img]ui://SceneInteraction/icon_up_g[/img]" useButtonText="喝咖啡" cancelButtonText="/" />
+	<item id="2" title="萃取机" interactionType="4" interactionSubType="2" image="guanka_bg02" bg="main_g_bg1" desTitle="“凑近，深呼吸。它们会消失的。”" des="萃取出的部分闻起来像成熟的水果，可令精神舒缓。那没有萃取的部分呢？" useEffectDes="*获得理智恢复buff[img]ui://SceneInteraction/icon_up_b[/img]" useButtonText="萃取" cancelButtonText="/" />
+	<item id="3" title="手术台" interactionType="5" interactionSubType="1" image="guanka_bg03" bg="main_g_bg00" desTitle="“架子上唯独没有麻药。”" des="无影灯下，染血的帆布与生锈的手术刀在白色的舞台上邂逅。" useEffectDes="*恢复全部生命值" useButtonText="开始手术" cancelButtonText="取消手术" />
+	<item id="4" title="电疗椅" interactionType="5" interactionSubType="4" image="guanka_bg21" bg="main_g_bg00" desTitle="“电击可有效治疗精神分裂。”" des="注意：本装置的电压对人体而言是安全的。只可用于治疗及拷问，不可用于死刑。" useEffectDes="*恢复全部理智值&#x000A;*清除疯狂症状" useButtonText="开始电疗" cancelButtonText="取消电疗" />
+	<item id="5" title="火车" interactionType="5" interactionSubType="6" image="guanka_bg20" bg="main_g_bg00" desTitle="“本列车不经过任何中间站。”" des="它们被遗忘在此。想造访此地的人无需乘坐，想逃离此地的人大多来不及乘坐。" useEffectDes="*搭乘火车离开，视为独自幸存&#x000A;*个人游戏结束" useButtonText="逃生" cancelButtonText="取消逃生" />
+	<item id="6" title="轨道车" interactionType="5" interactionSubType="7" image="guanka_bg22" bg="main_g_bg00" desTitle="“沿着轨道，独自驶入地狱。”" des="它将在生锈轨道的两端继续来回摇摆，周而复始，永不停歇。" useEffectDes="*快速移动到轨道终点" useButtonText="启动轨道车" cancelButtonText="取消启动" />
+	<item id="7" title="异变" interactionType="5" interactionSubType="2" image="guanka_bg15" bg="main_g_bg00" desTitle="“那里刚才还是空地，什么都没有。”" des="地面是混凝土。任何活物都不可能从里面钻出来，更别说长成这样……" useEffectDes="*提交材料关闭异变" useButtonText="关闭异变" cancelButtonText="取消关闭" />
+	<item id="8" title="异变（恶化）" interactionType="5" interactionSubType="3" image="guanka_bg16" bg="main_g_bg00" desTitle="“它们是活物，还是仅仅看起来是活的？”" des="黑色的血水自树根中渗出，沿着枝梢滴落，坠入灰暗的天空，就像倒置的沙漏。" useEffectDes="*提交材料关闭异变&#x000A;*清除恶化效果" useButtonText="关闭异变" cancelButtonText="取消关闭" />
+	<item id="9" title="研究台" interactionType="5" interactionSubType="5" image="guanka_bg23" bg="main_g_bg00" desTitle="“每个理论最后都会被推翻。”" des="照片，文献，病例，样本显微镜与培养皿，用于窥探迷雾真相的种种手段。" useEffectDes="*消耗灰疫样本进行研究&#x000A;*获得异变知识" useButtonText="开始研究" cancelButtonText="取消研究" />
+	<item id="10" title="降雨站" interactionType="13" interactionSubType="1" image="guanka_bg14" bg="main_g_bg00" desTitle="“降雨站”" des="泛黄的玻璃罩后，子夜无声地翻滚着。层层叠叠的灰云中，雨声愈发磅礴。" useEffectDes="*开启降雨&#x000A;*置身雨中会收到大量伤害" useButtonText="开启降雨" cancelButtonText="取消开启" />
+	<item id="11" title="降雨站" interactionType="13" interactionSubType="2" image="guanka_bg14" bg="main_g_bg00" desTitle="“降雨站”" des="泛黄的玻璃罩后，子夜无声地翻滚着。层层叠叠的灰云中，雨声愈发磅礴。" useEffectDes="*关闭降雨&#x000A;*倒计时过半前可操作" useButtonText="关闭降雨" cancelButtonText="取消关闭" />
+	<item id="12" title="降雨站" interactionType="13" interactionSubType="3" image="guanka_bg14" bg="main_g_bg00" desTitle="“降雨站”" des="泛黄的玻璃罩后，子夜无声地翻滚着。层层叠叠的灰云中，雨声愈发磅礴。" useEffectDes="*降雨已无法挽回" useButtonText="无法挽回" cancelButtonText="/" />
+	<item id="13" title="气炉" interactionType="14" interactionSubType="1" image="guanka_bg04" bg="main_g_bg00" desTitle="“气炉”" des="蒸汽滋滋冒出，炉中的火焰，将阴暗的房间照得明亮。" useEffectDes="*投入制作材料&#x000A;*材料充足后可制作装置，用来关闭异变" useButtonText="投入" cancelButtonText="取消投入" />
+	<item id="14" title="气炉" interactionType="14" interactionSubType="2" image="guanka_bg04" bg="main_g_bg00" desTitle="“气炉”" des="蒸汽滋滋冒出，炉中的火焰，将阴暗的房间照得明亮。" useEffectDes="*制作装置，用来关闭异变" useButtonText="开启制作" cancelButtonText="取消开启" />
+	<item id="15" title="气炉" interactionType="14" interactionSubType="3" image="guanka_bg04" bg="main_g_bg00" desTitle="“气炉”" des="蒸汽滋滋冒出，炉中的火焰，将阴暗的房间照得明亮。" useEffectDes="*制作装置，用来关闭异变" useButtonText="/" cancelButtonText="制作中" />
+	<item id="16" title="供气站" interactionType="9" interactionSubType="0" image="guanka_bg05" bg="main_g_bg00" desTitle="“供气站”" des="液体在蛛网般的管道内爬行。最好别去追究里面的化学反应。" useEffectDes="*与伙伴一同提交材料&#x000A;*选择坐标，进行夜间供气" useButtonText="开启供气" cancelButtonText="取消供气" />
+	<item id="17" title="心灵探针" interactionType="11" interactionSubType="0" image="guanka_bg09" bg="main_g_bg00" desTitle="“心灵探针”" des="通过这根坚硬的铁钎，最隐秘的低语被拽离大脑，打印在一张标准A4报告纸上，供人审视批阅。" useEffectDes="*揭示一个玩家任务，不显示玩家名" useButtonText="探测" cancelButtonText="/" />
+	<item id="18" title="召唤祭坛（召唤）" interactionType="6" interactionSubType="1" image="/" bg="main_g_bg00" desTitle="“召唤祭坛（召唤）”" des="长发垂落酒杯，饥渴的肉团仰望着天空，渴望着鲜血。" useEffectDes="*使一个区域开启异变&#x000A;*使一个恶化变为异变" useButtonText="异变召唤" cancelButtonText="取消召唤" />
+	<item id="19" title="召唤祭坛（关闭）" interactionType="6" interactionSubType="2" image="/" bg="main_g_bg00" desTitle="“召唤祭坛（关闭）”" des="长发垂落酒杯，饥渴的肉团仰望着天空，渴望着鲜血。" useEffectDes="*关闭一个异变/恶化" useButtonText="异变关闭" cancelButtonText="取消关闭" />
+	<item id="20" title="召唤祭坛（恶化）" interactionType="6" interactionSubType="3" image="/" bg="main_g_bg00" desTitle="“召唤祭坛（恶化）”" des="长发垂落酒杯，饥渴的肉团仰望着天空，渴望着鲜血。" useEffectDes="*使一个异变改为恶化状态" useButtonText="异变恶化" cancelButtonText="取消恶化" />
+</root>

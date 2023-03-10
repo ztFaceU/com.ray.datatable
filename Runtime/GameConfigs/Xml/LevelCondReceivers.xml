@@ -1,0 +1,29 @@
+<root platform="" >
+	<header table="LevelCondReceivers" desc="关卡接收器配置">
+		<field order="0" name="Id" type="int" desc="唯一Id" />
+		<field order="1" name="LevelId" type="int" desc="关卡ID" />
+		<field order="2" name="ReceiverId" type="int" desc="接收器id" />
+		<field order="3" name="ReceiverType" type="int" desc="接收器类型" />
+		<field order="4" name="LevelEventId" type="int" desc="关卡事件ID" />
+	</header>
+	<item Id="1" LevelId="1" ReceiverId="1" ReceiverType="1" LevelEventId="1" />
+	<item Id="2" LevelId="1" ReceiverId="2" ReceiverType="1" LevelEventId="2" />
+	<item Id="3" LevelId="1" ReceiverId="3" ReceiverType="1" LevelEventId="3" />
+	<item Id="4" LevelId="1" ReceiverId="4" ReceiverType="1" LevelEventId="4" />
+	<item Id="5" LevelId="1" ReceiverId="5" ReceiverType="1" LevelEventId="5" />
+	<item Id="6" LevelId="1" ReceiverId="6" ReceiverType="1" LevelEventId="6" />
+	<item Id="7" LevelId="1" ReceiverId="7" ReceiverType="1" LevelEventId="7" />
+	<item Id="8" LevelId="1" ReceiverId="8" ReceiverType="1" LevelEventId="8" />
+	<item Id="9" LevelId="1" ReceiverId="9" ReceiverType="1" LevelEventId="9" />
+	<item Id="10" LevelId="1" ReceiverId="10" ReceiverType="1" LevelEventId="10" />
+	<item Id="11" LevelId="1" ReceiverId="11" ReceiverType="1" LevelEventId="11" />
+	<item Id="12" LevelId="1" ReceiverId="12" ReceiverType="1" LevelEventId="101" />
+	<item Id="13" LevelId="1" ReceiverId="13" ReceiverType="1" LevelEventId="102" />
+	<item Id="14" LevelId="1" ReceiverId="14" ReceiverType="1" LevelEventId="103" />
+	<item Id="15" LevelId="1" ReceiverId="15" ReceiverType="1" LevelEventId="104" />
+	<item Id="16" LevelId="1" ReceiverId="16" ReceiverType="1" LevelEventId="105" />
+	<item Id="17" LevelId="1" ReceiverId="17" ReceiverType="1" LevelEventId="106" />
+	<item Id="18" LevelId="1" ReceiverId="18" ReceiverType="1" LevelEventId="107" />
+	<item Id="19" LevelId="1" ReceiverId="19" ReceiverType="1" LevelEventId="108" />
+	<item Id="20" LevelId="1" ReceiverId="20" ReceiverType="1" LevelEventId="109" />
+</root>

@@ -1,0 +1,17 @@
+<root platform="" >
+	<header table="GameEventTrigger" desc="游戏事件触发器表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="type" type="int" desc="条件类型" />
+		<field order="2" name="param" type="int" desc="参数" />
+		<field order="3" name="value" type="int" desc="值" />
+	</header>
+	<item id="10001" type="18" param="0" value="0" />
+	<item id="10002" type="1" param="1" value="0" />
+	<item id="10003" type="2" param="3" value="0" />
+	<item id="10004" type="11" param="40010" value="0" />
+	<item id="10005" type="19" param="19" value="0" />
+	<item id="10006" type="19" param="3" value="0" />
+	<item id="10007" type="1" param="1" value="5" />
+	<item id="10008" type="19" param="23" value="0" />
+	<item id="10009" type="12" param="1" value="0" />
+</root>

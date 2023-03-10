@@ -1,0 +1,12 @@
+<root platform="" >
+	<header table="BuildingBuff" desc="建筑区域buff信息">
+		<field order="0" name="Id" type="int" desc="唯一Id" />
+		<field order="1" name="SceneId" type="int" desc="场景ID" />
+		<field order="2" name="AreaType" type="int" desc="区域类型" />
+		<field order="3" name="DayLightBuffId" type="int" desc="白天BuffId" />
+		<field order="4" name="NightBuffId" type="int" desc="晚上BuffId" />
+	</header>
+	<item Id="1" SceneId="1" AreaType="1" DayLightBuffId="10004" NightBuffId="10005" />
+	<item Id="2" SceneId="1" AreaType="2" DayLightBuffId="10006" NightBuffId="10007" />
+	<item Id="3" SceneId="1" AreaType="3" DayLightBuffId="10002" NightBuffId="10003" />
+</root>

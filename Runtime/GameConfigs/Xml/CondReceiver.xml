@@ -1,0 +1,27 @@
+<root platform="" >
+	<header table="CondReceiver" desc="条件接收器配置">
+		<field order="0" name="Id" type="int" desc="接收器ID" />
+		<field order="1" name="ReceiverType" type="int" desc="类型" />
+		<field order="2" name="TriggerTimeList" type="string" desc="触发时间列表" />
+	</header>
+	<item Id="1" ReceiverType="1" TriggerTimeList="840,480" />
+	<item Id="2" ReceiverType="1" TriggerTimeList="360,480,480" />
+	<item Id="3" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="4" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="5" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="6" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="7" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="8" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="9" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="10" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="11" ReceiverType="1" TriggerTimeList="1,240,240,240,240,240,240,240" />
+	<item Id="12" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="13" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="14" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="15" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="16" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="17" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="18" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="19" ReceiverType="1" TriggerTimeList="1" />
+	<item Id="20" ReceiverType="1" TriggerTimeList="1" />
+</root>

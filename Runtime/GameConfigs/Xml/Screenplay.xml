@@ -1,0 +1,21 @@
+<root platform="" >
+	<header table="Screenplay" desc="剧本章节表">
+		<field order="0" name="id" type="int" desc="ID" />
+		<field order="1" name="screenplayId" type="int" desc="剧本ID" />
+		<field order="2" name="sectionId" type="int" desc="章节ID" />
+		<field order="3" name="screenplayName" type="string" desc="剧本名称" />
+		<field order="4" name="sectionName" type="string" desc="章节名称" />
+		<field order="5" name="desc" type="string" desc="描述" />
+		<field order="6" name="max" type="int" desc="最大人数" />
+		<field order="7" name="min" type="int" desc="最少人数" />
+		<field order="8" name="type" type="int" desc="玩法类型" />
+		<field order="9" name="typeParam" type="string" desc="玩法参数" />
+		<field order="10" name="campNumber" type="string" desc="阵营人数" />
+		<field order="11" name="readySec" type="int" desc="准备时长(秒)" />
+		<field order="12" name="timeGroup" type="int" desc="时间分组" />
+		<field order="13" name="mainMissionDesc" type="string" desc="主要目标描述" />
+		<field order="14" name="availableCharacters" type="string" desc="可选择角色" />
+		<field order="15" name="eventGroup" type="int" desc="事件组" />
+	</header>
+	<item id="1" screenplayId="1" sectionId="1" screenplayName="变异剧本1" sectionName="变异章节1" desc="变异描述" max="8" min="4" type="1" typeParam="{}" campNumber="{&quot;1&quot;:4,&quot;2&quot;:2,&quot;3&quot;:2}" readySec="0" timeGroup="1" mainMissionDesc="关闭{needCount=5}个异变" availableCharacters="[1,2,3,4,5,6,7,8]" eventGroup="1" />
+</root>
